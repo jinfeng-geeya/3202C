@@ -1,0 +1,1 @@
+STB接受TS流上的音视频数据后经过解码，再输出到电视机上。输出端口有多种类型，分别是CVBS/SVideo/RGB/YCbCr/YPbPr等。
