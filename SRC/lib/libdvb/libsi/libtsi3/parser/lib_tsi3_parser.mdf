@@ -1,0 +1,12 @@
+// this MDF template file is created by MdfEditor.
+
+ScriptVersion = 1.0;
+
+module LIB_TSI3_PARSER
+{
+    version = 1.0;
+    submodules = {};
+    codefiles = {"si_sdt.c", "psi_pat.c", "si_bat.c", "si_nit.c", "desc_loop_parser.c", "psi_pmt.c"};
+    docfiles = {};
+    rules = {};
+};

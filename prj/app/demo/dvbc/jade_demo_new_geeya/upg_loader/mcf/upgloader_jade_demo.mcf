@@ -1,0 +1,1585 @@
+[summary]
+root = ..\..\..\..\..\..\..\m3327.mdf
+modules_selected = m3327 BUS BUS_DOG BUS_DOG_M33 BUS_I2C BUS_I2C_GPIO BUS_I2C_SCB BUS_SCI BUS_SCI_UART HLD HLD_DECV HLD_DMX HLD_GE HLD_NIM HLD_OSD HLD_PAN HLD_STO HLD_VP LIB LIB_APPLET LIB_BOOTUPG3 LIB_PUB LIB_PUB_ALL LIB_PUB_AS_C LIB_UPG4 LIB_UPG4_OTA LIB_COMMON LIB_C LIB_ZIP LIB_7ZIP LIB_GNUZIP LIB_DVB LIB_DBC LIB_SI LIB_TSI3 LIB_TSI3_ENGINE LIB_TSI3_PLUGIN_TDT LIB_TSI3_UTILITY LIB_LOADER LIB_STORAGE LIB_CHUNK LIB_STBINFO LLD LLD_NIM LLD_NIM_C LLD_PAN LLD_IRC LLD_IRC_M63 LLD_PAN_TP6X0 LLD_STO LLD_STO_FLASH VERSION_INFO 
+modules_all = m3327 LIB LIB_APPLET LIB_BOOTUPG LIB_BOOTUPG3 LIB_MP LIB_IMAGEDEC LIB_JPEGDEC LIB_JPEGDEC_M36 LIB_JPEGDEC_M36_S LIB_GIFDEC LIB_PNGDEC LIB_MP4DEC LIB_PE LIB_PE_IMAGE_ENGINE LIB_PE_IMAGE_ENGINE_PLUGINS_JPEG LIB_PE_IMAGE_ENGINE_PLUGINS_GIF LIB_PE_MUSIC_ENGINE LIB_PE_MUSIC_INPUT LIB_PE_MUSIC_ENGINE_INPUT_MP3 LIB_PE_MUSIC_ENGINE_INPUT_OGG LIB_PE_MUSIC_ENGINE_INPUT_OGG_M36 LIB_PE_MUSIC_ENGINE_INPUT_WMA LIB_PE_MUSIC_ENGINE_INPUT_WAV LIB_PE_MUSIC_OUTPUT LIB_PE_MUSIC_ENGINE_OUTPUT_M3329C LIB_PE_MUSIC_ENGINE_OUTPUT_M36 LIB_PE_VIDEO_ENGINE LIB_PE_VIDEO_MPEG LIB_PE_ADV_VIDEO_ENGINE LIB_PE_ADV_VIDEO_ENGINE_AVI LIB_PE_ADV_VIDEO_ENGINE_AVI_PLUGINS LIB_PE_ADV_VIDEO_ENGINE_AVI_PLUGINS_DIVX311 LIB_PE_ADV_VIDEO_ENGINE_MPEG LIB_PE_SUBTITLE LIB_PE_VIDEO_TS LIB_PE_ADV_VIDEO_ENGINE_CON_COMMON LIB_PE_ADV_VIDEO_ENGINE_CON_PLUGINS LIB_PE_ADV_VIDEO_ENGINE_CON_PLUGINS_AAC LIB_PE_ADV_VIDEO_ENGINE_CON_PLUGINS_AC3 LIB_PE_ADV_VIDEO_ENGINE_CON_PLUGINS_ADPCM LIB_PE_ADV_VIDEO_ENGINE_CON_PLUGINS_DIVX LIB_PE_ADV_VIDEO_ENGINE_CON_PLUGINS_H264 LIB_PE_ADV_VIDEO_ENGINE_CON_PLUGINS_MP3 LIB_PE_ADV_VIDEO_ENGINE_CON_PLUGINS_OGG LIB_PE_ADV_VIDEO_ENGINE_CON_PLUGINS_PCM LIB_PE_ADV_VIDEO_ENGINE_CON_PLUGINS_WMA LIB_PLAYLIST LIB_MPEGDEC LIB_LISTS LIBMP_HD_MP1 LIB_IMAGEDEC_HD_MP1 LIB_PE_HD_MP1 LIB_PE_IMAGE_ENGINE_HD_MP1 LIB_PE_IMAGE_ENGINE_PLUGINS_JPEG_HD_MP1 LIB_PE_MUSIC_ENGINE_HD_MP1 LIB_PE_MUSIC_INPUT_HD_MP1 LIB_PE_MUSIC_ENGINE_INPUT_MP3_HD_MP1 LIB_PE_MUSIC_ENGINE_INPUT_OGG_HD_MP1 LIB_PE_MUSIC_ENGINE_INPUT_WMA_HD_MP1 LIB_PE_MUSIC_OUTPUT_HD_MP1 LIB_PE_MUSIC_ENGINE_OUTPUT_M3329C_HD_MP1 LIB_PLAYLIST_HD_MP1 LIB_PUB LIB_PUB_ALL LIB_PUB_ALL_T LIB_PUB_ALL_T2 LIB_PUB_AS_ENGINE LIB_PUB_AS_S LIB_PUB_AS_C LIB_PUB_AS_ENGINE_T LIB_PUB_AS_ENGINE_T2 LIB_PUB29 LIB_PUB29_AS LIB_PUB29_ALL LIB_PUB29_AS_T LIB_PVR LIB_PVR_DDK LIB_PVR_HD LIB_PVR3 PVR_M36 PVR_M33 LIB_PVR_MGR LIB_PVR_ENG LIB_PVR3_S PVR_M36_S PVR_M33_S LIB_PVR_MGR_S LIB_PVR_ENG_S LIB_TSG LIB_UPG LIB_UPG3 LIB_UPGE LIB_USBUPG LIB_USBUPG_S LIB_PIP LIB_DSH LIB_NETUPG LIB_COMMON LIB_C LIB_CHAR LIB_ZIP LIB_GNUZIP LIB_UN7ZIP LIB_7ZIP LIB_LZMA LIB_UNLZO LIB_HWC LIB_COMMUNICATE LIB_DISEQC LIB_NET LIB_NIM LIB_BITTORRENT LIB_CURL LIB_DVB LIB_NVOD LIB_CI LIB_CIPLUS LIB_CLOSE_CAPTION LIB_DBC LIB_EPG LIB_OTA LIBOTA_DVBC LIBOTA_C LIB_SI LIB_TSI2 LIB_SEC2 LIB_PSI2 LIB_TSI3 LIB_TSI3_CON_PSI LIB_TSI3_DESCRIPTOR LIB_TSI3_ENGINE LIB_TSI3_PARSER LIB_TSI3_PARSER_DTG LIB_TSI3_PARSER_ISDBT LIB_TSI3_PLUGIN_EIT LIB_TSI3_PLUGIN_MONITOR LIB_TSI3_PLUGIN_MONITOR_T LIB_TSI3_PLUGIN_SEARCH LIB_TSI3_PLUGIN_SEARCH_DTG LIB_TSI3_PLUGIN_TDT LIB_TSI3_UTILITY LIB_SUBT LIB_TTX libxml libxmlfdt libxmlparse libxmltoken libxmlchar libxmltree libxmlbrowser libxmlbuffer libxml2 LIB_TTX_DUAL_S LIB_SUBT_DUAL LIB_MCAS LIB_STORAGE LIB_CHUNK LIB_DATABASE LIB_DBEX LIB_DB4 LIB_DB4_ENGINE LIB_DB4_INTERFACE LIB_DB4_PLUGIN LIB_DB4_PLUGIN_C LIB_DB4_PLUGIN_T LIB_FS2 LIB_DOSFS LIB_UTILS LIB_NTFS LIB_NTFS_MK LIB_NTFS_CHK LIB_VFS LIB_DEVFS LIB_STDIO FS_MAIN LIB_STBINFO LIB_UI LIB_OSDO LIB_GE LIB_CAS CTICA CTICA3 TFCA DVTCA CDCA CDCA30A ABVCA dvn STCAS7 mgca hcnca GOSCA LIB_LOADER LIB_SCTE ARCH ARCH_MIPS ARCH_M63 PDD_M33 BUS BUS_ACI BUS_ACI_GPIO BUS_ACI_SCB BUS_DMA BUS_DMA_M36 BUS_DOG BUS_DOG_M33 BUS_EROM BUS_EROM_M36 BUS_HDMI BUS_HDMI_CAT6611 BUS_HDMI_CAT6613 BUS_HDMI_M36 BUS_HDMI_M36_S2 BUS_I2C BUS_I2C_GPIO BUS_I2C_SCB BUS_I2C_SCB_REMOTE BUS_I2C_SLAVE BUS_I2C_SLAVE_M36 BUS_IDE BUS_IDE_M36 BUS_IDE_M36_HD BUS_PCI BUS_PCI_M63 BUS_RTC BUS_RTC_M36 BUS_SCI BUS_SCI_UART BUS_TSG BUS_TSG_M36 BUS_TSI BUS_TSI_M33 BUS_TSI_M36 BUS_USB BUS_USB_DEVICE BUS_USB_DEV_STOR BUS_USB_DEV_STOR_M36 BUS_USB_HC BUS_USB_HC_M36 BUS_USB_USBD BUS_USB_USBD_M36 BUS_UP BUS_UP_M33 BUS_SD BUS_SD_M33 BUS_SHARE BUS_SHARE_PFLASH BUS_SHARE_SFLASH BUS_SPE BUS_SPE_M33 BUS_OTP BUS_OTP_M33 BUS_USB_EX BUS_USB_DEVICE_EX BUS_USB_DEV_STOR_EX BUS_USB_DEV_STOR_M36_EX BUS_USB_DEV_NET_EX BUS_USB_DEV_LAN9500 BUS_USB_HC_EX BUS_USB_HC_M36_EX BUS_USB_USBD_EX BUS_USB_USBD_M36_EX BUS_HUB_EX BUS_USB_HUB_M36_EX HLD HLD_CIC HLD_DECA HLD_DECV HLD_VP HLD_DMX HLD_GE HLD_NET HLD_NIM HLD_OSD HLD_PAN HLD_RFM HLD_SCART HLD_SDEC HLD_SMC HLD_SND HLD_STO HLD_VBI HLD_VENC hld_dsc hld_crypto LLD LLD_CIC LLD_CIC_M36 LLD_DECA LLD_DECA_M33 LLD_DECA_M36 LLD_DECA_M36_STREAM_DECODER LLD_DECA_M36_S LLD_DECA_M36_STREAM_DECODER_S LLD_DECV LLD_DECV_AVC LLD_DECV_M33 LLD_DECV_M36 LLD_DECV_M36_S LLD_DCEV_CFG LLD_DECV_AVC_S LLD_DIS LLD_VP_M33 LLD_VP_M36 LLD_VP_M36_T LLD_DMX LLD_DMX_M33 LLD_DMX_M36 LLD_DMX_M36F_S LLD_DMX_M36F LLD_GE LLD_GE_M36 LLD_GE_M36_ATSC LLD_GE_M33F LLD_NET LLD_NET_DM9KA LLD_NET_RTL8139 LLD_NET_ENC28J60 LLD_NET_W5300 LLD_NET_SMSC9220 LLD_NET_AX88796B LLD_NET_DM9KA_36 LLD_NET_ETHERNETMAC LLD_NIM LLD_NIM_T LLD_NIM_M3101 LLD_NIM_ATSC LLD_NIM_DRX3933J LLD_NIM_S LLD_NIM_S2_TUNER LLD_NIM_S2 LLD_NIM_C LLD_NIM_C_LG_H256 LLD_NIM_C_FC2226 LLD_NIM_LNB LLD_NIM_CX24116 LLD_NIM_S2_3501 LLD_NIM_AUTOSCAN LLD_NIM_CHINAT LLD_OSD LLD_OSD_M36 LLD_OSD_M36_HD LLD_OSD_M3C LLD_OSD_M36F LLD_OSD_M33F LLD_PAN LLD_PAN_CH455 LLD_PAN_COMMON LLD_PAN_DIRECT_GPIO LLD_PAN_DUAL_SHIFT LLD_PAN_HWSCAN LLD_IRC LLD_IRC_M63 LLD_PAN_NEC_16312 LLD_PAN_PT6958 LLD_PAN_PT6958_27E4 LLD_PAN_PT6964_SKY LLD_PAN_PT6964 LLD_PAN_PT6311 LLD_PAN_SMT_M51 LLD_IRX_M36 LLD_PAN_TP610 LLD_PAN_AT89 lld_pan_ld1207 LLD_PAN_IK2102 lld_pan_fd620k1 LLD_PAN_FD650K LLD_PAN_HCS13SS42 LLD_PAN_SM1668 LLD_PAN_ET6202 LLD_PAN_ET6202_B00 LLD_PAN_PT6961 LLD_PAN_ET16315 LLD_PAN_TP6X0 LLD_PAN_PT6964_GP LLD_PAN_PT6964_YL LLD_RFM LLD_RFM_MC44BS374T1 LLD_RFM_MCBS373 LLD_RFM_RMUP74055 LLD_RFM_SHARP5056 LLD_RFM_SM0268 LLD_RFM_TA1243 LLD_RFM_V8060 LLD_SCART LLD_SCART_AK4707 LLD_SCART_ST6418 LLD_SCART_ST6419 LLD_SCART_MX9671 LLD_SDEC LLD_SDEC_SW LLD_SDEC_SW_DUAL LLD_SDEC_HW LLD_SDEC_HW_M33 LLD_SMC LLD_SMARTCARD LLD_SND LLD_SND_M33 LLD_SND_M36 LLD_SND_M36_S LLD_SND_M36_T LLD_STO LLD_STO_AT24C04 LLD_STO_FLASH LLD_STO_FLASH_SQI STO_E2P E2P_24X LLD_STO_FLASH_SQI_S LLD_STO_NAND LLD_STO_NAND_S LLD_VBI LLD_VBI_M33 LLD_VBI_M33_DUAL LLD_VENC LLD_VENC_M33 LLD_VENC_IMG OS OS_TDS2 OS_TDS3 OSAL OSAL_NOS UDI UDI_ENREACH_S UDI_ENREACH UDI_ENREACH_HD UDI_IPANEL UDI_IPANEL_HD UDI_IPANEL3_HD UDI_CPI UDI_CPI_TEST UDI_CPI_TEST_SYSTEM UDI_CPI_TEST_TOOL UDI_CPI_TEST_OS UDI_CPI_TEST_TUNER UDI_CPI_TEST_DEMUX UDI_CPI_TEST_AUDIO UDI_CPI_TEST_DIS UDI_CPI_TEST_DRAW UDI_CPI_TEST_LED UDI_CPI_TEST_STILL UDI_CPI_TEST_VIDEO UDI_CPI_TEST_KEY UDI_CPI_TEST_STO UDI_CPI_TEST_SMC UDI_CPI_TEST_DES UDI_CPI_TEST_COMM UDI_CPI_TEST_FONT UDI_JZ UDI_JZ3381 UDI_IPANEL28_HD VERSION_INFO
+extra = D:/Perforce/Elephant/prj/app/mso/dvbc/Agate_demo_m3701c/ota_loader/mcf/sysconfig_ifdef.h
+[m3327]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[ARCH]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[ARCH_MIPS]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[ARCH_M63]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[PDD_M33]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[BUS]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[BUS_DMA]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[BUS_DMA_M36]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[BUS_DMA_M36_S2]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[BUS_DOG]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[BUS_DOG_M33]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[BUS_EROM]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[BUS_EROM_M36]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[BUS_HDMI]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[BUS_HDMI_CAT6611]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[BUS_HDMI_CAT6613]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[BUS_I2C]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[BUS_I2C_GPIO]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[BUS_I2C_SCB]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[BUS_SCI]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[BUS_SCI_UART]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[BUS_SHARE]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[BUS_SHARE_PFLASH]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[BUS_SHARE_SFLASH]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[BUS_SPE]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[BUS_SPE_M33]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[BUS_TSI]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[BUS_TSI_M33]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[BUS_UP]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[BUS_UP_M33]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[HLD]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[HLD_DECA]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[HLD_DECV]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[HLD_DMX]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[HLD_GE]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[HLD_NET]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[HLD_NIM]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[HLD_OSD]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[HLD_PAN]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[HLD_RFM]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[HLD_SDEC]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[HLD_SMC]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[HLD_SND]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[HLD_STO]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[HLD_VBI]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[HLD_VENC]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[HLD_VP]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_APPLET]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_BOOTUPG3]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_DSH]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_MP]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_IMAGEDEC]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_GIFDEC]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_JPEGDEC]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_JPEGDEC_M36]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_JPEGDEC_M36_S]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_PNGDEC]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_LISTS]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_MP4DEC]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_MPEGDEC]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_PE]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_PE_ADV_VIDEO_ENGINE]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_PE_ADV_VIDEO_ENGINE_AVI]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_PE_ADV_VIDEO_ENGINE_AVI_PLUGINS]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_PE_ADV_VIDEO_ENGINE_AVI_PLUGINS_DIVX311]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_PE_ADV_VIDEO_ENGINE_CON_COMMON]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_PE_ADV_VIDEO_ENGINE_CON_PLUGINS]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_PE_ADV_VIDEO_ENGINE_CON_PLUGINS_AAC]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_PE_ADV_VIDEO_ENGINE_CON_PLUGINS_AC3]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_PE_ADV_VIDEO_ENGINE_CON_PLUGINS_ADPCM]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_PE_ADV_VIDEO_ENGINE_CON_PLUGINS_DIVX]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_PE_ADV_VIDEO_ENGINE_CON_PLUGINS_H264]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_PE_ADV_VIDEO_ENGINE_CON_PLUGINS_MP3]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_PE_ADV_VIDEO_ENGINE_CON_PLUGINS_OGG]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_PE_ADV_VIDEO_ENGINE_CON_PLUGINS_PCM]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_PE_ADV_VIDEO_ENGINE_CON_PLUGINS_WMA]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_PE_ADV_VIDEO_ENGINE_MPEG]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_PE_SUBTITLE]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_PE_VIDEO_TS]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_PE_IMAGE_ENGINE]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_PE_IMAGE_ENGINE_PLUGINS_GIF]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_PE_IMAGE_ENGINE_PLUGINS_JPEG]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_PE_MUSIC_ENGINE]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_PE_MUSIC_INPUT]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_PE_MUSIC_ENGINE_INPUT_MP3]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_PE_MUSIC_ENGINE_INPUT_OGG]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_PE_MUSIC_ENGINE_INPUT_OGG_M36]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_PE_MUSIC_ENGINE_INPUT_WAV]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_PE_MUSIC_ENGINE_INPUT_WMA]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_PE_MUSIC_OUTPUT]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_PE_MUSIC_ENGINE_OUTPUT_M3329C]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_PE_MUSIC_ENGINE_OUTPUT_M36]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_PE_VIDEO_ENGINE]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_PE_VIDEO_MPEG]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_PLAYLIST]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_PUB]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_PUB_ALL]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_PUB_AS_C]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_PUB_AS_ENGINE]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_UPG3]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_UPG4]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_UPG4_OTA]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_UPG4_USB]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_CAS]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[ABVCA]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[CDCA]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[CDCA30A]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[CTICA]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[CTICA3]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[dvn]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[DVTCA]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[GOSCA]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[hcnca]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[IRCA]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[IRCA_MINI_LOADER]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[IRCA_VD]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[IRCAOS]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[IRCATSK]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[mgca]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[SCELLCA]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[STCAS7]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[TFCA]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_COMMON]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_C]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_C_DDK]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_CHAR]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_ZIP]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_7ZIP]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_GNUZIP]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_LZMA]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_UN7ZIP]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_UNLZO]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_COMMUNICATE]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_BITTORRENT]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_CURL]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_LWIP]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_LWIP140]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_NET]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_DVB]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_DBC]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_DBC_S]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_EPG]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_EPG_C]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_EPG_C2]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_NVOD]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_SI]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_TSI3]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_TSI3_CON_PSI]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_TSI3_DESCRIPTOR]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_TSI3_ENGINE]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_TSI3_PARSER]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_TSI3_PLUGIN_EIT]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_TSI3_PLUGIN_MONITOR]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_TSI3_PLUGIN_SEARCH]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_TSI3_PLUGIN_SEARCH_C]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_TSI3_PLUGIN_TDT]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_TSI3_UTILITY]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_SUBT]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_TTX]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIBOTA_C]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIBOTA_DVBC]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_LOADER]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_STORAGE]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_CHUNK]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_DATABASE]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_DB4]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_DB4_ENGINE]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_DB4_INTERFACE]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_DB4_PLUGIN_C]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_FS2]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[FS_MAIN]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_DOSFS]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_NTFS]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_NTFS_CHK]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_NTFS_MK]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_STDIO]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_UTILS]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_VFS]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_DEVFS]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_STBINFO]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_UI]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_GE]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LIB_OSDO]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_DECA]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_DECA_M33]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_DECA_M33_S3]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_DECV]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_DECV_M33]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_DECV_M33_S]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_DIS]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_VP_M33]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_DMX]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_DMX_M33]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_DMX_M33_COSHIP]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_GE]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_GE_M36]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_NET]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_NET_AX88796B]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_NET_DM9KA]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_NET_DM9KA_36]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_NET_ENC28J60]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_NET_W5300]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_NIM]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_NIM_C]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_NIM_C_FC2226]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_NIM_C_LG_H256]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_OSD]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_OSD_M36]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_OSD_M36_HD]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_PAN]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_IRC]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_IRC_M63]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_IRX_M36]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_PAN_AT89]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_PAN_CH455]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_PAN_COMMON]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 2
+[LLD_PAN_CT1628]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_PAN_DIRECT_GPIO]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_PAN_DUAL_SHIFT]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_PAN_ET16315]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_PAN_ET6202]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_PAN_ET6202_B00]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[lld_pan_fd620k1]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_PAN_FD650K]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_PAN_HCS13SS42]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_PAN_HWSCAN]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_PAN_IK2102]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[lld_pan_ld1207]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_PAN_NEC_16312]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_PAN_PT6311]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_PAN_PT6958]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_PAN_PT6958_27E4]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_PAN_PT6961]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_PAN_PT6964]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_PAN_PT6964_CS]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_PAN_PT6964_GP]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_PAN_PT6964_SKY]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_PAN_PT6964_YL]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_PAN_SINO]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_PAN_SM1668]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_PAN_SMT_M51]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_PAN_TP610]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_PAN_TP6X0]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_RFM]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_RFM_MC44BS374T1]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_RFM_MCBS373]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_RFM_RMUP74055]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_RFM_SHARP5056]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_RFM_SM0268]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_RFM_TA1243]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_RFM_V8060]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_SDEC]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_SDEC_SW]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_SDEC_HW]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_SDEC_HW_M33]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_SMC]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_SMARTCARD]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_SMARTCARD_S]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_SND]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_SND_M33]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_SND_M33_S2]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_STO]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_STO_AT24C04]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_STO_FLASH]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_STO_FLASH_SQI]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_STO_FLASH_SQI_S]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[STO_E2P]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[E2P_24X]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_VBI]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_VBI_M33]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_VENC]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_VENC_IMG]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[LLD_VENC_M33]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[OS]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[OS_TDS2]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[OS_TDS3]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[OSAL]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[OSAL_NOS]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[UDI]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[UDI_AVIT]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[UDI_COSHIP]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[UDI_CPI]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[UDI_CPI_TEST]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[UDI_CPI_TEST_AUDIO]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[UDI_CPI_TEST_COMM]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[UDI_CPI_TEST_DEMUX]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[UDI_CPI_TEST_DES]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[UDI_CPI_TEST_DIS]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[UDI_CPI_TEST_DRAW]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[UDI_CPI_TEST_FONT]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[UDI_CPI_TEST_KEY]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[UDI_CPI_TEST_LED]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[UDI_CPI_TEST_OS]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[UDI_CPI_TEST_SMC]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[UDI_CPI_TEST_STILL]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[UDI_CPI_TEST_STO]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[UDI_CPI_TEST_SYSTEM]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[UDI_CPI_TEST_TOOL]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[UDI_CPI_TEST_TUNER]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[UDI_CPI_TEST_VIDEO]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[UDI_DDK_DEBUG]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[UDI_ENREACH]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[UDI_ENREACH_HD]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[UDI_ENREACH_S]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[UDI_INFODTV]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[UDI_INFODTV_TEST]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[UDI_IPANEL]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[UDI_IPANEL28_HD]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[UDI_IPANEL3_HD]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[UDI_JZ]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[UDI_MIS]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[UDI_SKYWORTH]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[UDI_SKY_TEST]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0
+[VERSION_INFO]
+version = 1
+compileas = Common
+ccflag = 
+CodeMode = 0

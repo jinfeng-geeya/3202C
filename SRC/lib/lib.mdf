@@ -1,0 +1,12 @@
+// this MDF template file is created by MdfEditor.
+
+ScriptVersion = 1.0;
+
+module LIB
+{
+	version = 1.0;
+	submodules = {"libapplet/libapplet.mdf", "libcommon/libcommon.mdf", "libcommunicate/libcommunicate.mdf", "libdvb/libdvb.mdf", "libstorage/libstorage.mdf", "libui/libui.mdf", "libcas/libcas.mdf","libloader/libloader.mdf"};
+	codefiles = {};
+	docfiles = {};
+	rules = {};
+};

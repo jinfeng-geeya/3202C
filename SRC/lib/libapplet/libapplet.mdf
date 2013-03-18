@@ -1,0 +1,12 @@
+// this MDF template file is created by MdfEditor.
+
+ScriptVersion = 1.0;
+
+module LIB_APPLET
+{
+	version = 1.0;
+	submodules = {"libbootupg3/lib_bootupg3.mdf", "libmp/lib_mp.mdf", "libpub/lib_pub.mdf","libupg3/lib_upg3.mdf","libupg4/lib_upg4.mdf", "libdsh/lib_dsh.mdf"};
+	codefiles = {};
+	docfiles = {};
+	rules = {};
+};

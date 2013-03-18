@@ -1,0 +1,12 @@
+// this MDF template file is created by MdfEditor.
+
+ScriptVersion = 1.0;
+
+module BUS_SCI
+{
+    version = 1.0;
+    submodules = {"uart/bus_sci_uart.mdf"};
+    codefiles = {};
+    docfiles = {};
+    rules = {};
+};

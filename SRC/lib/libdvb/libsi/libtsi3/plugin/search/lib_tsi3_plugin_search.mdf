@@ -1,0 +1,12 @@
+// this MDF template file is created by MdfEditor.
+
+ScriptVersion = 1.0;
+
+module LIB_TSI3_PLUGIN_SEARCH
+{
+    version = 1.0;
+    submodules = {};
+    codefiles = {"si_search.c"};
+    docfiles = {};
+    rules = {};
+};

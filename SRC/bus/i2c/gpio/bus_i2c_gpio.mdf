@@ -1,0 +1,12 @@
+// this MDF template file is created by MdfEditor.
+
+ScriptVersion = 1.0;
+
+module BUS_I2C_GPIO
+{
+    version = 1.0;
+    submodules = {};
+    codefiles = {"i2c_gpio.c"};
+    docfiles = {};
+    rules = {};
+};

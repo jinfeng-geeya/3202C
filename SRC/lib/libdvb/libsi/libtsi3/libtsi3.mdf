@@ -1,0 +1,12 @@
+// this MDF template file is created by MdfEditor.
+
+ScriptVersion = 1.0;
+
+module LIB_TSI3
+{
+	version = 1.0;
+	submodules = {"control/psi/lib_tsi3_con_psi.mdf", "descriptor/lib_tsi3_descriptor.mdf", "engine/lib_tsi3_engine.mdf", "parser/lib_tsi3_parser.mdf", "plugin/eit/lib_tsi3_plugin_eit.mdf", "plugin/monitor/lib_tsi3_plugin_monitor.mdf", "plugin/search/lib_tsi3_plugin_search.mdf", "plugin/tdt/lib_tsi3_plugin_tdt.mdf", "utility/lib_tsi3_utility.mdf"};
+	codefiles = {};
+	docfiles = {};
+	rules = {};
+};

@@ -1,0 +1,2003 @@
+Archive member included because of file (symbol)
+
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(dog_m33.o)
+                              upgloader.o (dog_m3327e_attach)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(i2c_gpio.o)
+                              board_config.o (i2c_gpio_attach)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(i2c_scb.o)
+                              board_config.o (i2c_scb_attach)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(sci_16550uart.o)
+                              board_config.o (sci_16550uart_attach)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(hld_dev.o)
+                              board_config.o (dev_get_by_type)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(dmx.o)
+                              upgloader.o (dmx_open)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(nim.o)
+                              upgloader.o (nim_open)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(osddrv.o)
+                              boot_ota_input.o (OSDDrv_RegionFill)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(pan.o)
+                              board_config.o (pan_open)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(sto.o)
+                              board_config.o (sto_open)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(vpo.o)
+                              upgloader.o (vpo_tvsys)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(lib_frontend.o)
+                              upg_ota.o (frontend_set_nim)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(lib_upg4_com.o)
+                              upg_ota.o (upg_reg_bootloader_id)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(upg_ota_api.o)
+                              upg_ota.o (ota_cmd_get_download_info)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(alloc.o)
+                              ../copper_common/stb_hwinfo.o (malloc)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(fastCRC.o)
+                              upgloader.o (MG_Setup_CRC_Table)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(printf.o)
+                              board_config.o (libc_printf_uart_id_set)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(string.o)
+                              ../copper_common/stb_data.o (ali_memcpy)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(un7zip.o)
+                              boot_osd_rsc.o (un7zip)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(lib_dbc.o)
+                              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(upg_ota_api.o) (dsi_message)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(ld_osd_common.o)
+                              boot_ota_input.o (ComAscStr2Uni)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(ld_osd_common_draw.o)
+                              upgloader.o (OSD_rsc_reg_cb)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(ld_osd_lib.o)
+                              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(ld_osd_common_draw.o) (OSD_RectInRect)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(chunk.o)
+                              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(lib_upg4_com.o) (fetch_long)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(chunk_sto.o)
+                              ../copper_common/backup_loader.o (sto_fetch_long)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(stb_info.o)
+                              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(lib_upg4_com.o) (load_stbinfo_buf)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(stb_info_data.o)
+                              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(lib_upg4_com.o) (stb_info_data_get_chunk)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(nim_s3202.o)
+                              board_config.o (nim_s3202_attach)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(tun_alpstdae.o)
+                              board_config.o (tun_alpstdae_init)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(tun_dct70701.o)
+                              board_config.o (tun_dct70701_init)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(pan_tp6x0.o)
+                              board_config.o (pan_tp6x0_attach)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(flash_info.o)
+                              ../copper_common/backup_loader.o (flash_sector_size)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(flash_info_s.o)
+                              board_config.o (flash_info_sl_init)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(flash_raw_sl_c.o)
+                              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(flash_info.o) (sflash_reg_addr)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(flash_sl.o)
+                              board_config.o (sto_local_sflash_attach)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(sto_flash.o)
+                              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(flash_raw_sl_c.o) (m_EnableSoftProtection)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(version.o)
+                              ../../../../../../sdk/boot.o (libcore_banner)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(lib_device_manage.o)
+                              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(lib_frontend.o) (dev_get_nim_config)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(irc_6303.o)
+                              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(pan_tp6x0.o) (irc_m6303irc_init)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(flash_data.o)
+                              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(flash_info.o) (tflash_cmdaddr)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(flash_data_s.o)
+                              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(flash_info_s.o) (sflash_deviceid)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(irc_lab_std.o)
+                              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(irc_6303.o) (irc_LAB_mode_set)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(irc_nec_std.o)
+                              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(irc_6303.o) (irc_NEC_mode_set)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(tds_mips.o)
+                              ../../../../../../sdk/boot.o (INT_General_Exception_Hdlr)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(hsr.o)
+                              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(irc_6303.o) (OS_RegisterHSR)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(Interrupt.o)
+                              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(i2c_scb.o) (OS_DeleteISR)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(mbuffer.o)
+                              upgloader.o (OS_CreateMsgBuffer)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(queue.o)
+                              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(mbuffer.o) (queue_initialize)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(sched_mq.o)
+                              upgloader.o (OS_EnableDispatch)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(semapho.o)
+                              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(lib_device_manage.o) (OS_CreateSemaphore)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(task.o)
+                              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(tds_mips.o) (g_bDispatch)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(taskc.o)
+                              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(sched_mq.o) (g_tcb_table)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(tds.o)
+                              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(tds_mips.o) (g_cIntMask)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(timeout.o)
+                              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(nim_s3202.o) (OS_GetTickCount)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(timerc.o)
+                              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(tds.o) (InitTimer)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(irq.o)
+                              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(tds_mips.o) (irq_handler)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(mutex.o)
+                              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(tds.o) (mutex_initialize)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(decLogo.o)
+                              board_config.o (vpoInitRegs)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(osd_m33_init_mini.o)
+                              board_config.o (osd_m33_attach_mini)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(osd_m33_mini.o)
+                              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(osd_m33_init_mini.o) (g_osd_m3202c_enable)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(cache.o)
+                              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(osd_m33_mini.o) (osal_tds2_cache_flush)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(sched.o)
+                              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(mbuffer.o) (OS_TaskDispatch)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(flag.o)
+                              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(tds.o) (eventflag_initialize)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(mempool.o)
+                              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(taskc.o) (i_pget_blk)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(power_down_detect.o)
+                              upgloader.o (pdd_init)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(tsi_m3202.o)
+                              board_config.o (tsi_m3202_mode_set)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_api.o)
+                              board_config.o (dmx_m33_dev_attach)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_dbg.o)
+                              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_api.o) (g_DmxDbgCtrl)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_pes.o)
+                              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_dbg.o) (dmx_m33_parse_pes)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_reg.o)
+                              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_api.o) (dmx_m33_get_write)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_sec.o)
+                              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_dbg.o) (dmx_m33_parse_sec)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_stc.o)
+                              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_pes.o) (dmx_m33_adjust_stc)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(mips_suspend.o)
+                              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(power_down_detect.o) (cpu_suspend)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33.o)
+                              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_pes.o) (dmx_m33_set_pid)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libmlzo.a(slzo.o)
+                              boot_osd_rsc.o (unlzo)
+/cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/lib7zip.a(LzmaDecode.o)
+                              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(un7zip.o) (LzmaDecode)
+/cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/lib/gcc-lib/mips-t2-elf/3.0.4/soft-float/el/libgcc.a(_udivdi3.o)
+                              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(printf.o) (__udivdi3)
+/cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/lib/gcc-lib/mips-t2-elf/3.0.4/soft-float/el/libgcc.a(_umoddi3.o)
+                              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(printf.o) (__umoddi3)
+/cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/lib/gcc-lib/mips-t2-elf/3.0.4/soft-float/el/libgcc.a(_clz.o)
+                              /cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/lib/gcc-lib/mips-t2-elf/3.0.4/soft-float/el/libgcc.a(_udivdi3.o) (__clz_tab)
+/cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/lib/gcc-lib/mips-t2-elf/3.0.4/soft-float/el/libgcc.a(_addsub_df.o)
+                              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(string.o) (dpadd)
+/cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/lib/gcc-lib/mips-t2-elf/3.0.4/soft-float/el/libgcc.a(_mul_df.o)
+                              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(string.o) (dpmul)
+/cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/lib/gcc-lib/mips-t2-elf/3.0.4/soft-float/el/libgcc.a(_div_df.o)
+                              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(string.o) (dpdiv)
+/cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/lib/gcc-lib/mips-t2-elf/3.0.4/soft-float/el/libgcc.a(_si_to_df.o)
+                              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(string.o) (litodp)
+/cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/lib/gcc-lib/mips-t2-elf/3.0.4/soft-float/el/libgcc.a(_df_to_si.o)
+                              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(nim_s3202.o) (dptoli)
+/cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/lib/gcc-lib/mips-t2-elf/3.0.4/soft-float/el/libgcc.a(_thenan_df.o)
+                              /cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/lib/gcc-lib/mips-t2-elf/3.0.4/soft-float/el/libgcc.a(_addsub_df.o) (__thenan_df)
+/cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/lib/gcc-lib/mips-t2-elf/3.0.4/soft-float/el/libgcc.a(_df_to_usi.o)
+                              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(nim_s3202.o) (dptoul)
+/cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/lib/gcc-lib/mips-t2-elf/3.0.4/soft-float/el/libgcc.a(_pack_df.o)
+                              /cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/lib/gcc-lib/mips-t2-elf/3.0.4/soft-float/el/libgcc.a(_addsub_df.o) (__pack_d)
+/cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/lib/gcc-lib/mips-t2-elf/3.0.4/soft-float/el/libgcc.a(_unpack_df.o)
+                              /cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/lib/gcc-lib/mips-t2-elf/3.0.4/soft-float/el/libgcc.a(_addsub_df.o) (__unpack_d)
+/cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/mips-t2-elf/lib/soft-float/el/libc.a(isdigit.o)
+                              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(string.o) (isdigit)
+/cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/mips-t2-elf/lib/soft-float/el/libc.a(isspace.o)
+                              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(string.o) (isspace)
+/cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/mips-t2-elf/lib/soft-float/el/libc.a(strtol.o)
+                              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(printf.o) (strtol)
+/cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/mips-t2-elf/lib/soft-float/el/libc.a(strtoul.o)
+                              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(printf.o) (strtoul)
+/cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/mips-t2-elf/lib/soft-float/el/libc.a(ctype_.o)
+                              /cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/mips-t2-elf/lib/soft-float/el/libc.a(isdigit.o) (_ctype_)
+/cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/mips-t2-elf/lib/soft-float/el/libc.a(impure.o)
+                              /cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/mips-t2-elf/lib/soft-float/el/libc.a(strtol.o) (_impure_ptr)
+
+Allocating common symbols
+Common symbol       size              file
+
+_bytes_used         0x4               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(alloc.o)
+IRQStack            0x4000            ../../../../../../sdk/boot.o
+__malloc_hook       0x4               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(alloc.o)
+dmx_priv_fp         0x70              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_api.o)
+_fraghead           0x60              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(alloc.o)
+ts_extra_video_cb_len
+                    0x2               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_api.o)
+g_current_second    0x4               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(timerc.o)
+g_sw_version        0x4               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(upg_ota_api.o)
+osd_vscr_buffer_temp
+                    0x17820           /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(ld_osd_common_draw.o)
+AvSyncInfo          0x2d0             /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_api.o)
+flash_info          0x44              ../copper_common/backup_loader.o
+ts_ttx_tmp_cb_len   0x2               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_api.o)
+g_sw_version_chufa  0x4               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(upg_ota_api.o)
+font_bitmap         0x3000            boot_osd_rsc.o
+osd_get_obj_info    0x4               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(ld_osd_common_draw.o)
+g_hw_version        0x4               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(upg_ota_api.o)
+pdd_chip_id         0x4               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(power_down_detect.o)
+_chunks_free        0x4               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(alloc.o)
+osd_get_lang_env    0x4               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(ld_osd_common_draw.o)
+__errno             0x4               upgloader.o
+i2c_dev_ext         0xc               upgloader.o
+g_dc_module         0x4e0             /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(upg_ota_api.o)
+errno               0x4               ../../../../../../sdk/boot.o
+cur_font            0x4               boot_osd_rsc.o
+osd_get_font_lib    0x4               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(ld_osd_common_draw.o)
+palert_gpio         0x4               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(power_down_detect.o)
+g_timer_queue       0x8               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(timerc.o)
+boot_mbf_id         0x4               upgloader.o
+__realloc_hook      0x4               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(alloc.o)
+multi_flash_info    0x38              ../copper_common/backup_loader.o
+pan_hw_info_cp      0x3c              board_config.o
+g_vdec_sys_chip_verid
+                    0x4               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(decLogo.o)
+_heapindex          0x4               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(alloc.o)
+ts_tmp_united_cb_len
+                    0x2               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_api.o)
+_rdy_queue          0x80              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(sched_mq.o)
+_heaplimit          0x4               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(alloc.o)
+ts_ttx_tmp_buf      0x4               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_api.o)
+ts_united_cb_len    0x2               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_api.o)
+pdd_chip_version    0x4               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(power_down_detect.o)
+key_address         0x8               key.o
+g_uInitialized      0x1               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(osd_m33_mini.o)
+dmx_hw_filt_num     0x1               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_api.o)
+g_cur_timer         0x4               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(timerc.o)
+pcr_tick_standard_slope
+                    0x4               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_api.o)
+g_vscr              0x18              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(ld_osd_common_draw.o)
+g_dc_blocksize      0x2               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(upg_ota_api.o)
+input_data          0x18              boot_ota_input.o
+heap_ptr            0x4               ../../../../../../sdk/boot.o
+pok_gpio            0x4               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(power_down_detect.o)
+_rdy_msk            0x4               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(sched_mq.o)
+g_upg_cfg           0x38              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(lib_upg4_com.o)
+heap_start          0x4               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(tds.o)
+pok_suspend         0x4               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(power_down_detect.o)
+g_tmo_time          0x4               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(hsr.o)
+g_cCurSlice         0x4               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(timerc.o)
+MG_CRC_Table        0x400             /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(fastCRC.o)
+ts_video_cb_len     0x2               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_api.o)
+g_current_time      0x4               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(timerc.o)
+osd_get_str_lib_id  0x4               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(ld_osd_common_draw.o)
+g_dc_module_num     0x1               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(upg_ota_api.o)
+osd_get_rsc_data    0x4               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(ld_osd_common_draw.o)
+g_upg_chunk_image   0x400             /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(lib_upg4_com.o)
+g_tMemHead          0x14              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(osd_m33_mini.o)
+g_uBufIndex         0x1               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(osd_m33_mini.o)
+DmxAvSyncParam      0x8               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_api.o)
+_heapinfo           0x4               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(alloc.o)
+mbf_total_num       0x4               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(mbuffer.o)
+i2c_dev             0x48              upgloader.o
+g_osd_mem           0x20              /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(osd_m33_mini.o)
+g_upg_sw_size       0x4               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(lib_upg4_com.o)
+ts_common_cb_len    0x2               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_api.o)
+g_oui               0x4               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(upg_ota_api.o)
+g_upg_burn_array    0x1               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(lib_upg4_com.o)
+ts_pcr_cb_len       0x2               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_api.o)
+g_QAM_Tuner_Cfg     0x3c              board_config.o
+g_pTskSch           0x4               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(taskc.o)
+g_RegisterArrayForZoomStruct
+                    0x284             /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(decLogo.o)
+_aligned_blocks     0x4               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(alloc.o)
+_bytes_free         0x4               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(alloc.o)
+TMOCBPool           0x500             /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(timeout.o)
+cpu_mclk_dmx_ref    0x4               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_api.o)
+pdd_dev_list        0x8               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(power_down_detect.o)
+g_upg_burn_order    0x1               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(lib_upg4_com.o)
+g_crc_bad           0x4               upgloader.o
+font_array          0xc8              boot_osd_rsc.o
+g_upg_part_info     0x500             /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(lib_upg4_com.o)
+g_pTskRun           0x4               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(taskc.o)
+dmx1_dma_start_addr
+                    0x4               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_api.o)
+key_address_mask    0x4               key.o
+_heapbase           0x4               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(alloc.o)
+system_stb_data     0x500             ../copper_common/stb_data.o
+g_upg_sw_version    0x4               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(upg_ota_api.o)
+__free_hook         0x4               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(alloc.o)
+ts_audio_cb_len     0x2               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_api.o)
+g_dc_group          0x8               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(upg_ota_api.o)
+font_asc            0x4               boot_osd_rsc.o
+_chunks_used        0x4               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(alloc.o)
+g_hw_model          0x4               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(upg_ota_api.o)
+ts_ttx_cb_len       0x2               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_api.o)
+g_sw_model          0x4               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(upg_ota_api.o)
+irq_msk             0x4               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(tds.o)
+m_last_buffer       0x4               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(osd_m33_mini.o)
+font_chn            0x4               boot_osd_rsc.o
+g_upg_stb_info_ok   0x4               upgloader.o
+g_upg_size          0x4               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(lib_upg4_com.o)
+g_tmo_queue         0x8               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(hsr.o)
+dmx0_dma_start_addr
+                    0x4               /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_api.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+ram              0x0000000080000000 0x0000000000800000 xrw
+rom              0x00000000bfc00000 0x0000000000060000 xr
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD ../copper_common/stb_data.o
+LOAD ../copper_common/stb_hwinfo.o
+LOAD ../copper_common/backup_loader.o
+LOAD boot_osd_rsc.o
+LOAD key.o
+LOAD boot_ota_input.o
+LOAD upgloader.o
+LOAD upg_common.o
+LOAD upg_ota.o
+LOAD upg_menu.o
+LOAD board_config.o
+                0x0000000000000000                __BOOT_FROM_FLASH = 0x0
+                0x0000000000000000                __BOOT_LOADER = 0x0
+                0x0000000000000000                __DYNAMIC = 0x0
+                0x0000000000000000                PROVIDE (__stack, 0x0)
+                0x0000000080000200                __RAM_BASE = 0x80000200
+                0x0000000080000200                __ROM_BASE = __BOOT_LOADER?0xbfc00000:__BOOT_FROM_FLASH?0xbfc00000:__RAM_BASE
+                0x0000000080000200                __BOOT_ROM_ADDR = __BOOT_LOADER?0xbfb80000:__ROM_BASE
+
+.boot           0x0000000080000200     0x1a48 load address 0x0000000080000200
+ ../../../../../../sdk/boot.o(.text)
+ .text          0x0000000080000200     0x1a48 ../../../../../../sdk/boot.o
+                0x00000000800007a4                sys_ic_is_M3101
+                0x00000000800016a0                __main
+                0x0000000080001a08                sys_ic_get_ci_num
+                0x0000000080001268                sys_ic_ddplus_is_enabled
+                0x0000000080001254                sys_ic_ac3_is_enabled
+                0x0000000080000c44                sys_ic_set_half_mode_strap_pin
+                0x00000000800007d8                sys_ic_is_M3202
+                0x00000000800003d0                _invalidate_cache
+                0x000000008000122c                sys_ic_get_hd_enabled
+                0x00000000800012f4                sys_reboot_load_entry
+                0x00000000800013c8                sys_reboot_clear_exchange_data
+                0x00000000800011f0                sys_ic_split_enabled
+                0x00000000800012a4                sys_ic_aac_is_enabled
+                0x000000008000135c                sys_reboot_set_exchange_data
+                0x0000000080000640                sys_watchdog_reboot
+                0x0000000080001394                sys_reboot_get_exchange_data
+                0x0000000080000580                INT_General_Exception
+                0x0000000080000b98                sys_ic_get_chip_mode
+                0x0000000080001734                isatty
+                0x0000000080000e90                M3105_get_bonding
+                0x00000000800013fc                sflash_soft_protect_init
+                0x00000000800014a0                pflash_soft_protect_init
+                0x0000000080001aa0                sys_ic_get_mac_num
+                0x0000000080001740                lseek
+                0x0000000080000590                g_see_exception_handler
+                0x0000000080000654                sys_ic_enter_standby
+                0x0000000080001204                sys_ic_uart_disabled
+                0x0000000080001708                write
+                0x0000000080000f18                s3602f_get_bonding
+                0x0000000080001754                fstat
+                0x0000000080001588                powerdown_test
+                0x00000000800006e8                sys_ic_exit_standby
+                0x0000000080000870                sys_ic_get_rev_id
+                0x0000000080000200                _start
+                0x0000000080001bbc                sys_ic_sata_enable
+                0x0000000080001218                sys_ic_ejtag_disabled
+                0x00000000800016fc                read
+                0x00000000800011dc                sys_ic_io_security_enabled
+                0x0000000080000fe8                c3603_get_bonding
+                0x0000000080001918                sys_ic_nim_m3501_support
+                0x0000000080000c80                sys_ic_get_bonding
+                0x00000000800016a8                sbrk
+                0x0000000080000860                sys_ic_M3101_rev_id
+                0x00000000800006fc                sys_ic_get_chip_id
+                0x00000000800012b8                sys_ic_h264_is_enabled
+                0x000000008000127c                sys_ic_divx_is_enabled
+                0x00000000800014d0                pflash_write_soft_protect
+                0x00000000800005a0                sys_ic_reboot
+                0x0000000080001868                sys_ic_usb_port_enabled
+                0x0000000080001514                powerdown_test_init
+                0x00000000800012e0                sys_ic_get_product_id
+                0x0000000080001318                sys_reboot_get_timer
+                0x00000000800006b8                sys_ic_power_save
+                0x00000000800009e8                sys_ic_get_cpu_clock
+                0x0000000080001240                sys_ic_mv_is_enabled
+                0x0000000080001290                sys_ic_divxplus_is_enabled
+                0x0000000080001990                sys_ic_nim_support
+                0x0000000080000568                _exit
+                0x000000008000142c                sflash_write_soft_protect
+                0x0000000080001b2c                sys_ic_hd_is_enabled
+                0x000000008000080c                sys_ic_is_M3329D
+                0x00000000800012cc                sys_ic_mp4_is_enabled
+                0x0000000080001714                open
+                0x0000000080001768                sys_ic_get_c3603_product
+                0x0000000080000c14                sys_ic_get_half_mode_strap_pin
+                0x00000000800017e0                sys_ic_get_usb_num
+                0x0000000080001728                close
+                0x00000000800011c8                sys_ic_dram_scramble_enabled
+                0x0000000080000b4c                sys_ic_get_dram_clock
+                0x0000000080001c48                __TEXT_RAM_ADDR = (__RAM_BASE +  SIZEOF (.boot))
+                0x0000000080001c48                __TEXT_ROM_ADDR = (__BOOT_ROM_ADDR +  SIZEOF (.boot))
+
+.text           0x0000000080001c48    0x3f208 load address 0x0000000080001c48
+ *(.init)
+ *(.text)
+ .text          0x0000000080001c48      0x7b0 ../copper_common/stb_data.o
+                0x0000000080001eec                stb_info_data_init_chunk
+                0x0000000080002328                stb_data_load
+                0x0000000080001d08                stb_info_data_init
+                0x0000000080001c54                stb_pan_display
+                0x000000008000219c                stb_data_factory_init
+                0x0000000080001cdc                stb_pan_display_revert
+                0x000000008000226c                stb_data_factory_complete
+                0x0000000080001c48                set_pan_display_type
+ .text          0x00000000800023f8      0x254 ../copper_common/stb_hwinfo.o
+                0x00000000800024f8                get_stb_hwinfo
+                0x00000000800024a0                stb_hwinfo_get
+                0x00000000800025ec                get_stb_mac
+                0x0000000080002590                get_stb_serial
+ .text          0x000000008000264c      0x5cc ../copper_common/backup_loader.o
+                0x0000000080002944                load_chunk_by_addr
+                0x0000000080002b1c                restore_upgloader
+                0x00000000800027cc                load_chunk_by_id
+                0x0000000080002a48                backup_upgloader
+                0x000000008000264c                backup_burn_flash
+ .text          0x0000000080002c18      0xbb4 boot_osd_rsc.o
+                0x00000000800034e8                RSC_font_init
+                0x00000000800035a4                RSC_font_bak_init
+                0x000000008000335c                RSC_expand
+                0x0000000080002ff4                OSD_GetLangEnvironment
+                0x00000000800032f0                OSD_GetDefaultFontLib
+                0x0000000080003310                OSDExt_GetMsgLibId
+                0x0000000080003000                OSD_SetLangEnvironment
+                0x000000008000306c                OSD_GetRscObjData
+                0x00000000800035dc                RSC_expand_fromnand
+                0x0000000080003728                RSC_font_init_fromnand
+                0x0000000080003248                OSD_GetObjInfo
+ .text          0x00000000800037cc      0x234 key.o
+                0x00000000800037cc                key_task_suspend
+                0x0000000080003994                key_Init
+                0x00000000800037e8                key_get_key
+                0x00000000800037dc                key_task_resume
+ .text          0x0000000080003a00      0xec0 boot_ota_input.o
+                0x0000000080003a00                bootota_get_ustr
+                0x0000000080003a9c                bootota_input_proc
+ .text          0x00000000800048c0      0xc28 upgloader.o
+                0x0000000080005398                boot_get_key_msg
+                0x0000000080005410                ap_hk_to_vk
+                0x0000000080004f10                see_boot
+                0x0000000080004a7c                api_video_get_tvout
+                0x0000000080004a34                api_osd_set_tv_system
+                0x00000000800049a0                avInit
+                0x0000000080004af0                api_video_set_tvout
+                0x0000000080004e08                upgloader
+                0x0000000080004bc8                boot_osd_init
+                0x00000000800052fc                boot_send_msg
+                0x0000000080004fa4                AppInit
+                0x00000000800048c0                osal_delay_ms
+                0x0000000080004f68                upg_memcpy
+                0x0000000080004a10                avStart
+                0x00000000800051bc                boot_clear_all_message
+                0x0000000080004914                upg_sys_reboot
+                0x0000000080004d2c                load_rsc_data
+                0x0000000080004d58                usbloader
+                0x0000000080004d60                otaloader
+ .text          0x00000000800054e8      0x6b4 upg_common.o
+                0x0000000080005b14                upg_keydata_restore
+                0x0000000080005aa4                upg_chunk_check
+                0x0000000080005744                upg_progress_update
+                0x0000000080005994                upg_process_callback
+                0x000000008000555c                Str2UINT32
+                0x0000000080005658                upg_info_update
+                0x0000000080005608                upg_draw_frame
+                0x00000000800054e8                Char2Hex
+ .text          0x0000000080005b9c      0x5e8 upg_ota.o
+                0x0000000080005d1c                ota_upgrade
+                0x0000000080005c30                ota_init
+                0x0000000080005b9c                ota_check_service
+ .text          0x0000000080006184      0x48c upg_menu.o
+                0x0000000080006184                upg_menu_pan_display
+                0x0000000080006214                upg_menu_proc
+ .text          0x0000000080006610      0x9fc board_config.o
+                0x0000000080006934                nim_tsi_config
+                0x0000000080006d8c                front_panel_init
+                0x0000000080006f94                GPIO_lan_phy_rst
+                0x0000000080006c0c                flash_init
+                0x0000000080006bb4                uart_init
+                0x0000000080006afc                osd_dev_attach
+                0x0000000080006e20                GPIO_onoff
+                0x00000000800066d4                vpo_init
+                0x0000000080006a64                dmx_dev_attach
+                0x0000000080006610                vdac_init
+                0x00000000800069d4                i2c_init
+                0x0000000080006fbc                pinmux_init
+ .text          0x000000008000700c      0x41c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(dog_m33.o)
+                0x00000000800070e8                dog_m3327e_set_mode
+                0x00000000800072b4                dog_m3327e_set_time
+                0x0000000080007354                dog_m3327e_pause
+                0x0000000080007244                dog_m3327e_get_time
+                0x000000008000700c                dog_m3327e_attach
+                0x00000000800073cc                dog_m3327e_stop
+ .text          0x0000000080007428     0x2b38 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(i2c_gpio.o)
+                0x0000000080009204                i2c_gpio_write_no_stop
+                0x000000008000987c                i2c_gpio_write
+                0x0000000080009a94                i2c_gpio_mbyte_write_read
+                0x0000000080009e88                i2c_gpio_write_plus_read
+                0x00000000800097a0                i2c_gpio_read
+                0x0000000080009c04                i2c_gpio_write_write_read
+                0x0000000080009d40                i2c_gpio_write_read_std
+                0x0000000080007460                i2c_gpio_attach
+                0x0000000080007428                i2c_gpio_set
+                0x0000000080009958                i2c_gpio_write_read
+                0x0000000080009374                i2c_gpio_mode_set
+ .text          0x0000000080009f60     0x1ed4 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(i2c_scb.o)
+                0x000000008000b8bc                i2c_scb_write_write_read
+                0x000000008000bd5c                i2c_scb_write_plus_read
+                0x000000008000a444                i2c_scb_read
+                0x000000008000ac50                i2c_isr
+                0x000000008000a6cc                i2c_scb_write
+                0x000000008000af88                i2c_scb_write_read_multi
+                0x000000008000b59c                scb_get_data
+                0x0000000080009f60                i2c_scb_attach
+                0x000000008000b284                i2c_scb_write_read_std
+                0x000000008000ad20                i2c_scb_write_multi
+                0x000000008000a0e0                i2c_scb_mode_set
+                0x000000008000b648                i2c_scb_eddc_read
+                0x000000008000a938                i2c_scb_write_read
+ .text          0x000000008000be34      0xc88 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(sci_16550uart.o)
+                0x000000008000ca7c                sci_16550uart_clear_buff
+                0x000000008000c880                sci_16550uart_loopback
+                0x000000008000c608                sci_16550uart_read
+                0x000000008000c058                sci_16550uart_set_mode
+                0x000000008000c8c0                sci_16550uart_write
+                0x000000008000c718                sci_16550uart_read_tm
+                0x000000008000ca74                sci_16550uart_fifowrite
+                0x000000008000be34                sci_16550uart_attach
+ .text          0x000000008000cabc      0x3b4 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(hld_dev.o)
+                0x000000008000cb24                dev_get_by_type
+                0x000000008000ce10                dev_free
+                0x000000008000ccdc                dev_alloc
+                0x000000008000cb68                dev_get_by_id
+                0x000000008000cdf0                dev_register
+                0x000000008000ce50                dev_list_all
+                0x000000008000cabc                dev_get_by_name
+ .text          0x000000008000ce70      0x47c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(dmx.o)
+                0x000000008000d234                dmx_register_service_new
+                0x000000008000d1e4                dmx_pause
+                0x000000008000d0d0                dmx_async_req_section
+                0x000000008000d018                dmx_io_control
+                0x000000008000d12c                dmx_start
+                0x000000008000d290                dmx_unregister_service_new
+                0x000000008000cf78                dmx_open
+                0x000000008000d074                dmx_req_section
+                0x000000008000ceb8                dmx_register_service
+                0x000000008000cf18                dmx_unregister_service
+                0x000000008000d188                dmx_stop
+                0x000000008000ce70                dmx_cfg_cw
+                0x000000008000cfc8                dmx_close
+ .text          0x000000008000d2ec      0x5ac /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(nim.o)
+                0x000000008000d7b4                nim_get_sym
+                0x000000008000d5e8                nim_get_SNR
+                0x000000008000d4a4                nim_get_lock
+                0x000000008000d510                nim_get_freq
+                0x000000008000d364                nim_close
+                0x000000008000d71c                nim_channel_search
+                0x000000008000d2ec                nim_open
+                0x000000008000d434                nim_io_control
+                0x000000008000d800                nim_get_BER
+                0x000000008000d768                nim_get_AGC
+                0x000000008000d654                nim_channel_change
+                0x000000008000d3dc                nim_ioctl_ext
+                0x000000008000d84c                nim_get_fft_result
+                0x000000008000d57c                nim_get_FEC
+                0x000000008000d6b8                nim_quick_channel_change
+ .text          0x000000008000d898      0xa1c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(osddrv.o)
+                0x000000008000e0b8                OSDDrv_DrawHorLine
+                0x000000008000e240                OSDDrv_GetRegionAddr
+                0x000000008000de04                OSDDrv_RegionWrite
+                0x000000008000de68                OSDDrv_RegionRead
+                0x000000008000df30                OSDDrv_RegionWriteInverse
+                0x000000008000e12c                OSDDrv_Scale
+                0x000000008000da60                OSDDrv_ShowOnOff
+                0x000000008000df88                OSDDrv_RegionReadInverse
+                0x000000008000d920                OSDDrv_Close
+                0x000000008000e18c                OSDDrv_SetClip
+                0x000000008000da00                OSDDrv_GetPara
+                0x000000008000d898                OSDDrv_Open
+                0x000000008000e1ec                OSDDrv_ClearClip
+                0x000000008000dd3c                OSDDrv_GetRegionPos
+                0x000000008000dc74                OSDDrv_DeleteRegion
+                0x000000008000dac4                OSDDrv_SetPallette
+                0x000000008000dc10                OSDDrv_CreateRegion
+                0x000000008000dda0                OSDDrv_RegionShow
+                0x000000008000dcd8                OSDDrv_SetRegionPos
+                0x000000008000db2c                OSDDrv_GetPallette
+                0x000000008000dfe0                OSDDrv_RegionFillInverse
+                0x000000008000d9a0                OSDDrv_IoCtl
+                0x000000008000db94                OSDDrv_ModifyPallette
+                0x000000008000decc                OSDDrv_RegionFill
+                0x000000008000e038                OSDDrv_RegionWrite2
+ .text          0x000000008000e2b4      0x3d8 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(pan.o)
+                0x000000008000e3ac                pan_get_key
+                0x000000008000e634                pan_io_control
+                0x000000008000e52c                pan_buff_clear
+                0x000000008000e5cc                pan_buff_set_repeat
+                0x000000008000e4bc                pan_receive_data
+                0x000000008000e55c                pan_buff_queue_tail
+                0x000000008000e33c                pan_close
+                0x000000008000e5d8                pan_buff_get_repeat
+                0x000000008000e44c                pan_send_data
+                0x000000008000e2b4                pan_open
+                0x000000008000e5e4                pan_display
+ .text          0x000000008000e68c      0x314 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(sto.o)
+                0x000000008000e77c                sto_close
+                0x000000008000e870                sto_read
+                0x000000008000e908                sto_put_data
+                0x000000008000e954                sto_get_data
+                0x000000008000e8bc                sto_io_control
+                0x000000008000e824                sto_write
+                0x000000008000e6e8                sto_mutex_exit
+                0x000000008000e70c                sto_open
+                0x000000008000e7d8                sto_lseek
+                0x000000008000e68c                sto_mutex_enter
+ .text          0x000000008000e9a0      0x35c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(vpo.o)
+                0x000000008000ec1c                tvenc_register_dac
+                0x000000008000ea44                vpo_zoom
+                0x000000008000ec98                tvenc_write_cc
+                0x000000008000eb10                vpo_config_source_window
+                0x000000008000e9c8                vpo_close
+                0x000000008000eba0                tvenc_close
+                0x000000008000e9f0                vpo_win_onoff
+                0x000000008000ea18                vpo_win_mode
+                0x000000008000ecc8                tvenc_write_ttx
+                0x000000008000ebc8                tvenc_set_tvsys
+                0x000000008000ea6c                vpo_aspect_mode
+                0x000000008000eae8                vpo_ioctl
+                0x000000008000eb44                vpo_set_progres_interl
+                0x000000008000eac0                vpo_tvsys_ex
+                0x000000008000ec6c                tvenc_write_wss
+                0x000000008000ea94                vpo_tvsys
+                0x000000008000eb78                tvenc_open
+                0x000000008000e9a0                vpo_open
+                0x000000008000ec44                tvenc_unregister_dac
+                0x000000008000ebf4                tvenc_set_tvsys_ex
+ .text          0x000000008000ecfc     0x10fc /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(lib_frontend.o)
+                0x000000008000f77c                ts_route_update
+                0x000000008000fbe8                is_ca_info_in_ts_route
+                0x000000008000f9f4                ts_route_get_by_prog_id
+                0x000000008000ed08                ts_route_is_av_scrambled
+                0x000000008000f688                ts_route_get_record
+                0x000000008000f01c                frontend_set_ts_route
+                0x000000008000f904                ts_route_check_tp_route
+                0x000000008000f438                ts_route_delete
+                0x000000008000f4bc                ts_route_get_num
+                0x000000008000fdc8                ts_route_get_nim_tsiid
+                0x000000008000f058                frontend_check_nim_param
+                0x000000008000f5ac                ts_route_get_by_type
+                0x000000008000f808                ts_route_check_ci_route
+                0x000000008000ef24                frontend_set_nim
+                0x000000008000fde0                ts_route_set_nim_tsiid
+                0x000000008000f814                ts_route_check_TS_by_dmx
+                0x000000008000f148                _ts_route_get_dev_state
+                0x000000008000fb30                ts_route_set_ci_info
+                0x000000008000f378                ts_route_create
+                0x000000008000ecfc                UIChChgSet12VSetCB
+                0x000000008000f7fc                ts_route_check_ci
+                0x000000008000f888                ts_route_check_dmx_route
+                0x000000008000fc50                ts_route_get_by_sim_id
+                0x000000008000eff8                frontend_tuning
+                0x000000008000f514                ts_route_get_by_id
+                0x000000008000f264                _ts_route_get_dmx_config
+                0x000000008000f97c                ts_route_check_nim_route
+ .text          0x000000008000fdf8     0x245c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(lib_upg4_com.o)
+                0x000000008000fe78                upg4_get_err_string
+                0x000000008000fe6c                _upg_set_upg_state
+                0x000000008000ff94                upg_get_norflash_data
+                0x00000000800120a8                upg4_config_burn_order
+                0x000000008000fee4                upg_un7z
+                0x0000000080012104                upg4_config
+                0x00000000800100ac                upg_burn_norflash
+                0x00000000800113fc                _upg_upgrade_part_by_chunk
+                0x000000008000fe54                _upg_set_err_type
+                0x000000008001205c                upg4_update_state
+                0x00000000800103e8                upg_burn_part
+                0x000000008000fe20                upg_reg_stbinfo_id
+                0x000000008000fe60                _upg_set_domain
+                0x000000008000fdf8                upg_reg_bootloader_id
+                0x000000008000ff48                mem_cmp
+                0x0000000080011b3c                _upg_upgrade_part_by_primitive_chunk
+                0x0000000080011714                _upg_upgrade_part_by_all
+                0x0000000080011dfc                _upg_upgrade_part_by_primitive_data
+                0x000000008000fe2c                upg_reg_restore_id
+                0x0000000080012034                upg_restore_chunk
+ .text          0x0000000080012254     0x1078 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(upg_ota_api.o)
+                0x0000000080012efc                ota_cmd_service_stopped
+                0x00000000800129b8                ota_cmd_get_download_info
+                0x0000000080012254                parse_dsmcc_sec
+                0x0000000080012f44                ota_config
+                0x0000000080012a84                ota_cmd_start_download
+                0x0000000080012b78                ota_cmd_start_burnflash
+                0x0000000080012f84                ota_upg_part_list_init
+                0x0000000080012618                si_private_sec_parsing_start
+                0x000000008001247c                ddb_section
+ .text          0x00000000800132cc     0x137c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(alloc.o)
+                0x0000000080013330                see_heaptop_init
+                0x0000000080013610                malloc
+                0x00000000800145e8                calloc
+                0x00000000800142b0                realloc
+                0x00000000800141d0                free
+ .text          0x0000000080014648      0x1e4 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(fastCRC.o)
+                0x0000000080014648                MG_Compute_CRC
+                0x00000000800147ec                MG_FCS_Decoder
+                0x0000000080014788                MG_FCS_Coder
+                0x00000000800146c4                MG_Setup_CRC_Table
+                0x0000000080014734                MG_Table_Driven_CRC
+ .text          0x000000008001482c     0x11d8 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(printf.o)
+                0x0000000080014838                set_dsh_task_id
+                0x0000000080014df0                __v_printf
+                0x0000000080015974                printf
+                0x00000000800159d4                vsprintf
+                0x00000000800159a8                snprintf
+                0x000000008001578c                vsnprintf
+                0x0000000080015974                libc_printf
+                0x000000008001482c                libc_printf_uart_id_set
+                0x000000008001592c                vprintf
+                0x0000000080014844                set_switch_display_mode
+                0x0000000080014850                outbyte
+                0x00000000800148bc                ComMemFindChar
+                0x0000000080015868                sprintf
+ .text          0x0000000080015a04     0x111c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(string.o)
+                0x0000000080016020                strcpy
+                0x00000000800163f4                libc_strlen
+                0x0000000080016a54                strtok_r
+                0x0000000080015f30                memmove
+                0x0000000080015b64                memcpy
+                0x0000000080016354                libc_memset
+                0x0000000080015b08                MemSet4
+                0x0000000080016210                ali_atoi16
+                0x00000000800163d4                libc_strcmp
+                0x0000000080016474                strtod
+                0x0000000080016374                libc_memcmp
+                0x00000000800168a0                atof
+                0x0000000080015a04                rand_r
+                0x0000000080015ec4                ali_memcmp
+                0x0000000080016020                ali_strcpy
+                0x0000000080016334                libc_memcpy
+                0x00000000800163b4                libc_strcpy
+                0x0000000080016afc                strtok
+                0x0000000080015ec4                memcmp
+                0x0000000080015b64                ali_memcpy
+                0x00000000800162c8                com_atoi
+                0x0000000080016414                libc_itoa
+                0x0000000080015dc8                memset
+                0x0000000080016068                ali_strcmp
+                0x0000000080016068                strcmp
+                0x0000000080016454                libc_atoi16
+                0x00000000800160d4                ali_itoa
+                0x0000000080016980                strcspn
+                0x0000000080016158                ali_atoi
+                0x0000000080016314                libc_rand
+                0x0000000080015f30                ali_memmove
+                0x0000000080015b2c                MemCopy4
+                0x0000000080016394                libc_memmove
+                0x0000000080015ac0                ali_rand
+                0x0000000080016158                atoi
+                0x0000000080015dc8                ali_memset
+                0x0000000080016434                libc_atoi
+                0x00000000800168c4                strspn
+                0x00000000800160a4                strlen
+                0x00000000800160a4                ali_strlen
+ .text          0x0000000080016b20       0xfc /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(un7zip.o)
+                0x0000000080016b20                un7zip
+ .text          0x0000000080016c1c      0xa48 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(lib_dbc.o)
+                0x0000000080016fdc                dii_message
+                0x0000000080017498                ddb_data
+                0x0000000080016c1c                dsi_message
+ .text          0x0000000080017664      0x170 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(ld_osd_common.o)
+                0x0000000080017734                ComUniStrCopyChar
+                0x0000000080017664                ComAscStr2Uni
+                0x00000000800176f8                ComUniStrLen
+                0x00000000800176d4                ComMB16ToUINT16
+ .text          0x00000000800177d4     0x1528 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(ld_osd_common_draw.o)
+                0x0000000080018554                OSD_DrawFrame
+                0x0000000080018224                OSD_DrawPixel
+                0x00000000800188d0                OSD_DrawText
+                0x0000000080017ba8                OSDBitmapChangeColor
+                0x0000000080017800                OSDGetLocalVscr
+                0x0000000080018260                OSD_DrawHorLine
+                0x0000000080018b50                OSD_GetVscr
+                0x00000000800182fc                OSD_DrawFill
+                0x0000000080017940                OSD_GetCharWidthHeight
+                0x000000008001833c                OSD_DrawChar
+                0x0000000080018840                OSD_GetUnicodeString
+                0x00000000800177f4                OSD_SetDeviceHandle
+                0x00000000800182ac                OSD_DrawVerLine
+                0x00000000800177d4                OSD_rsc_reg_cb
+                0x0000000080018af8                OSD_UpdateVscr
+                0x0000000080017a18                OSD_MultiFontLibStrMaxHW
+ .text          0x0000000080018cfc      0x260 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(ld_osd_lib.o)
+                0x0000000080018e80                OSD_init
+                0x0000000080018d6c                OSD_GetRectsCross
+                0x0000000080018f38                OSD_close
+                0x0000000080018cfc                OSD_RectInRect
+ .text          0x0000000080018f5c      0x8d0 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(chunk.o)
+                0x000000008001969c                chunk_get_idarray
+                0x0000000080018f8c                store_long
+                0x0000000080019690                chunk_get_num
+                0x00000000800191b8                chunk_reg_bootloader_id
+                0x00000000800196b8                backup_chunk_data
+                0x0000000080019284                get_chunk_header_by_addr
+                0x00000000800196ac                chunk_get_valid_len
+                0x00000000800193f4                get_chunk_header
+                0x0000000080019444                chunk_check_single_crc
+                0x00000000800191c4                get_chunk_list
+                0x0000000080018fb0                chunk_goto
+                0x00000000800195d4                chunk_check_crc
+                0x00000000800191a0                chunk_init
+                0x0000000080018f5c                fetch_long
+                0x00000000800190a0                chunk_count
+ .text          0x000000008001982c      0xe3c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(chunk_sto.o)
+                0x000000008001a100                sto_get_subblock_header
+                0x00000000800198a4                sto_chunk_goto
+                0x000000008001a1c4                sto_chunk_check
+                0x0000000080019998                sto_chunk_count
+                0x0000000080019b04                sto_get_chunk_list
+                0x0000000080019c00                sto_get_chunk_header
+                0x0000000080019a98                sto_chunk_init
+                0x0000000080019e48                sto_subblock_count
+                0x0000000080019d9c                sto_fetch_long_ext
+                0x000000008001982c                sto_fetch_long
+                0x000000008001a3f8                sto_chunk_check_ext
+                0x0000000080019f8c                sto_subblock_goto
+                0x0000000080019d08                sto_chunk_goto_ext
+                0x000000008001a1bc                forlink
+ .text          0x000000008001a668      0xb14 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(stb_info.o)
+                0x000000008001aae4                erase_stbinfo_sector
+                0x000000008001ab5c                save_stbinfo_data
+                0x000000008001adb8                load_stbinfo
+                0x000000008001aed4                get_stbinfo_len
+                0x000000008001b0d0                load_stbinfo_buf
+                0x000000008001b14c                init_stb_info
+                0x000000008001b070                get_stbinfo_f_addr
+ .text          0x000000008001b17c     0x1094 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(stb_info_data.o)
+                0x000000008001b47c                stb_info_data_print_part
+                0x000000008001b7f8                stb_info_data_get_sw_version
+                0x000000008001b808                stb_info_data_get_nor_size
+                0x000000008001bdf8                stb_info_data_get_upginfo
+                0x000000008001b730                stb_info_data_update_part_size
+                0x000000008001b83c                stb_info_data_set_backup_partid
+                0x000000008001b940                stb_info_data_add_chunk
+                0x000000008001b2b8                stb_info_data_check
+                0x000000008001b850                stb_info_data_set_state
+                0x000000008001bc88                stb_info_data_restore_check
+                0x000000008001c1b8                stb_info_data_update_info
+                0x000000008001bca0                stb_info_data_clear_allchunk
+                0x000000008001b654                stb_info_data_get_info_by_id
+                0x000000008001bba4                stb_info_data_get_chunk
+                0x000000008001b830                stb_info_data_get_total_size
+                0x000000008001baf0                stb_info_data_update_chunk
+                0x000000008001b864                stb_info_data_set_info_by_id
+                0x000000008001bb70                stb_info_data_update_chunk_list
+                0x000000008001bd3c                stb_info_data_save
+                0x000000008001be48                stb_info_data_load
+                0x000000008001bfe0                stb_info_data_update_part
+                0x000000008001be24                stb_info_data_get
+                0x000000008001b4f0                stb_info_data_print
+                0x000000008001bc08                stb_info_data_get_chunk_by_id
+                0x000000008001ba14                stb_info_data_delete_chunk
+                0x000000008001b560                stb_info_data_get_info_by_name
+ .text          0x000000008001c210     0x4214 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(nim_s3202.o)
+                0x000000008001c25c                nim_s3202_write
+                0x000000008001c210                nim_s3202_read
+                0x0000000080020418                nim_s3202_register_RF_Level_cb
+                0x000000008001eec8                nim_s3202_attach
+ .text          0x0000000080020424      0x39c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(tun_alpstdae.o)
+                0x0000000080020424                tun_alpstdae_init
+                0x0000000080020580                tun_alpstdae_control
+                0x00000000800204d8                tun_alpstdae_status
+ .text          0x00000000800207c0      0x33c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(tun_dct70701.o)
+                0x000000008002091c                tun_dct70701_control
+                0x0000000080020874                tun_dct70701_status
+                0x00000000800207c0                tun_dct70701_init
+ .text          0x0000000080020afc     0x2a5c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(pan_tp6x0.o)
+                0x0000000080021f88                pan_tp6x0_led_onoff
+                0x0000000080021fe0                pan_tp6x0_update_led
+                0x0000000080022158                pan_tp6x0_read_key
+                0x0000000080021f4c                pan_tp6x0_set_mode
+                0x00000000800221d4                pan_tp6x0_attach
+                0x0000000080022088                pan_tp6x0_led_init
+                0x0000000080020afc                tp6x0_write
+                0x0000000080021384                tp6x0_write_read
+ .text          0x0000000080023558      0x984 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(flash_info.o)
+                0x0000000080023678                flash_sector_align
+                0x000000008002376c                flash_identify
+                0x0000000080023700                flash_sector_start
+                0x0000000080023558                flash_sector_size
+ .text          0x0000000080023edc      0x170 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(flash_info_s.o)
+                0x0000000080023fc4                flash_info_sl_init
+                0x0000000080023edc                flash_info_sl_config
+ .text          0x000000008002404c     0x19e8 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(flash_raw_sl_c.o)
+                0x00000000800250d0                sflash_read
+                0x0000000080024508                sflash_erase_chip
+                0x00000000800255d4                sflash_verify
+                0x000000008002419c                sflash_get_id
+                0x0000000080024690                sflash_erase_sector
+                0x0000000080024888                sflash_copy
+ .text          0x0000000080025a34      0x56c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(flash_sl.o)
+                0x0000000080025c08                sto_sflash_identify
+                0x0000000080025a34                sto_local_sflash_attach
+ .text          0x0000000080025fa0      0xfa0 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(sto_flash.o)
+                0x0000000080026f14                sto_flash_sector_erase
+                0x0000000080026f08                sto_flash_disable_protect
+                0x0000000080026ee4                sto_flash_soft_protect
+                0x0000000080026d6c                sto_flash_sector_align
+                0x0000000080026dfc                sto_flash_sector_start
+                0x0000000080026e78                sto_fp_init
+                0x0000000080026c50                sto_flash_sector_size
+ .text          0x0000000080026f40       0x10 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(version.o)
+                0x0000000080026f40                get_core_ver
+ .text          0x0000000080026f50      0x8c0 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(lib_device_manage.o)
+                0x000000008002728c                dev_set_nim_config
+                0x000000008002707c                dev_select_nim
+                0x0000000080026f50                dev_select_nim_ext
+                0x000000008002719c                dev_get_nim_config
+                0x0000000080027484                dev_get_device_status
+                0x0000000080027634                dev_register_device
+                0x000000008002757c                dev_get_device_cnt
+                0x000000008002737c                dev_get_dmx_config
+ .text          0x0000000080027810      0x57c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(irc_6303.o)
+                0x0000000080027918                irc_m6303irc_close
+                0x0000000080027810                irc_m6303irc_init
+ .text          0x0000000080027d8c      0x17c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(irc_lab_std.o)
+                0x0000000080027da4                irc_LAB_pulse_to_code
+                0x0000000080027d8c                irc_LAB_mode_set
+ .text          0x0000000080027f08      0x514 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(irc_nec_std.o)
+                0x0000000080027f24                irc_NEC_pulse_to_code
+                0x000000008002810c                irc_RC6_pulse_to_code
+                0x00000000800280fc                irc_RC6_mode_set
+                0x0000000080027f08                irc_NEC_mode_set
+ *fill*         0x000000008002841c 0x6ed19800000004
+ .text          0x0000000080028420      0x9d0 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(tds_mips.o)
+                0x0000000080028be4                IRQ_DisableInterrupt
+                0x0000000080028d4c                t2os_setjmp
+                0x0000000080028920                FirstDispatch
+                0x0000000080028d84                t2os_longjmp
+                0x0000000080028d10                set_stack
+                0x0000000080028420                INT_General_Exception_Hdlr
+                0x0000000080028dc4                read_tsc
+                0x0000000080028c28                IRQ_EnableInterrupt
+                0x0000000080028cc8                fill_stack
+                0x0000000080028c70                SetupTaskStack
+                0x0000000080028a18                IntDispatch1
+                0x00000000800288f0                SysTimerInit
+ .text          0x0000000080028df0      0x11c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(hsr.o)
+                0x0000000080028eb4                OS_RegisterHSR
+                0x0000000080028e24                OS_CreateHSRTask
+                0x0000000080028df0                HSR_Proc_Main
+ .text          0x0000000080028f0c      0x518 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(Interrupt.o)
+                0x0000000080028f94                ISRCBAdd
+                0x00000000800293f0                OS_EnableInterrupt
+                0x00000000800292f4                irq_clear_ext_im
+                0x0000000080029320                irq_initialize
+                0x00000000800291a0                irq_set_im
+                0x00000000800292cc                irq_set_ext_im
+                0x0000000080028f64                ISRCBListWork
+                0x0000000080028f5c                ISRCBFree
+                0x0000000080029030                OS_DeleteISR
+                0x00000000800290f8                OS_RegisterISR
+                0x0000000080028f0c                ISRCBAlloc
+                0x0000000080029200                irq_clear_im
+                0x0000000080028fbc                ISRCBDel
+                0x00000000800293c8                OS_DisableInterrupt
+ .text          0x0000000080029424      0xcb4 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(mbuffer.o)
+                0x0000000080029944                OS_DelMessageBuffer
+                0x0000000080029e44                i_snd_hsr_mbf
+                0x0000000080029784                OS_CreateMsgBuffer
+                0x000000008002967c                cre_mbf
+                0x0000000080029bd4                OS_GetMsgTimeOut
+                0x0000000080029424                messagebuffer_initialize
+                0x0000000080029dbc                OS_PeekMessage
+                0x00000000800298a0                OS_ClearMsgBuffer
+                0x0000000080029b5c                OS_SendMessage
+                0x0000000080029d80                OS_GetMessage
+                0x0000000080029b98                OS_PostMessage
+                0x0000000080029fa4                i_rcv_hsr_mbf
+                0x0000000080029df8                OS_MBF_Empty
+                0x00000000800299f8                OS_SendMsgTimeOut
+ .text          0x000000008002a0d8       0xf8 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(queue.o)
+                0x000000008002a0e4                queue_insert_tpri
+                0x000000008002a0d8                queue_initialize
+                0x000000008002a130                queue_insert
+                0x000000008002a14c                queue_delete
+                0x000000008002a198                queue_empty_p
+ .text          0x000000008002a1d0      0x61c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(sched_mq.o)
+                0x000000008002a2a4                msbit
+                0x000000008002a1d0                setbit
+                0x000000008002a1f8                clrbit
+                0x000000008002a61c                get_top_pri
+                0x000000008002a680                dec_dsp_cnt
+                0x000000008002a248                ClrInternalPri
+                0x000000008002a434                increase_task_pri
+                0x000000008002a76c                OutDspState
+                0x000000008002a63c                bug_fix
+                0x000000008002a224                SetInternalPri
+                0x000000008002a364                modify_priority
+                0x000000008002a724                OS_DisableDispatch
+                0x000000008002a574                rdy_del
+                0x000000008002a26c                lsbit
+                0x000000008002a330                sched_init
+                0x000000008002a490                decrease_task_pri
+                0x000000008002a6a4                OS_EnableDispatch
+                0x000000008002a508                rdy_add
+ .text          0x000000008002a7ec      0x488 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(semapho.o)
+                0x000000008002a7ec                semaphore_initialize
+                0x000000008002a9f4                OS_DelSemaphore
+                0x000000008002a86c                cre_sem
+                0x000000008002aa78                OS_FreeSemaphore
+                0x000000008002ab54                OS_AcquireSemaphoreTimeOut
+                0x000000008002a914                OS_CreateSemaphore
+ .text          0x000000008002ac74      0x3fc /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(task.o)
+                0x000000008002afd0                OS_Exit
+                0x000000008002ac74                dly_tsk
+                0x000000008002af34                OS_GetCurrentThreadID
+                0x000000008002ae74                OS_CreateThread
+                0x000000008002acd0                del_tsk
+                0x000000008002afb0                OS_LeaveCriticalSection
+                0x000000008002ae34                OS_DeleteThread
+                0x000000008002af74                OS_EnterCriticalSection
+                0x000000008002ad90                i_start_thread
+ .text          0x000000008002b070      0x4fc /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(taskc.o)
+                0x000000008002b54c                task_end
+                0x000000008002b268                make_ready
+                0x000000008002b19c                i_cre_tsk
+                0x000000008002b404                chg_pri
+                0x000000008002b534                iden_tsk_thd
+                0x000000008002b2c0                make_wait
+                0x000000008002b374                wait_release_ok
+                0x000000008002b398                wait_delete
+                0x000000008002b338                wait_release
+                0x000000008002b4d4                look_thdid
+                0x000000008002b3e8                wait_tskid
+                0x000000008002b070                task_initialize
+ .text          0x000000008002b56c      0x2c8 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(tds.o)
+                0x000000008002b7e0                CreateMainTask
+                0x000000008002b6a8                _INIT
+                0x000000008002b574                sum_check
+                0x000000008002b7c4                TDS_Main
+ .text          0x000000008002b834      0x914 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(timeout.o)
+                0x000000008002bf30                OS_DeleteTimer
+                0x000000008002bac4                Tmo_Proc_Main
+                0x000000008002b8a8                set_timer
+                0x000000008002b84c                OS_Delay
+                0x000000008002bc54                CreateTmoThread
+                0x000000008002ba28                tmo_delete
+                0x000000008002bff4                OS_SetTimer
+                0x000000008002b834                OS_GetTime
+                0x000000008002bdc8                OS_CreateTimer
+                0x000000008002b840                OS_GetTickCount
+                0x000000008002c0b0                OS_ActivateTimer
+ .text          0x000000008002c148      0x480 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(timerc.o)
+                0x000000008002c2c0                inc_time_cnt
+                0x000000008002c4ac                timer_delete
+                0x000000008002c404                timer_insert_abs
+                0x000000008002c540                IntDispatch
+                0x000000008002c468                timer_insert_rel
+                0x000000008002c148                InitTimer
+                0x000000008002c188                update_systime
+                0x000000008002c574                cal_tmout
+ .text          0x000000008002c5c8      0x134 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(irq.o)
+                0x000000008002c5c8                ref_ie
+                0x000000008002c5d4                irq_handler
+ .text          0x000000008002c6fc      0x3f0 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(mutex.o)
+                0x000000008002c960                OS_LockMutex
+                0x000000008002c88c                OS_DeleteMutex
+                0x000000008002ca64                OS_UnlockMutex
+                0x000000008002c7c8                OS_CreateMutex
+                0x000000008002c6fc                mutex_initialize
+ .text          0x000000008002caec     0x195c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(decLogo.o)
+                0x000000008002d68d                vpoInitRegs
+                0x000000008002cb49                decSequenceHeader
+                0x000000008002cd15                decPictureHeader
+                0x000000008002cd19                decPictureCodingExt
+                0x000000008002caed                decGetNextStartCode
+                0x000000008002d145                vp_sub_zoom
+                0x000000008002e135                tvenc_set_dac
+                0x000000008002d005                decInitRegs
+                0x000000008002ce49                default_for_MPEG1
+                0x000000008002cd11                decGroupHeader
+                0x000000008002cfd9                decFindSliceHeader
+                0x000000008002e1d1                decLogo
+                0x000000008002cecd                decParseHeader
+                0x000000008002e39d                declogo_attach_min
+                0x000000008002e415                vpoInitGlobalValue
+ .text          0x000000008002e448      0x1c4 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(osd_m33_init_mini.o)
+                0x000000008002e449                osd_m33_attach_mini
+                0x000000008002e5f5                osd_m3327c_enable_16M
+ .text          0x000000008002e60c     0x1a54 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(osd_m33_mini.o)
+                0x000000008002f849                osd_m3327c_create_region
+                0x000000008002f6b5                osd_m3327c_get_para
+                0x0000000080030039                osd_m3327c_init_config
+                0x000000008002f5f1                osd_m3327c_ioctl
+                0x000000008003000d                osd_m3327c_scale
+                0x000000008002e749                osd_hal_VFilter
+                0x000000008002ffe5                osd_m3327c_region_write2
+                0x000000008002e60d                osd_hal_SetMask
+                0x000000008002f579                osd_m3327c_close
+                0x000000008002f7c9                osd_m3327c_modify_pallette
+                0x000000008002f721                osd_m3327c_set_pallette_mini
+                0x0000000080030005                osd_m3327c_region_showonoff
+                0x000000008002e769                osd_hal_Pos
+                0x000000008002e70d                osd_hal_SetPalette
+                0x000000008002f7c1                osd_m3327c_get_pallette
+                0x0000000080030015                osd_m3327c_detach
+                0x0000000080030059                osd_m3327c_get_region_addr
+                0x000000008002fa99                osd_m3327c_region_fill
+                0x000000008002f6e5                osd_m3327c_show_onoff
+                0x000000008002fe01                osd_m3327c_region_read
+                0x000000008002fff5                osd_m3327c_clear_clip
+                0x000000008002e635                osd_hal_ClearMask
+                0x000000008002fc05                osd_m3327c_region_write
+                0x000000008002f185                rect_set
+                0x000000008002e6ed                osd_hal_BaseAddr
+                0x000000008002f49d                osd_m3327c_open
+                0x000000008002e65d                osd_hal_OnOff
+                0x000000008002e7dd                osd_hal_VFilterOnOff
+                0x000000008002fffd                osd_m3327c_draw_hor_line
+                0x000000008002ffed                osd_m3327c_set_clip
+                0x000000008002fa61                osd_m3327c_set_region_pos
+                0x000000008002fa69                osd_m3327c_get_region_pos
+                0x000000008002f9f5                osd_m3327c_delete_region
+ .text          0x0000000080030060       0x8c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(cache.o)
+                0x000000008003008c                osal_tds2_cache_flush
+                0x0000000080030060                osal_tds2_cache_flush_all
+                0x00000000800300bc                osal_tds2_cache_invalidate
+ *fill*         0x00000000800300ec 0x6ed19800000004
+ .text          0x00000000800300f0      0x290 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(sched.o)
+                0x00000000800301d0                sched
+                0x0000000080030230                timer_irq
+                0x00000000800300f0                OS_TaskDispatch
+ .text          0x0000000080030380      0x578 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(flag.o)
+                0x0000000080030744                OS_WaitFlagTimeOut
+                0x000000008003040c                OS_CreateFlag
+                0x00000000800304d8                OS_DelFlag
+                0x00000000800306a4                OS_ClearFlag
+                0x0000000080030570                OS_SetFlag
+                0x0000000080030380                eventflag_initialize
+ .text          0x00000000800308f8       0x70 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(mempool.o)
+                0x000000008003094c                OS_MemAlloc
+                0x00000000800308f8                i_pget_blk
+                0x000000008003092c                i_rel_blk
+ .text          0x0000000080030968      0xc0c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(power_down_detect.o)
+                0x00000000800312ac                pdd_polling
+                0x0000000080031248                pdd_register_dev
+                0x0000000080030b60                pdd_init
+                0x0000000080030a50                pdd_palert_lsr
+                0x0000000080030968                pdd_pok_lsr
+ .text          0x0000000080031574      0x170 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(tsi_m3202.o)
+                0x0000000080031574                tsi_m3202_mode_set
+                0x0000000080031658                tsi_m3202_select
+ .text          0x00000000800316e4     0x1d74 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_api.o)
+                0x00000000800326a8                dmx_m33_pause
+                0x0000000080032f70                dmx_m33_dev_detach
+                0x0000000080031b8c                dmx_m33_open_ext
+                0x0000000080031968                AvSyncIsVideoPtsReliable
+                0x0000000080031a54                AvSyncAudioCtrlCallback
+                0x00000000800326bc                DmxApiShow
+                0x0000000080032320                dmx_m33_close
+                0x00000000800316e4                AvSyncTimeLinesUpdate
+                0x0000000080031848                AvSyncGetReliableStreamClk
+                0x0000000080031b5c                AvSyncPcrCtrlCallback
+                0x00000000800325e4                dmx_m33_stop
+                0x0000000080032530                dmx_m33_start
+                0x0000000080031b68                dmx_8m_segment_check
+                0x0000000080032d5c                dmx_m33_api_ioctl
+                0x0000000080032f78                dmx_m33_dev_attach
+                0x000000008003190c                AvSyncReset
+ .text          0x0000000080033458      0xfa0 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_dbg.o)
+                0x00000000800343a4                dmx_m33_dbg_disable
+                0x00000000800335ac                DmxAvSyncShow
+                0x0000000080034398                dmx_m33_set_debug_level
+                0x000000008003374c                DmxShowHwRegValue
+                0x0000000080033928                DmxShowTsStatistics
+                0x0000000080033824                DmxShowGlobalStatistics
+                0x0000000080033f1c                dmx_m33_get_flt_err_code
+                0x000000008003430c                dmx_m33_dbg_enable
+                0x00000000800340bc                dmx_m33_debug_task
+                0x000000008003438c                dmx_m33_debug_set_interval
+                0x00000000800343e4                dmx_m33_set_debug_show_function
+                0x0000000080033458                DmxDumpOutputData
+                0x0000000080033600                DmxShowHwPidMaskValue
+                0x0000000080033a3c                DmxShowChStatistics
+ .text          0x00000000800343f8     0x3b7c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_pes.o)
+                0x0000000080034e34                dmx_m33_pes_locate_payload
+                0x00000000800343f8                DmxEsBufReturn
+                0x0000000080034524                dmx_m33_dbg_pes_ctrl_print
+                0x0000000080036cd8                dmx_m33_pes_ioctl
+                0x0000000080034468                DmxSetAvSyncMode
+                0x00000000800363c4                dmx_m33_parse_pes
+                0x0000000080036b14                dmx_m33_unregister_service
+                0x0000000080037ea4                dmx_m33_pes_enable
+                0x0000000080034568                dmx_m33_is_av_scrambled
+                0x0000000080034dac                dmx_m33_reset_pes_param
+                0x00000000800344c4                dmx_m33_dbg_pes_data_print
+                0x0000000080034be8                dmx_m33_is_av_source_scrambled
+                0x0000000080035838                dmx_m33_parse_pes_header
+                0x0000000080034f48                dmx_m33_copy_es_data
+                0x00000000800347d8                dmx_m33_is_av_scrambled_ext
+                0x0000000080034d1c                dmx_m33_stream_type
+                0x00000000800368ec                dmx_m33_register_service
+ .text          0x0000000080037f74     0x101c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_reg.o)
+                0x00000000800386a0                dmx_m33_set_ram
+                0x0000000080038d7c                dmx_m33_get_read
+                0x0000000080038e20                dmx_m33_get_write
+                0x0000000080037f74                dmx_m33_is_dma_running
+                0x0000000080038520                dmx_m33_bypass_all
+                0x0000000080038580                dmx_m33_en_filter
+                0x00000000800384a8                dmx_m33_en_dcw
+                0x000000008003846c                dmx_m33_en_dmx
+                0x000000008003855c                dmx_m33_err_polar
+                0x0000000080038dcc                dmx_m33_set_read
+                0x00000000800388a0                dmx_m33_get_dcw
+                0x0000000080038d2c                dmx_m33_set_united_buff
+                0x00000000800388b8                dmx_m33_set_divided_buff
+                0x0000000080038610                dmx_m33_en_des
+                0x0000000080038090                dmx_m33_reset_all
+                0x0000000080038880                dmx_m33_set_dcw
+                0x0000000080038f00                dmx_m33_en_overlap
+                0x0000000080038448                dmx_m33_set_sync
+                0x0000000080038794                dmx_m33_get_ram
+                0x0000000080038e70                dmx_m33_en_threshold
+                0x00000000800384e4                dmx_m33_bypass_des
+ .text          0x0000000080038f90     0x1d04 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_sec.o)
+                0x0000000080038f90                dmx_m33_build_multi_hit_linklist
+                0x0000000080039410                dmx_m33_sec_hit
+                0x000000008003aaec                dmx_m33_sec_ioctl
+                0x00000000800397e0                dmx_m33_parse_sec
+                0x000000008003a6d0                dmx_m33_async_get_section
+                0x000000008003a874                dmx_m33_async_poll
+                0x00000000800396d0                dmx_m33_sec_locate_payload
+                0x0000000080039270                dmx_m33_reset_sec_param
+                0x000000008003abec                dmx_m33_sec_enable
+                0x000000008003a3f8                dmx_m33_get_section
+                0x000000008003a8dc                dmx_m33_async_close
+                0x000000008003aa60                dmx_m33_async_abort
+                0x00000000800397d4                DmxShowSecBuf
+                0x0000000080039364                dmx_m33_return_filter
+                0x00000000800392a0                dmx_m33_req_filter
+ .text          0x000000008003ac94      0xa88 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_stc.o)
+                0x000000008003ad28                dmx_m33_pcr_reliable
+                0x000000008003ac94                dmx_m33_compare
+                0x000000008003af48                dmx_m33_adjust_stc
+                0x000000008003b3ac                dmx_m33_select_pcr_channel
+                0x000000008003b4e8                dmx_check_actual_pcr_ch
+ *fill*         0x000000008003b71c 0x6ed19800000004
+ .text          0x000000008003b720       0x20 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(mips_suspend.o)
+                0x000000008003b720                cpu_suspend
+ .text          0x000000008003b740     0x205c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33.o)
+                0x000000008003d15c                dmx_m33_switch_uni_buf
+                0x000000008003c1fc                dmx_m33_rec_all_ts
+                0x000000008003cc00                dmx_m33_overflow_event
+                0x000000008003d164                dmx_m33_switch_dvi_buf
+                0x000000008003c338                dmx_m33_parse_task
+                0x000000008003cac0                dmx_m33_overlap_event
+                0x000000008003bbe8                dmx_m33_en_channel
+                0x000000008003ca9c                dmx_m33_threshold_event
+                0x000000008003ba28                dmx_m33_set_pid
+                0x000000008003c16c                dmx_m33_check_conti_cnt
+                0x000000008003b740                dmx_m33_dbg_ts_data_print
+                0x000000008003cc48                dmx_m33_interrupt
+                0x000000008003cdc8                dmx_m33_init_register
+                0x000000008003d16c                dmx_m33_ioctl
+ .text          0x000000008003d79c      0xafc /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libmlzo.a(slzo.o)
+                0x000000008003dc38                lzo1x_decompress_safe
+                0x000000008003d79c                lzo1x_decompress
+                0x000000008003e260                unlzo
+ .text          0x000000008003e298      0xc48 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/lib7zip.a(LzmaDecode.o)
+                0x000000008003e2c4                RangeDecoderInit
+                0x000000008003e338                RangeDecoderDecodeDirectBits
+                0x000000008003e504                RangeDecoderBitTreeDecode
+                0x000000008003e750                LzmaLiteralDecode
+                0x000000008003e3ec                RangeDecoderBitDecode
+                0x000000008003e620                RangeDecoderReverseBitTreeDecode
+                0x000000008003ea30                LzmaLenDecode
+                0x000000008003ead4                LzmaDecode
+                0x000000008003e298                RangeDecoderReadByte
+                0x000000008003e848                LzmaLiteralDecodeMatch
+ .text          0x000000008003eee0      0x594 /cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/lib/gcc-lib/mips-t2-elf/3.0.4/soft-float/el/libgcc.a(_udivdi3.o)
+                0x000000008003eee0                __udivdi3
+ .text          0x000000008003f474      0x518 /cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/lib/gcc-lib/mips-t2-elf/3.0.4/soft-float/el/libgcc.a(_umoddi3.o)
+                0x000000008003f474                __umoddi3
+ .text          0x000000008003f98c      0x44c /cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/lib/gcc-lib/mips-t2-elf/3.0.4/soft-float/el/libgcc.a(_addsub_df.o)
+                0x000000008003fd64                dpsub
+                0x000000008003fcfc                dpadd
+ .text          0x000000008003fdd8      0x394 /cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/lib/gcc-lib/mips-t2-elf/3.0.4/soft-float/el/libgcc.a(_mul_df.o)
+                0x000000008003fdd8                dpmul
+ .text          0x000000008004016c      0x22c /cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/lib/gcc-lib/mips-t2-elf/3.0.4/soft-float/el/libgcc.a(_div_df.o)
+                0x000000008004016c                dpdiv
+ .text          0x0000000080040398       0xd4 /cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/lib/gcc-lib/mips-t2-elf/3.0.4/soft-float/el/libgcc.a(_si_to_df.o)
+                0x0000000080040398                litodp
+ .text          0x000000008004046c       0xf4 /cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/lib/gcc-lib/mips-t2-elf/3.0.4/soft-float/el/libgcc.a(_df_to_si.o)
+                0x000000008004046c                dptoli
+ .text          0x0000000080040560      0x114 /cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/lib/gcc-lib/mips-t2-elf/3.0.4/soft-float/el/libgcc.a(_df_to_usi.o)
+                0x0000000080040560                dptoul
+ .text          0x0000000080040674      0x278 /cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/lib/gcc-lib/mips-t2-elf/3.0.4/soft-float/el/libgcc.a(_pack_df.o)
+                0x0000000080040674                __pack_d
+ .text          0x00000000800408ec      0x130 /cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/lib/gcc-lib/mips-t2-elf/3.0.4/soft-float/el/libgcc.a(_unpack_df.o)
+                0x00000000800408ec                __unpack_d
+ .text          0x0000000080040a1c       0x18 /cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/mips-t2-elf/lib/soft-float/el/libc.a(isdigit.o)
+                0x0000000080040a1c                isdigit
+ .text          0x0000000080040a34       0x18 /cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/mips-t2-elf/lib/soft-float/el/libc.a(isspace.o)
+                0x0000000080040a34                isspace
+ .text          0x0000000080040a4c      0x214 /cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/mips-t2-elf/lib/soft-float/el/libc.a(strtol.o)
+                0x0000000080040c2c                strtol
+                0x0000000080040a4c                _strtol_r
+ .text          0x0000000080040c60      0x1ec /cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/mips-t2-elf/lib/soft-float/el/libc.a(strtoul.o)
+                0x0000000080040e18                strtoul
+                0x0000000080040c60                _strtoul_r
+ *(.text.*)
+ *(.gnu.linkonce.t*)
+ *(.mips16.fn.*)
+ *(.mips16.call.*)
+                0x0000000080040e4c                PROVIDE (__runtime_reloc_start, .)
+ *(.rel.sdata)
+                0x0000000080040e4c                PROVIDE (__runtime_reloc_stop, .)
+ *(.fini)
+ *(.reuse)
+                0x0000000080040e50                . =  ALIGN (0x10)
+ *fill*         0x0000000080040e4c 0x6ed19800000004
+                0x0000000080040e50                __RODATA_RAM_ADDR = (__TEXT_RAM_ADDR +  SIZEOF (.text))
+                0x0000000080040e50                __RODATA_ROM_ADDR = (__TEXT_ROM_ADDR +  SIZEOF (.text))
+
+.rodata         0x0000000080040e50     0x3814 load address 0x0000000080040e50
+ *(.rdata)
+ *(.rodata)
+ .rodata        0x0000000080040e50       0x2c ../copper_common/stb_data.o
+ .rodata        0x0000000080040e7c      0x538 boot_osd_rsc.o
+                0x00000000800411e4                S_Chinese_strs_array
+                0x0000000080040e7c                English_strs_array
+ .rodata        0x00000000800413b4      0x140 key.o
+                0x00000000800413b4                ali00_itou_key_tab
+                0x0000000080041434                ali01_itou_key_tab
+                0x00000000800414b4                panel_itou_key_tab
+ *fill*         0x00000000800414f4 0x6ed46800000004
+ .rodata        0x00000000800414f8      0x418 upgloader.o
+                0x00000000800414f8                palette_1
+ .rodata        0x0000000080041910        0xc upg_common.o
+ *fill*         0x000000008004191c 0x6ed46800000004
+ .rodata        0x0000000080041920       0x38 board_config.o
+ .rodata        0x0000000080041958       0x78 ../../../../../../sdk/boot.o
+ .rodata        0x00000000800419d0       0x1c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(i2c_scb.o)
+ *fill*         0x00000000800419ec 0x6ed46800000004
+ .rodata        0x00000000800419f0       0x38 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(sci_16550uart.o)
+ .rodata        0x0000000080041a28        0xc /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(lib_upg4_com.o)
+ .rodata        0x0000000080041a34        0xc /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(upg_ota_api.o)
+ .rodata        0x0000000080041a40      0x210 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(printf.o)
+ .rodata        0x0000000080041c50       0xa0 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(string.o)
+ .rodata        0x0000000080041cf0       0x50 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(lib_dbc.o)
+ .rodata        0x0000000080041d40       0x8c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(stb_info_data.o)
+ *fill*         0x0000000080041dcc 0x6ed46800000004
+ .rodata        0x0000000080041dd0      0x180 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(nim_s3202.o)
+ .rodata        0x0000000080041f50       0x28 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(sto_flash.o)
+ .rodata        0x0000000080041f78      0x108 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(flash_data.o)
+                0x0000000080041f84                tflash_sectors
+                0x0000000080041ff8                flash_sector_map
+                0x0000000080041fd0                flash_sector_begin
+                0x0000000080041f78                tflash_cmdaddr
+ .rodata        0x0000000080042080       0x68 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(flash_data_s.o)
+                0x00000000800420c4                sflash_id
+                0x0000000080042080                sflash_deviceid
+ .rodata        0x00000000800420e8       0x40 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(sched_mq.o)
+ .rodata        0x0000000080042128     0x15f0 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_api.o)
+ .rodata        0x0000000080043718      0x4f4 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_dbg.o)
+ *fill*         0x0000000080043c0c 0x6ed46800000004
+ .rodata        0x0000000080043c10      0x730 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_pes.o)
+ .rodata        0x0000000080044340       0x28 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_reg.o)
+ .rodata        0x0000000080044368       0x78 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_sec.o)
+ .rodata        0x00000000800443e0       0x14 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_stc.o)
+ .rodata        0x00000000800443f4       0x44 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33.o)
+ .rodata        0x0000000080044438      0x100 /cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/lib/gcc-lib/mips-t2-elf/3.0.4/soft-float/el/libgcc.a(_clz.o)
+                0x0000000080044438                __clz_tab
+ .rodata        0x0000000080044538       0x18 /cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/lib/gcc-lib/mips-t2-elf/3.0.4/soft-float/el/libgcc.a(_thenan_df.o)
+                0x0000000080044538                __thenan_df
+ .rodata        0x0000000080044550      0x104 /cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/mips-t2-elf/lib/soft-float/el/libc.a(ctype_.o)
+                0x0000000080044550                _ctype_
+ *(.rodata.*)
+ *(.gnu.linkonce.r*)
+ *(.flash)
+ .flash         0x0000000080044654       0x10 boot_osd_rsc.o
+                0x0000000080044654                g_LangRscMapTable
+                0x0000000080044664                . =  ALIGN (0x4)
+                0x0000000080044664                __DATA_RAM_ADDR = (__RODATA_RAM_ADDR +  SIZEOF (.rodata))
+                0x0000000080044664                __DATA_ROM_ADDR = (__RODATA_ROM_ADDR +  SIZEOF (.rodata))
+
+.data           0x0000000080044664     0x435c load address 0x0000000080044664
+ *(.data)
+ .data          0x0000000080044664     0x38c4 boot_osd_rsc.o
+                0x0000000080044664                font_bak
+ .data          0x0000000080047f28       0x54 key.o
+                0x0000000080047f28                ir_key_maps
+ .data          0x0000000080047f7c       0x70 boot_ota_input.o
+                0x0000000080047f9c                input_ids
+                0x0000000080047fa8                modulation_strs
+                0x0000000080047fbc                input_range
+                0x0000000080047f7c                id_navi
+ .data          0x0000000080047fec        0xc upgloader.o
+ .data          0x0000000080047ff8        0xc upg_menu.o
+                0x0000000080047ff8                upg_menu_navi
+ .data          0x0000000080048004       0x18 board_config.o
+                0x0000000080048010                pan_config
+ .data          0x000000008004801c       0x50 ../../../../../../sdk/boot.o
+                0x0000000080048064                product_feature
+ .data          0x000000008004806c        0xc /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(dog_m33.o)
+ .data          0x0000000080048078       0x10 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(i2c_gpio.o)
+ .data          0x0000000080048088       0x10 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(i2c_scb.o)
+ .data          0x0000000080048098       0x18 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(sci_16550uart.o)
+ .data          0x00000000800480b0        0xc /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(lib_frontend.o)
+ .data          0x00000000800480bc        0xc /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(upg_ota_api.o)
+ .data          0x00000000800480c8       0x48 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(string.o)
+ .data          0x0000000080048110       0x10 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(nim_s3202.o)
+ .data          0x0000000080048120       0xd4 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(pan_tp6x0.o)
+ .data          0x00000000800481f4       0x10 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(flash_sl.o)
+ .data          0x0000000080048204       0x6c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(version.o)
+                0x0000000080048204                libcore_banner
+ .data          0x0000000080048270      0x1e0 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(Interrupt.o)
+                0x0000000080048270                ISR_Table
+ .data          0x0000000080048450      0x180 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(decLogo.o)
+ .data          0x00000000800485d0       0x3c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(osd_m33_init_mini.o)
+ .data          0x000000008004860c       0x3c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(osd_m33_mini.o)
+ .data          0x0000000080048648       0x18 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_api.o)
+ .data          0x0000000080048660       0x3c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_dbg.o)
+                0x0000000080048660                g_DmxDbgCtrl
+ .data          0x000000008004869c        0xc /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_pes.o)
+ .data          0x00000000800486a8        0xc /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_sec.o)
+ .data          0x00000000800486b4        0xc /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_stc.o)
+ .data          0x00000000800486c0        0xc /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33.o)
+ *fill*         0x00000000800486cc 0x6ed9e000000004
+ .data          0x00000000800486d0      0x2f0 /cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/mips-t2-elf/lib/soft-float/el/libc.a(impure.o)
+ *(.data.*)
+ *(.gnu.linkonce.d*)
+ *(.rel.dyn)
+                0x00000000800489c0                . =  ALIGN (0x4)
+                0x00000000800509c0                _gp = (. + 0x8000)
+                0x00000000800509c0                __global = _gp
+
+.lit8
+ *(.lit8)
+
+.lit4
+ *(.lit4)
+                0x00000000800489c0                __INIT_RAM_ADDR = (__DATA_RAM_ADDR +  SIZEOF (.data))
+                0x00000000800489c0                __INIT_ROM_ADDR = (__DATA_ROM_ADDR +  SIZEOF (.data))
+
+.structure.init
+                0x00000000800489c0        0x0 load address 0x00000000800489c0
+                0x00000000800489c0                _fs_init_struct_start = .
+ *(.fs.init)
+                0x00000000800489c0                _fs_init_struct_end = .
+                0x00000000800489c0                . =  ALIGN (0x4)
+                0x00000000800489c0                __SDATA_RAM_ADDR = (__INIT_RAM_ADDR +  SIZEOF (.structure.init))
+                0x00000000800489c0                __SDATA_ROM_ADDR = (__INIT_ROM_ADDR +  SIZEOF (.structure.init))
+
+.sdata          0x00000000800489c0      0x4e0 load address 0x00000000800489c0
+ *(.sdata)
+ .sdata         0x00000000800489c0       0x24 ../copper_common/stb_data.o
+                0x00000000800489c0                _board_vdac_config
+ .sdata         0x00000000800489e4        0x4 ../copper_common/stb_hwinfo.o
+                0x00000000800489e4                g_stb_hwinfo
+ .sdata         0x00000000800489e8       0x30 boot_osd_rsc.o
+                0x00000000800489f0                font_table
+                0x00000000800489f4                font_array_size
+                0x00000000800489e8                strings_infor
+ .sdata         0x0000000080048a18        0x1 key.o
+ *fill*         0x0000000080048a19 0x6ee21800000003
+ .sdata         0x0000000080048a1c       0x38 boot_ota_input.o
+ .sdata         0x0000000080048a54       0x48 upgloader.o
+                0x0000000080048a6c                osd_dev
+                0x0000000080048a5c                g_sto_dev
+                0x0000000080048a74                g_vpo_dev
+                0x0000000080048a70                g_decv_dev
+                0x0000000080048a58                g_pan_dev
+                0x0000000080048a78                g_ge_dev
+                0x0000000080048a60                nim_dev
+                0x0000000080048a64                dmx_dev
+                0x0000000080048a68                scart_dev
+                0x0000000080048a7c                pre_tv_mode
+                0x0000000080048a80                g_resouce_err
+ .sdata         0x0000000080048a9c       0x28 upg_common.o
+                0x0000000080048a9c                g_upg_preburn_flag
+                0x0000000080048aa0                upg_stauts
+ .sdata         0x0000000080048ac4       0x2c upg_ota.o
+ .sdata         0x0000000080048af0       0x1c upg_menu.o
+                0x0000000080048af0                upg_menu_ids
+ .sdata         0x0000000080048b0c       0x14 board_config.o
+                0x0000000080048b0c                g_blogo_format
+ .sdata         0x0000000080048b20        0x4 ../../../../../../sdk/boot.o
+                0x0000000080048b20                RAMSIZE
+ .sdata         0x0000000080048b24        0x4 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(dog_m33.o)
+ .sdata         0x0000000080048b28        0x4 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(i2c_gpio.o)
+ .sdata         0x0000000080048b2c       0x14 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(i2c_scb.o)
+                0x0000000080048b30                g_scb_sys_chip_ver
+                0x0000000080048b2c                g_scb_sys_chip_id
+ .sdata         0x0000000080048b40        0x4 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(sci_16550uart.o)
+ .sdata         0x0000000080048b44        0x4 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(hld_dev.o)
+ .sdata         0x0000000080048b48        0x3 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(pan.o)
+ *fill*         0x0000000080048b4b 0x6ee21800000001
+ .sdata         0x0000000080048b4c        0x4 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(sto.o)
+                0x0000000080048b4c                sto_mutex_id
+ .sdata         0x0000000080048b50        0xc /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(lib_frontend.o)
+                0x0000000080048b54                nim_tsiid
+                0x0000000080048b50                l_cc_sema_id
+ .sdata         0x0000000080048b5c       0x3c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(lib_upg4_com.o)
+                0x0000000080048b6c                g_upg_pan_dev
+                0x0000000080048b74                g_stbinfo_id
+                0x0000000080048b68                g_upg_flash_dev
+                0x0000000080048b70                g_bootloader_id
+                0x0000000080048b78                _really_upgrade_bootloader
+ .sdata         0x0000000080048b98        0x1 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(upg_ota_api.o)
+                0x0000000080048b98                g_ota_ctrl_flag
+ *fill*         0x0000000080048b99 0x6ee21800000003
+ .sdata         0x0000000080048b9c        0x8 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(alloc.o)
+                0x0000000080048ba0                __morecore
+                0x0000000080048b9c                __malloc_initialized
+ .sdata         0x0000000080048ba4       0x18 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(printf.o)
+ .sdata         0x0000000080048bbc        0x8 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(string.o)
+ .sdata         0x0000000080048bc4        0x1 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(ld_osd_common_draw.o)
+ *fill*         0x0000000080048bc5 0x6ee21800000003
+ .sdata         0x0000000080048bc8       0x18 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(chunk.o)
+ .sdata         0x0000000080048be0       0x10 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(chunk_sto.o)
+ .sdata         0x0000000080048bf0       0x14 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(stb_info.o)
+ .sdata         0x0000000080048c04        0xc /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(stb_info_data.o)
+                0x0000000080048c04                g_stb_data
+                0x0000000080048c08                _stb_data_len
+ .sdata         0x0000000080048c10       0x68 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(nim_s3202.o)
+ .sdata         0x0000000080048c78        0xc /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(tun_alpstdae.o)
+ .sdata         0x0000000080048c84        0xc /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(tun_dct70701.o)
+ .sdata         0x0000000080048c90        0x2 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(pan_tp6x0.o)
+ *fill*         0x0000000080048c92 0x6ee21800000002
+ .sdata         0x0000000080048c94       0x18 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(flash_raw_sl_c.o)
+                0x0000000080048c94                sflash_reg_addr
+                0x0000000080048c9c                sflash_devid
+                0x0000000080048c98                SFLASH_IDENTIFY_MODE
+ .sdata         0x0000000080048cac       0x10 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(sto_flash.o)
+                0x0000000080048cac                m_EnableSoftProtection
+                0x0000000080048cb0                unpro_addr_low
+                0x0000000080048cb4                unpro_addr_up
+                0x0000000080048cb8                remote_flash_read_tmo
+ .sdata         0x0000000080048cbc        0x2 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(lib_device_manage.o)
+                0x0000000080048cbc                dev_manag_sema_id
+ *fill*         0x0000000080048cbe 0x6ee21800000002
+ .sdata         0x0000000080048cc0       0x18 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(irc_6303.o)
+                0x0000000080048ccc                key_cnt
+ .sdata         0x0000000080048cd8        0x1 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(flash_data.o)
+                0x0000000080048cd8                flash_cmdaddr_num
+ *fill*         0x0000000080048cd9 0x6ee21800000001
+ .sdata         0x0000000080048cda        0x2 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(flash_data_s.o)
+                0x0000000080048cda                sflash_deviceid_num
+ .sdata         0x0000000080048cdc       0x18 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(irc_lab_std.o)
+ .sdata         0x0000000080048cf4       0x18 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(irc_nec_std.o)
+ .sdata         0x0000000080048d0c        0x4 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(hsr.o)
+                0x0000000080048d0e                g_HSR_Thread
+                0x0000000080048d0c                g_HSR_Buffer
+ .sdata         0x0000000080048d10        0x4 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(Interrupt.o)
+ .sdata         0x0000000080048d14        0x4 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(mbuffer.o)
+ .sdata         0x0000000080048d18        0x4 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(sched_mq.o)
+ .sdata         0x0000000080048d1c        0x8 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(semapho.o)
+                0x0000000080048d20                sem_total_num
+ .sdata         0x0000000080048d24        0x8 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(task.o)
+                0x0000000080048d28                g_Top_Pri
+                0x0000000080048d24                g_bDispatch
+                0x0000000080048d2a                g_CriticalSectionID
+ .sdata         0x0000000080048d2c        0x8 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(taskc.o)
+                0x0000000080048d30                task_total_num
+                0x0000000080048d2c                g_tcb_table
+ .sdata         0x0000000080048d34        0x8 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(tds.o)
+                0x0000000080048d34                g_TaskID_Idle
+                0x0000000080048d38                g_cIntMask
+ .sdata         0x0000000080048d3c        0x4 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(timeout.o)
+                0x0000000080048d3c                g_tmo_thd
+ .sdata         0x0000000080048d40       0x1c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(timerc.o)
+                0x0000000080048d40                _b_inside_interrupt
+                0x0000000080048d48                tmo_interval
+ .sdata         0x0000000080048d5c       0x10 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(mutex.o)
+                0x0000000080048d68                mutex_total_num
+                0x0000000080048d64                mutex_array_num
+                0x0000000080048d60                mutex_flg_id
+                0x0000000080048d5c                mutex_array
+ .sdata         0x0000000080048d6c       0x1c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(decLogo.o)
+                0x0000000080048d80                g_vdec_m33_reg_baseaddr
+ .sdata         0x0000000080048d88        0x4 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(osd_m33_init_mini.o)
+ .sdata         0x0000000080048d8c       0x14 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(osd_m33_mini.o)
+                0x0000000080048d8c                g_osd_m3202c_enable
+ .sdata         0x0000000080048da0        0x8 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(flag.o)
+                0x0000000080048da4                flg_total_num
+ .sdata         0x0000000080048da8       0x14 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(power_down_detect.o)
+                0x0000000080048db8                palert_msk_bit
+                0x0000000080048dac                io_status_reg
+                0x0000000080048db0                int_status_reg
+                0x0000000080048db4                pok_msk_bit
+                0x0000000080048da8                support_pdd
+ .sdata         0x0000000080048dbc        0x4 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(tsi_m3202.o)
+ .sdata         0x0000000080048dc0       0x2c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_api.o)
+                0x0000000080048dd4                LastStc
+                0x0000000080048dd0                g_snd_dmx_ref
+                0x0000000080048dcc                g_deca_dmx_ref
+                0x0000000080048dd8                LastTick
+                0x0000000080048dc2                dmx_xfer_v_es_by_dma
+                0x0000000080048ddc                LastReliableStreamClk
+                0x0000000080048dc4                almost_equal_thld
+                0x0000000080048dc0                dvr_supported
+                0x0000000080048dc1                pip_supported
+                0x0000000080048dc3                dmx_xfer_v_es_by_dma_tmp
+                0x0000000080048dc8                dmx_sec_ch_start
+ .sdata         0x0000000080048dec       0x1c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_dbg.o)
+                0x0000000080048df4                g_dmx_m33_debug_task_id
+                0x0000000080048df8                g_dmx_m33_debug_level
+                0x0000000080048dec                dmx_m33_dbg_show
+                0x0000000080048df0                g_dmx_m33_debug_task_show_info_interval
+ .sdata         0x0000000080048e08       0x80 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_pes.o)
+                0x0000000080048e10                g_dmx_dbg_pes_last_conti
+                0x0000000080048e1c                g_dmx_dbg_pes_ts_in_cnt
+                0x0000000080048e18                g_dmx_dbg_pes_ctrl_en
+                0x0000000080048e0e                CurAvSynLevel
+                0x0000000080048e0d                prev_av_sync_level
+                0x0000000080048e0c                adjust_av_sync
+                0x0000000080048e08                pts_highest_thld_dmx
+                0x0000000080048e14                g_dmx_dbg_pes_data_pid
+ .sdata         0x0000000080048e88       0x10 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33.o)
+ .sdata         0x0000000080048e98        0x8 /cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/mips-t2-elf/lib/soft-float/el/libc.a(impure.o)
+                0x0000000080048e9c                _impure_ptr
+ *(.sdata.*)
+ *(.gnu.linkonce.s*)
+                0x0000000080048ea0                . =  ALIGN (0x4)
+                0x0000000080048ea0                _edata = (__SDATA_ROM_ADDR +  SIZEOF (.sdata))
+                0x0000000080048ea0                __SBSS_RAM_ADDR = (__SDATA_RAM_ADDR +  SIZEOF (.sdata))
+
+.sbss           0x0000000080048ea0      0x214 load address 0x0000000080048ea0
+ *(.sbss)
+ .sbss          0x0000000080048ea0        0x8 ../copper_common/stb_data.o
+ .sbss          0x0000000080048ea8        0x4 boot_osd_rsc.o
+ .sbss          0x0000000080048eac        0x4 key.o
+ .sbss          0x0000000080048eb0        0x4 boot_ota_input.o
+ .sbss          0x0000000080048eb4        0x4 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(i2c_scb.o)
+ .sbss          0x0000000080048eb8        0x8 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(pan.o)
+ .sbss          0x0000000080048ec0        0x8 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(upg_ota_api.o)
+ .sbss          0x0000000080048ec8        0x4 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(alloc.o)
+ .sbss          0x0000000080048ecc        0x4 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(string.o)
+ .sbss          0x0000000080048ed0        0x4 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(ld_osd_common_draw.o)
+ .sbss          0x0000000080048ed4        0xc /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(chunk.o)
+ .sbss          0x0000000080048ee0       0x10 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(nim_s3202.o)
+ .sbss          0x0000000080048ef0        0x4 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(tun_alpstdae.o)
+ .sbss          0x0000000080048ef4        0x4 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(tun_dct70701.o)
+ .sbss          0x0000000080048ef8        0x3 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(pan_tp6x0.o)
+ *fill*         0x0000000080048efb 0x6ee6c800000001
+ .sbss          0x0000000080048efc        0xc /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(irc_6303.o)
+ .sbss          0x0000000080048f08       0x14 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(irc_lab_std.o)
+ .sbss          0x0000000080048f1c       0x24 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(irc_nec_std.o)
+ .sbss          0x0000000080048f40       0x10 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(decLogo.o)
+ .sbss          0x0000000080048f50       0x10 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(osd_m33_mini.o)
+ *(.scommon)
+ .scommon       0x0000000080048f60        0xc boot_osd_rsc.o
+                                          0x0 (size before relaxing)
+                0x0000000080048f60                cur_font
+                0x0000000080048f64                font_asc
+                0x0000000080048f68                font_chn
+ *fill*         0x0000000080048f6c 0x6ee6c800000004
+ .scommon       0x0000000080048f70        0xc key.o
+                                          0x0 (size before relaxing)
+                0x0000000080048f70                key_address
+                0x0000000080048f78                key_address_mask
+ .scommon       0x0000000080048f7c       0x10 upgloader.o
+                                          0x0 (size before relaxing)
+                0x0000000080048f7c                __errno
+                0x0000000080048f80                boot_mbf_id
+                0x0000000080048f84                g_crc_bad
+                0x0000000080048f88                g_upg_stb_info_ok
+ .scommon       0x0000000080048f8c        0x8 ../../../../../../sdk/boot.o
+                                          0x0 (size before relaxing)
+                0x0000000080048f8c                errno
+                0x0000000080048f90                heap_ptr
+ .scommon       0x0000000080048f94        0xc /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(lib_upg4_com.o)
+                                          0x0 (size before relaxing)
+                0x0000000080048f94                g_upg_sw_size
+                0x0000000080048f98                g_upg_burn_array
+                0x0000000080048f99                g_upg_burn_order
+                0x0000000080048f9c                g_upg_size
+ .scommon       0x0000000080048fa0       0x28 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(upg_ota_api.o)
+                                          0x0 (size before relaxing)
+                0x0000000080048fa0                g_sw_version
+                0x0000000080048fa4                g_sw_version_chufa
+                0x0000000080048fa8                g_hw_version
+                0x0000000080048fac                g_dc_blocksize
+                0x0000000080048fae                g_dc_module_num
+                0x0000000080048fb0                g_oui
+                0x0000000080048fb4                g_upg_sw_version
+                0x0000000080048fb8                g_dc_group
+                0x0000000080048fc0                g_hw_model
+                0x0000000080048fc4                g_sw_model
+ .scommon       0x0000000080048fc8       0x30 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(alloc.o)
+                                          0x0 (size before relaxing)
+                0x0000000080048fc8                _bytes_used
+                0x0000000080048fcc                __malloc_hook
+                0x0000000080048fd0                _chunks_free
+                0x0000000080048fd4                __realloc_hook
+                0x0000000080048fd8                _heapindex
+                0x0000000080048fdc                _heaplimit
+                0x0000000080048fe0                _heapinfo
+                0x0000000080048fe4                _aligned_blocks
+                0x0000000080048fe8                _bytes_free
+                0x0000000080048fec                _heapbase
+                0x0000000080048ff0                __free_hook
+                0x0000000080048ff4                _chunks_used
+ .scommon       0x0000000080048ff8       0x14 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(ld_osd_common_draw.o)
+                                          0x0 (size before relaxing)
+                0x0000000080048ff8                osd_get_obj_info
+                0x0000000080048ffc                osd_get_lang_env
+                0x0000000080049000                osd_get_font_lib
+                0x0000000080049004                osd_get_str_lib_id
+                0x0000000080049008                osd_get_rsc_data
+ *fill*         0x000000008004900c 0x6ee6c800000004
+ .scommon       0x0000000080049010       0x10 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(hsr.o)
+                                          0x0 (size before relaxing)
+                0x0000000080049010                g_tmo_time
+                0x0000000080049018                g_tmo_queue
+ .scommon       0x0000000080049020        0x4 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(mbuffer.o)
+                                          0x0 (size before relaxing)
+                0x0000000080049020                mbf_total_num
+ .scommon       0x0000000080049024        0x4 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(sched_mq.o)
+                                          0x0 (size before relaxing)
+                0x0000000080049024                _rdy_msk
+ .scommon       0x0000000080049028        0x8 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(taskc.o)
+                                          0x0 (size before relaxing)
+                0x0000000080049028                g_pTskSch
+                0x000000008004902c                g_pTskRun
+ .scommon       0x0000000080049030        0x8 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(tds.o)
+                                          0x0 (size before relaxing)
+                0x0000000080049030                heap_start
+                0x0000000080049034                irq_msk
+ .scommon       0x0000000080049038       0x1c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(timerc.o)
+                                          0x0 (size before relaxing)
+                0x0000000080049038                g_current_second
+                0x0000000080049040                g_timer_queue
+                0x0000000080049048                g_cur_timer
+                0x000000008004904c                g_cCurSlice
+                0x0000000080049050                g_current_time
+ .scommon       0x0000000080049054        0x4 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(decLogo.o)
+                                          0x0 (size before relaxing)
+                0x0000000080049054                g_vdec_sys_chip_verid
+ .scommon       0x0000000080049058        0x8 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(osd_m33_mini.o)
+                                          0x0 (size before relaxing)
+                0x0000000080049058                g_uInitialized
+                0x0000000080049059                g_uBufIndex
+                0x000000008004905c                m_last_buffer
+ .scommon       0x0000000080049060       0x20 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(power_down_detect.o)
+                                          0x0 (size before relaxing)
+                0x0000000080049060                pdd_chip_id
+                0x0000000080049064                palert_gpio
+                0x0000000080049068                pdd_chip_version
+                0x000000008004906c                pok_gpio
+                0x0000000080049070                pok_suspend
+                0x0000000080049078                pdd_dev_list
+ .scommon       0x0000000080049080       0x34 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_api.o)
+                                          0x0 (size before relaxing)
+                0x0000000080049080                ts_extra_video_cb_len
+                0x0000000080049082                ts_ttx_tmp_cb_len
+                0x0000000080049084                ts_tmp_united_cb_len
+                0x0000000080049088                ts_ttx_tmp_buf
+                0x000000008004908c                ts_united_cb_len
+                0x000000008004908e                dmx_hw_filt_num
+                0x0000000080049090                pcr_tick_standard_slope
+                0x0000000080049094                ts_video_cb_len
+                0x0000000080049098                DmxAvSyncParam
+                0x00000000800490a0                ts_common_cb_len
+                0x00000000800490a2                ts_pcr_cb_len
+                0x00000000800490a4                cpu_mclk_dmx_ref
+                0x00000000800490a8                dmx1_dma_start_addr
+                0x00000000800490ac                ts_audio_cb_len
+                0x00000000800490ae                ts_ttx_cb_len
+                0x00000000800490b0                dmx0_dma_start_addr
+                0x00000000800490b4                __BSS_RAM_ADDR = (__SBSS_RAM_ADDR +  SIZEOF (.sbss))
+
+.bss            0x00000000800490b4    0x2367c load address 0x00000000800490b4
+ *(.bss)
+ *fill*         0x00000000800490b4 0x6ee7c800000004
+ .bss           0x00000000800490b8      0x100 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(pan.o)
+ .bss           0x00000000800491b8      0x3c0 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(lib_frontend.o)
+ .bss           0x0000000080049578       0x80 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(lib_upg4_com.o)
+ .bss           0x00000000800495f8     0x13a0 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(upg_ota_api.o)
+ .bss           0x000000008004a998       0x80 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(chunk.o)
+ .bss           0x000000008004aa18      0x500 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(stb_info_data.o)
+ .bss           0x000000008004af18       0x38 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(nim_s3202.o)
+ .bss           0x000000008004af50       0x58 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(pan_tp6x0.o)
+ .bss           0x000000008004afa8      0x2d8 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(lib_device_manage.o)
+ .bss           0x000000008004b280      0x100 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(irc_6303.o)
+ .bss           0x000000008004b380      0x180 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(Interrupt.o)
+ .bss           0x000000008004b500       0x10 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(tds.o)
+ .bss           0x000000008004b510       0x18 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(decLogo.o)
+ .bss           0x000000008004b528      0x390 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(osd_m33_mini.o)
+ .bss           0x000000008004b8b8       0xc0 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33.o)
+ *(COMMON)
+ *fill*         0x000000008004b978 0x6ee7c800000008
+ COMMON         0x000000008004b980      0x500 ../copper_common/stb_data.o
+                                          0x0 (size before relaxing)
+                0x000000008004b980                system_stb_data
+ COMMON         0x000000008004be80       0x88 ../copper_common/backup_loader.o
+                                          0x0 (size before relaxing)
+                0x000000008004be80                flash_info
+                0x000000008004bed0                multi_flash_info
+ *fill*         0x000000008004bf08 0x6ee7c800000008
+ COMMON         0x000000008004bf10     0x30c8 boot_osd_rsc.o
+                                          0x0 (size before relaxing)
+                0x000000008004bf10                font_bitmap
+                0x000000008004ef10                font_array
+ *fill*         0x000000008004efd8 0x6ee7c800000008
+ COMMON         0x000000008004efe0       0x18 boot_ota_input.o
+                                          0x0 (size before relaxing)
+                0x000000008004efe0                input_data
+ *fill*         0x000000008004eff8 0x6ee7c800000008
+ COMMON         0x000000008004f000       0x58 upgloader.o
+                                          0x0 (size before relaxing)
+                0x000000008004f000                i2c_dev_ext
+                0x000000008004f010                i2c_dev
+ *fill*         0x000000008004f058 0x6ee7c800000008
+ COMMON         0x000000008004f060       0x7c board_config.o
+                                          0x0 (size before relaxing)
+                0x000000008004f060                pan_hw_info_cp
+                0x000000008004f0a0                g_QAM_Tuner_Cfg
+ *fill*         0x000000008004f0dc 0x6ee7c800000004
+ COMMON         0x000000008004f0e0     0x4000 ../../../../../../sdk/boot.o
+                                          0x0 (size before relaxing)
+                0x000000008004f0e0                IRQStack
+ COMMON         0x00000000800530e0      0x940 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(lib_upg4_com.o)
+                                          0x0 (size before relaxing)
+                0x00000000800530e0                g_upg_cfg
+                0x0000000080053120                g_upg_chunk_image
+                0x0000000080053520                g_upg_part_info
+ COMMON         0x0000000080053a20      0x4e0 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(upg_ota_api.o)
+                                          0x0 (size before relaxing)
+                0x0000000080053a20                g_dc_module
+ COMMON         0x0000000080053f00       0x60 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(alloc.o)
+                                          0x0 (size before relaxing)
+                0x0000000080053f00                _fraghead
+ COMMON         0x0000000080053f60      0x400 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(fastCRC.o)
+                                          0x0 (size before relaxing)
+                0x0000000080053f60                MG_CRC_Table
+ COMMON         0x0000000080054360    0x17838 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(ld_osd_common_draw.o)
+                                          0x0 (size before relaxing)
+                0x0000000080054360                osd_vscr_buffer_temp
+                0x000000008006bb80                g_vscr
+ *fill*         0x000000008006bb98 0x6ee7c800000008
+ COMMON         0x000000008006bba0       0x80 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(sched_mq.o)
+                                          0x0 (size before relaxing)
+                0x000000008006bba0                _rdy_queue
+ COMMON         0x000000008006bc20      0x500 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(timeout.o)
+                                          0x0 (size before relaxing)
+                0x000000008006bc20                TMOCBPool
+ COMMON         0x000000008006c120      0x284 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(decLogo.o)
+                                          0x0 (size before relaxing)
+                0x000000008006c120                g_RegisterArrayForZoomStruct
+ *fill*         0x000000008006c3a4 0x6ee7c80000000c
+ COMMON         0x000000008006c3b0       0x40 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(osd_m33_mini.o)
+                                          0x0 (size before relaxing)
+                0x000000008006c3b0                g_tMemHead
+                0x000000008006c3d0                g_osd_mem
+ COMMON         0x000000008006c3f0      0x340 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_api.o)
+                                          0x0 (size before relaxing)
+                0x000000008006c3f0                dmx_priv_fp
+                0x000000008006c460                AvSyncInfo
+                0x000000008006c730                _end = .
+
+.reginfo        0x0000000000000000       0x18
+ *(.reginfo)
+ .reginfo       0x0000000000000000       0x18 ../copper_common/stb_data.o
+
+.mdebug         0x0000000000000000   0x159a08
+ *(.mdebug)
+ .mdebug        0x0000000000000000     0xa140 ../copper_common/stb_data.o
+ .mdebug        0x000000000000a140     0x32d0 ../copper_common/stb_hwinfo.o
+ .mdebug        0x000000000000d410     0x9ad8 ../copper_common/backup_loader.o
+ .mdebug        0x0000000000016ee8     0xd200 boot_osd_rsc.o
+ .mdebug        0x00000000000240e8     0x3700 key.o
+ .mdebug        0x00000000000277e8     0xd294 boot_ota_input.o
+ .mdebug        0x0000000000034a7c    0x1d14c upgloader.o
+ .mdebug        0x0000000000051bc8     0xcabc upg_common.o
+ .mdebug        0x000000000005e684     0xb364 upg_ota.o
+ .mdebug        0x00000000000699e8     0xc848 upg_menu.o
+ .mdebug        0x0000000000076230    0x193b0 board_config.o
+ .mdebug        0x000000000008f5e0     0x7054 ../../../../../../sdk/boot.o
+ .mdebug        0x0000000000096634     0x241c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(dog_m33.o)
+ .mdebug        0x0000000000098a50     0x438c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(i2c_gpio.o)
+ .mdebug        0x000000000009cddc     0x56d8 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(i2c_scb.o)
+ .mdebug        0x00000000000a24b4     0x30b8 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(sci_16550uart.o)
+ .mdebug        0x00000000000a556c     0x28fc /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(hld_dev.o)
+ .mdebug        0x00000000000a7e68     0x86c0 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(dmx.o)
+ .mdebug        0x00000000000b0528     0x4164 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(nim.o)
+ .mdebug        0x00000000000b468c     0x7b54 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(osddrv.o)
+ .mdebug        0x00000000000bc1e0     0x3468 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(pan.o)
+ .mdebug        0x00000000000bf648     0x2dcc /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(sto.o)
+ .mdebug        0x00000000000c2414     0xc7b8 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(vpo.o)
+ .mdebug        0x00000000000cebcc     0xf25c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(lib_frontend.o)
+ .mdebug        0x00000000000dde28     0xf328 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(lib_upg4_com.o)
+ .mdebug        0x00000000000ed150    0x118cc /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(upg_ota_api.o)
+ .mdebug        0x00000000000fea1c     0x3dd0 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(alloc.o)
+ .mdebug        0x00000000001027ec      0xe34 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(fastCRC.o)
+ .mdebug        0x0000000000103620     0x4824 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(printf.o)
+ .mdebug        0x0000000000107e44     0x55f8 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(string.o)
+ .mdebug        0x000000000010d43c      0x878 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(un7zip.o)
+ .mdebug        0x000000000010dcb4     0x577c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(lib_dbc.o)
+ .mdebug        0x0000000000113430     0x5944 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(ld_osd_common.o)
+ .mdebug        0x0000000000118d74     0x8b44 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(ld_osd_common_draw.o)
+ .mdebug        0x00000000001218b8     0x58f0 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(ld_osd_lib.o)
+ .mdebug        0x00000000001271a8     0x7978 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(chunk.o)
+ .mdebug        0x000000000012eb20     0x45f8 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(chunk_sto.o)
+ .mdebug        0x0000000000133118     0x4020 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(stb_info.o)
+ .mdebug        0x0000000000137138     0x92b0 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(stb_info_data.o)
+ .mdebug        0x00000000001403e8     0xccc4 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(nim_s3202.o)
+ .mdebug        0x000000000014d0ac     0x3104 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(tun_alpstdae.o)
+ .mdebug        0x00000000001501b0     0x3124 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(tun_dct70701.o)
+ .mdebug        0x00000000001532d4     0x5218 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(pan_tp6x0.o)
+ .mdebug        0x00000000001584ec     0x1c40 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(flash_info.o)
+ .mdebug        0x000000000015a12c     0x1288 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(flash_info_s.o)
+ .mdebug        0x000000000015b3b4     0x58b4 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(flash_raw_sl_c.o)
+ .mdebug        0x0000000000160c68     0x3184 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(flash_sl.o)
+ .mdebug        0x0000000000163dec     0x51dc /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(sto_flash.o)
+ .mdebug        0x0000000000168fc8      0x738 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(version.o)
+ .mdebug        0x0000000000169700     0x8d24 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(lib_device_manage.o)
+ .mdebug        0x0000000000172424     0x31ec /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(irc_6303.o)
+ .mdebug        0x0000000000175610      0x730 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(flash_data.o)
+ .mdebug        0x0000000000175d40      0x690 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(flash_data_s.o)
+ .mdebug        0x00000000001763d0     0x2b30 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(irc_lab_std.o)
+ .mdebug        0x0000000000178f00     0x343c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a(irc_nec_std.o)
+ .mdebug        0x000000000017c33c     0x129c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(tds_mips.o)
+ .mdebug        0x000000000017d5d8     0x2930 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(hsr.o)
+ .mdebug        0x000000000017ff08     0x37a0 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(Interrupt.o)
+ .mdebug        0x00000000001836a8     0x4b88 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(mbuffer.o)
+ .mdebug        0x0000000000188230     0x2720 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(queue.o)
+ .mdebug        0x000000000018a950     0x3ca8 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(sched_mq.o)
+ .mdebug        0x000000000018e5f8     0x3114 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(semapho.o)
+ .mdebug        0x000000000019170c     0x32bc /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(task.o)
+ .mdebug        0x00000000001949c8     0x3590 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(taskc.o)
+ .mdebug        0x0000000000197f58     0x30d0 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(tds.o)
+ .mdebug        0x000000000019b028     0x404c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(timeout.o)
+ .mdebug        0x000000000019f074     0x34f8 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(timerc.o)
+ .mdebug        0x00000000001a256c     0x2628 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(irq.o)
+ .mdebug        0x00000000001a4b94     0x242c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(mutex.o)
+ .mdebug        0x00000000001a6fc0     0x5e0c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(decLogo.o)
+ .mdebug        0x00000000001acdcc     0x7f5c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(osd_m33_init_mini.o)
+ .mdebug        0x00000000001b4d28     0xf808 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(osd_m33_mini.o)
+ .mdebug        0x00000000001c4530      0x528 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(cache.o)
+ .mdebug        0x00000000001c4a58      0xb70 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(sched.o)
+ .mdebug        0x00000000001c55c8     0x330c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(flag.o)
+ .mdebug        0x00000000001c88d4     0x240c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a(mempool.o)
+ .mdebug        0x00000000001cace0     0x385c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(power_down_detect.o)
+ .mdebug        0x00000000001ce53c     0x1d6c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(tsi_m3202.o)
+ .mdebug        0x00000000001d02a8    0x11400 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_api.o)
+ .mdebug        0x00000000001e16a8     0xa058 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_dbg.o)
+ .mdebug        0x00000000001eb700    0x1308c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_pes.o)
+ .mdebug        0x00000000001fe78c     0x86d0 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_reg.o)
+ .mdebug        0x0000000000206e5c    0x10660 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_sec.o)
+ .mdebug        0x00000000002174bc     0xdd3c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33_stc.o)
+ .mdebug        0x00000000002251f8      0xb1c /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(mips_suspend.o)
+ .mdebug        0x0000000000225d14    0x10a70 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a(dmx_m33.o)
+ .mdebug        0x0000000000236784     0x1994 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libmlzo.a(slzo.o)
+ .mdebug        0x0000000000238118     0x2350 /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/lib7zip.a(LzmaDecode.o)
+ .mdebug        0x000000000023a468     0x3390 /cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/lib/gcc-lib/mips-t2-elf/3.0.4/soft-float/el/libgcc.a(_udivdi3.o)
+ .mdebug        0x000000000023d7f8     0x3390 /cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/lib/gcc-lib/mips-t2-elf/3.0.4/soft-float/el/libgcc.a(_umoddi3.o)
+ .mdebug        0x0000000000240b88     0x32ec /cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/lib/gcc-lib/mips-t2-elf/3.0.4/soft-float/el/libgcc.a(_clz.o)
+ .mdebug        0x0000000000243e74     0x3808 /cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/lib/gcc-lib/mips-t2-elf/3.0.4/soft-float/el/libgcc.a(_addsub_df.o)
+ .mdebug        0x000000000024767c     0x3664 /cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/lib/gcc-lib/mips-t2-elf/3.0.4/soft-float/el/libgcc.a(_mul_df.o)
+ .mdebug        0x000000000024ace0     0x3664 /cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/lib/gcc-lib/mips-t2-elf/3.0.4/soft-float/el/libgcc.a(_div_df.o)
+ .mdebug        0x000000000024e344     0x3618 /cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/lib/gcc-lib/mips-t2-elf/3.0.4/soft-float/el/libgcc.a(_si_to_df.o)
+ .mdebug        0x000000000025195c     0x361c /cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/lib/gcc-lib/mips-t2-elf/3.0.4/soft-float/el/libgcc.a(_df_to_si.o)
+ .mdebug        0x0000000000254f78     0x3580 /cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/lib/gcc-lib/mips-t2-elf/3.0.4/soft-float/el/libgcc.a(_thenan_df.o)
+ .mdebug        0x00000000002584f8     0x361c /cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/lib/gcc-lib/mips-t2-elf/3.0.4/soft-float/el/libgcc.a(_df_to_usi.o)
+ .mdebug        0x000000000025bb14     0x3608 /cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/lib/gcc-lib/mips-t2-elf/3.0.4/soft-float/el/libgcc.a(_pack_df.o)
+ .mdebug        0x000000000025f11c     0x3624 /cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/lib/gcc-lib/mips-t2-elf/3.0.4/soft-float/el/libgcc.a(_unpack_df.o)
+ .mdebug        0x0000000000262740      0x680 /cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/mips-t2-elf/lib/soft-float/el/libc.a(isdigit.o)
+ .mdebug        0x0000000000262dc0      0x680 /cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/mips-t2-elf/lib/soft-float/el/libc.a(isspace.o)
+ .mdebug        0x0000000000263440     0x16c0 /cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/mips-t2-elf/lib/soft-float/el/libc.a(strtol.o)
+ .mdebug        0x0000000000264b00     0x16a0 /cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/mips-t2-elf/lib/soft-float/el/libc.a(strtoul.o)
+ .mdebug        0x00000000002661a0      0x5f0 /cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/mips-t2-elf/lib/soft-float/el/libc.a(ctype_.o)
+ .mdebug        0x0000000000266790     0x1098 /cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/mips-t2-elf/lib/soft-float/el/libc.a(impure.o)
+LOAD /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a
+LOAD /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/blsdk/libbootos.a
+LOAD /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libcore.a
+LOAD /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release/lib//liball.a
+LOAD /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/liblog.a
+LOAD /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/libmlzo.a
+LOAD /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new//sdk/lib7zip.a
+LOAD /cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/mips-t2-elf/lib/soft-float/el/libm.a
+LOAD /cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/lib/gcc-lib/mips-t2-elf/3.0.4/soft-float/el/libgcc.a
+LOAD /cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/mips-t2-elf/lib/soft-float/el/libc.a
+OUTPUT(upgloader_jade_demo.exe elf32-littlemips)

@@ -1,0 +1,12 @@
+// this MDF template file is created by MdfEditor.
+
+ScriptVersion = 1.0;
+
+module LLD_NIM
+{
+    version = 1.0;
+    submodules = {"dvbt/lld_nim_t.mdf","atsc/lld_nim_atsc.mdf", "atsc/drx3933j/lld_nim_drx3933j.mdf", "dvbs/lld_nim_s.mdf", "dvbs2/lld_nim_s2_tuner.mdf", "dvbs2/m36/lld_nim_s2.mdf", "dvbc/lld_nim_c.mdf", "lnb/lld_nim_lnb.mdf", "dvbs2/cx24116/lld_nim_cx24116.mdf", "dvbs2/m3501/lld_nim_s2_3501.mdf", "m33/lld_nim_autoscan.mdf", "dvbs2/m3501/m3501_a/lld_nim_s2_3501_a.mdf", "chinat/lld_nim_chinat.mdf"};
+    codefiles = {};
+    docfiles = {};
+    rules = {};
+};

@@ -1,0 +1,12 @@
+// this MDF template file is created by MdfEditor.
+ 
+ScriptVersion = 1.0;// version of generator of this file
+ 
+module CDCA
+{
+	version = 1.0;
+	submodules = {};
+	codefiles = {"cd_os.c", "cd_dmx.c", "cd_nvm.c", "cd_catask.c", "cd_sc.c"};
+	docfiles = {};
+	rules = {};
+};

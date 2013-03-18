@@ -1,0 +1,12 @@
+// this MDF template file is created by MdfEditor.
+
+ScriptVersion = 1.0;
+
+module LLD_TUN_C_RT820
+{
+    version = 1.0;
+    submodules = {};
+    codefiles = {"tun_rt820.c", "R820C.c"};
+    docfiles = {};
+    rules = {};
+};

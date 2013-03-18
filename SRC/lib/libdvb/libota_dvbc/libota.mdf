@@ -1,0 +1,12 @@
+// this MDF template file is created by MdfEditor.
+ 
+ScriptVersion = 1.0;// version of generator of this file
+ 
+module LIBOTA_DVBC
+{
+	version = 1.0;
+	submodules = {};
+	codefiles = {"lib_ota.c"};
+	docfiles = {};
+	rules = {};
+};

@@ -1,0 +1,12 @@
+// this MDF template file is created by MdfEditor.
+
+ScriptVersion = 1.0;
+
+module LLD_PAN_TP6X0
+{
+    version = 1.0;
+    submodules = {};
+    codefiles = {"pan_tp6x0.c"};
+    docfiles = {};
+    rules = {};
+};

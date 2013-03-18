@@ -1,0 +1,347 @@
+
+##############################################
+#
+#    Makefile for your App
+#        Ali sdk auto generated. Don't edit it!
+#                            ALI corporation.
+#
+##############################################
+
+
+# Environment settings
+GCCROOT = /D/ALi_IDE_2.1/compilers/gcc3.0.4/
+export PATH:=/bin:/cygdrive/C/Ali_SDK/bin/:$(PATH)
+
+# gcc prefix
+Prefix = mips-t2-elf-
+
+CC = $(GCCROOT)bin/$(Prefix)gcc.exe
+CXX = $(GCCROOT)bin/$(Prefix)g++.exe
+AR = $(GCCROOT)bin/$(Prefix)ar.exe
+LD = $(GCCROOT)bin/$(Prefix)ld.exe
+OBJCOPY = $(GCCROOT)bin/$(Prefix)objcopy.exe
+OBJDUMP = $(GCCROOT)bin/$(Prefix)objdump.exe
+
+CP = cp
+ECHO = echo
+MAKE = make
+
+# Parameters
+ccflag =  -O1 -mips2 -EL -D_DEBUG_VERSION_ -DALi_M6303_Module_1 -W -I$(release_path)/include/ -g -msoft-float -fno-delayed-branch -I$(release_path)/include/ -I$(REPOSITORY)/inc
+ldflag = -O1  -EL -defsym __BOOT_FROM_FLASH=0 -defsym __BOOT_LOADER=0 -T ldscript_data_broadcast.ld --start-group -lgycas -ldvn -ldvt  -lmlzo  -lall -lcore -lall -llog -lyamadhw -l7zip -lm -lgcc -lc --end-group -L$(release_path)/lib/ -Map ${BINNAME}.map -L$(REPOSITORY)/sdk -L$(GCCROOT)lib/gcc-lib/mips-t2-elf/3.0.4/soft-float/el -L$(GCCROOT)mips-t2-elf/lib/soft-float/el
+# Repository path which contains the root module,
+# is root for all modules' source files.
+REPOSITORY = /d/3202c-2013.3.4/
+
+# release_path is module library's root,
+# It has two subdirectories: include and lib.
+release_path = /d/3202c-2013.3.4/prj/app/demo/dvbc/jade_demo_new_geeya/mcf_data_broadcast_3202c//release
+
+# RESOURCE_BUILD_PATH is resources build path,
+# stores .h files which built from resources.
+RESOURCE_BUILD_PATH = mcf_data_broadcast_3202C/Resource
+
+# APP_ROOT_PATH is application root path,
+# all app files are under this root.
+APP_ROOT_PATH = /d/3202c-2013.3.4/prj/app/demo/dvbc/jade_demo_new_geeya/
+
+# project release path.
+RELEASE_PROJECT_PATH = xxx
+
+# Custom Predefine:  
+
+# List of source files
+
+ASMS = \
+
+
+SRCS = \
+	board_config.c \
+	cdca/win_ca_freepreviewing.c \
+	cdca/win_ca_message.c \
+	cdca/win_ca_operator_info.c \
+	cdca/win_ca_operator_message.c \
+	cdca/win_ca_password.c \
+	cdca/win_ca_pinpwd.c \
+	cdca/win_ca_popup_ipp.c \
+	cdca/win_ca_smc_upg.c \
+	cdca/win_ca_watchlevel.c \
+	cdca/win_cas_com.c \
+	cdca/win_cas_proc.c \
+	cdca/win_fingerprint.c \
+	cdca/win_mail.c \
+	cdca/win_mail_content.c \
+	cdca/win_mail_icon.c \
+	cdca/win_osdmsg.c \
+	cdca/win_smc_info.c \
+	control.c \
+	copper_common/backup_loader.c \
+	copper_common/bat_private.c \
+	copper_common/com_api.c \
+	copper_common/com_epg.c \
+	copper_common/menu_api.c \
+	copper_common/ota_special.c \
+	copper_common/stb_data.c \
+	copper_common/stb_hwinfo.c \
+	copper_common/system_data.c \
+	data_bdcast_com.c \
+	game_box.c \
+	game_box_maps.c \
+	game_othello.c \
+	geeya_ad/adv_geeya.c \
+	geeya_ad/GYAD_Api.c \
+	geeya_ad/GYAD_Core.c \
+	key.c \
+	menus_root.c \
+	osd_rsc.c \
+	power.c \
+	root.c \
+	single_pic_ad/ad_pic.c \
+	single_pic_ad/ad_pic_gfx.c \
+	single_pic_ad/ad_pic_gif.c \
+	single_pic_ad/ad_pic_img.c \
+	single_pic_ad/ad_pic_png.c \
+	ts_search/ts_search.c \
+	win_advset.c \
+	win_audio.c \
+	win_audioset.c \
+	win_book_detail.c \
+	win_ca_bing.c \
+	win_ca_set.c \
+	win_chan_detail.c \
+	win_chan_edit.c \
+	win_chan_list.c \
+	win_chan_manage.c \
+	win_chan_management.c \
+	win_chanedit_action.c \
+	win_channel_info.c \
+	win_child_lock.c \
+	win_child_lock_list.c \
+	win_com.c \
+	win_com_list.c \
+	win_com_popup.c \
+	win_common_item.c \
+	win_displayset.c \
+	win_epg.c \
+	win_epg_detail.c \
+	win_factory_set.c \
+	win_factoryset.c \
+	win_freqset.c \
+	win_full_band_scan.c \
+	win_game_com.c \
+	win_game_othello.c \
+	win_games.c \
+	win_languageset.c \
+	win_light_channel_list.c \
+	win_mainmenu.c \
+	win_manual_search.c \
+	win_manual_update.c \
+	win_mute.c \
+	win_new_signal.c \
+	win_new_signal_test.c \
+	win_nimreg.c \
+	win_nvod.c \
+	win_nvod_detail.c \
+	win_nvod_event_bar.c \
+	win_nvod_warn.c \
+	win_password.c \
+	win_pause.c \
+	win_prog_input.c \
+	win_prog_name.c \
+	win_prog_search.c \
+	win_pwd_set.c \
+	win_reg.c \
+	win_reserve_manage.c \
+	win_search.c \
+	win_signal.c \
+	win_signal_test.c \
+	win_signalstatus.c \
+	win_stb_info.c \
+	win_sys_information.c \
+	win_sys_items.c \
+	win_system_management.c \
+	win_timer_set.c \
+	win_volumebar.c \
+	win_infomation.c
+
+SRCPPS = \
+
+
+XFORMS = \
+	 cdca/win_ca_message.xform \
+	 cdca/win_ca_operator_info.xform \
+	 cdca/win_ca_operator_message.xform \
+	 cdca/win_ca_password.xform \
+	 cdca/win_ca_pinpwd.xform \
+	 cdca/win_ca_watchlevel.xform \
+	 cdca/win_mail.xform \
+	 cdca/win_mail_content.xform \
+	 cdca/win_smc_info.xform \
+	 win_advset_vega.xform \
+	 win_audio_obj.xform \
+	 win_audioset_vega.xform \
+	 win_book_detaile.xform \
+	 win_ca_binding.xform \
+	 win_ca_set.xform \
+	 win_chan_detail_vega.xform \
+	 win_chan_edit_obj.xform \
+	 win_chan_list_vega.xform \
+	 win_chan_manage_vega.xform \
+	 win_chan_management_obj.xform \
+	 win_chanedit_action_vega.xform \
+	 win_channel_info_obj.xform \
+	 win_child_lock_list_vega.xform \
+	 win_child_lock_vega.xform \
+	 win_common_item_obj.xform \
+	 win_displayset_vega.xform \
+	 win_epg_vega.xform \
+	 win_factory_set_obj.xform \
+	 win_factoryset_vega.xform \
+	 win_freqset_vega.xform \
+	 win_full_band_scan_vega.xform \
+	 win_games_vega.xform \
+	 win_languageset_vega.xform \
+	 win_light_channel_list_obj.xform \
+	 win_mainmenu_vega.xform \
+	 win_manual_search_vega.xform \
+	 win_manual_update_vega.xform \
+	 win_new_signal.xform \
+	 win_new_signal_test.xform \
+	 win_nvod_obj.xform \
+	 win_password_obj.xform \
+	 win_prog_input_obj.xform \
+	 win_prog_name_obj.xform \
+	 win_prog_search_vega.xform \
+	 win_pwd_set_obj.xform \
+	 win_reserve_manage_obj.xform \
+	 win_search_vega.xform \
+	 win_signal_obj.xform \
+	 win_signal_test_obj.xform \
+	 win_sys_information_obj.xform \
+	 win_system_management_obj.xform \
+	 win_volumebar_vega.xform
+
+XFORMHS = ${XFORMS:.xform=.h}
+
+
+OBJS = ${ASMS:.S=.o} ${SRCS:.c=.o} ${SRCPPS:.cpp=.o}
+
+# Set binary file name
+BINNAME = jade_ca_broadcast_sdk_3202c
+
+
+.PHONY : prelink
+prelink:
+
+.PHONY : all
+all : prelink labelMakefile.mk
+	$(MAKE) -f $(BINNAME)Makefile.mk $(OBJS)
+	$(LD) $(OBJS) $(ldflag) -o $(BINNAME).exe
+	-$(CP) -f $(BINNAME).exe $(BINNAME).out
+	$(OBJCOPY) -O binary $(BINNAME).exe $(BINNAME).abs
+	$(OBJDUMP) -d $(BINNAME).exe > $(BINNAME).dis
+	@echo compress :
+	${OBJCOPY} -R .flash -O binary ${BINNAME}.out ${BINNAME}_tmp; \
+	${OBJCOPY} -j .flash -O binary ${BINNAME}.out flash.sec; \
+	${OBJDUMP} -D ${BINNAME}.out > ${BINNAME}.dis ;\
+	rm -f ${BINNAME}.7z; \
+	${REPOSITORY}/prj/tools/lzma e ${BINNAME}_tmp ${BINNAME}.7z -lc0 -lp2
+		
+	@echo generate :
+	# .flash address - 65552 = 221168
+	rm -f app_${BINNAME}.bin
+	cp ${BINNAME}_tmp app_${BINNAME}.bin
+	rm -f product_${BINNAME}.abs
+	${REPOSITORY}/prj/tools/fidmerger.exe ./blocks_script_data_broadcast_sdk_3202C.txt	
+	@echo build complete.
+
+.PHONY : app_as_lib
+app_as_lib : prelink labelMakefile.mk
+	$(MAKE) -f $(BINNAME)Makefile.mk $(OBJS)
+	$(AR) rcs $(BINNAME).a $(OBJS)
+	@echo build complete.
+
+.PHONY : debug
+debug : prelink labelMakefile.mk
+	$(MAKE) -f $(BINNAME)Makefile.mk $(OBJS)
+	$(LD) $(OBJS) $(ldflag) -o $(BINNAME).exe
+	-$(CP) -f $(BINNAME).exe $(BINNAME).out
+	$(OBJCOPY) -O binary $(BINNAME).exe $(BINNAME).abs
+	@echo build complete.
+
+.PHONY : labelMakefile.mk
+labelMakefile.mk : $(SRCS) #$(ASMS)
+	$(CP) -f $(BINNAME)Makefile $(BINNAME)Makefile.mk
+	cd $(APP_ROOT_PATH); $(MAKE) -f $(BINNAME)Makefile.mk $(XFORMHS)
+	-$(CC) $(ccflag) -M $(SRCS) $(SRCPPS) $(ASMS) >> $@.tmp
+	-modify_dep.exe $@.tmp
+	-cat $@.tmp >> $(BINNAME)Makefile.mk
+	-rm $@.tmp
+
+.PHONY : check
+check : 
+	@-splint.exe -strict -gnuextensions -DLINT  -D_DEBUG_VERSION_ -DALi_M6303_Module_1 -I$(release_path)/include/ -I$(RESOURCE_BUILD_PATH) -I$(release_path)/include/ -I$(REPOSITORY)/inc/ $(SRCS)
+	@echo check complete.
+
+
+.PHONY : clean
+clean : 
+	@-rm -f $(OBJS)
+	@-rm -f $(BINNAME)Makefile.mk
+	@-rm -f $(BINNAME).exe
+	#@-rm -f $(BINNAME).abs
+	@-rm -f $(BINNAME).dis
+	@echo clean complete.
+
+
+.PHONY : dependency
+dependency : prelink labelMakefile.mk
+	@echo make dependency complete.
+
+
+.PHONY : custombat
+custombat :
+
+	@echo custom bat cmds complete.
+
+
+%.o : %.c
+	@echo $<
+	$(CC) $(ccflag) -c $< -g -o $@
+
+%.o : %.S
+	@echo $<
+	$(CC) $(ccflag) -c $< -g -o $@
+
+%.o : %.cpp
+	@echo $<
+	$(CXX) $(ccflag) -c $< -g -o $@
+
+%.h : %.xform
+	${REPOSITORY}/prj/tools/xform2c $< $@
+
+
+.PHONY : release
+release:
+	dos2unix prj_rel.sh
+	echo 'REPOSITORY=$(REPOSITORY)' > $(BINNAME)Makefile.rel
+	echo 'APP_ROOT_PATH=$(APP_ROOT_PATH)' >> $(BINNAME)Makefile.rel
+	echo 'RELEASE_PATH=$(RELEASE_PROJECT_PATH)' >> $(BINNAME)Makefile.rel
+	-$(CC) $(ccflag) -M $(SRCS) $(SRCPPS) $(ASMS) > $@.tmp
+	echo -n "xforms.o: "  >>  $@.tmp
+	echo ${XFORMS} >>  $@.tmp
+	echo -n "blocks.o:" >>  $@.tmp
+	echo -n " ./blocks_script_data_broadcast_sdk_3202C.txt " >>  $@.tmp
+	sed '/^file[[:space:]]*=/!d' ./blocks_script_data_broadcast_sdk_3202C.txt| sed 's/^file[[:space:]]*=//;'| xargs >> $@.tmp
+	sed "/[^\\\\]$$/a\\	@echo \$$<;export REPOSITORY=\$$(REPOSITORY); export APP_ROOT_PATH=\$$(APP_ROOT_PATH);export RELEASE_PATH=\$$(RELEASE_PATH); ./prj_rel.sh $$+" $@.tmp >> $(BINNAME)Makefile.rel
+	-rm $@.tmp
+	echo "others.o:" jade_ca_broadcast_sdk_3202c.apr >>  $(BINNAME)Makefile.rel
+	echo "	export REPOSITORY=\$$(REPOSITORY); export APP_ROOT_PATH=\$$(APP_ROOT_PATH);export RELEASE_PATH=\$$(RELEASE_PATH); ./prj_rel.sh jade_ca_broadcast_sdk_3202c.apr ldscript_data_broadcast.ld $(release_path)/lib//libgycas.a $(release_path)/lib//libdvn.a $(release_path)/lib//libdvt.a $(release_path)/lib//libmlzo.a $(release_path)/lib//libcore.a $(release_path)/lib//liblog.a $(release_path)/lib//libyamadhw.a $(release_path)/lib//lib7zip.a $(REPOSITORY)/sdk/libgycas.a $(REPOSITORY)/sdk/libdvn.a $(REPOSITORY)/sdk/libdvt.a $(REPOSITORY)/sdk/libmlzo.a $(REPOSITORY)/sdk/libcore.a $(REPOSITORY)/sdk/liblog.a $(REPOSITORY)/sdk/libyamadhw.a $(REPOSITORY)/sdk/lib7zip.a /d/3202c-2013.3.4/sdk/boot.o *.ini flash*.abs" >> $(BINNAME)Makefile.rel
+	echo "	mkdir -p \$$(RELEASE_PATH)/prj/tools; cp -f \$$(REPOSITORY)/prj/tools/*  \$$(RELEASE_PATH)/prj/tools/" >> $(BINNAME)Makefile.rel
+	echo "release: board_config.o win_ca_freepreviewing.o win_ca_message.o win_ca_operator_info.o win_ca_operator_message.o win_ca_password.o win_ca_pinpwd.o win_ca_popup_ipp.o win_ca_smc_upg.o win_ca_watchlevel.o win_cas_com.o win_cas_proc.o win_fingerprint.o win_mail.o win_mail_content.o win_mail_icon.o win_osdmsg.o win_smc_info.o control.o backup_loader.o bat_private.o com_api.o com_epg.o menu_api.o ota_special.o stb_data.o stb_hwinfo.o system_data.o data_bdcast_com.o game_box.o game_box_maps.o game_othello.o adv_geeya.o GYAD_Api.o GYAD_Core.o key.o menus_root.o osd_rsc.o power.o root.o ad_pic.o ad_pic_gfx.o ad_pic_gif.o ad_pic_img.o ad_pic_png.o ts_search.o win_advset.o win_audio.o win_audioset.o win_book_detail.o win_ca_bing.o win_ca_set.o win_chan_detail.o win_chan_edit.o win_chan_list.o win_chan_manage.o win_chan_management.o win_chanedit_action.o win_channel_info.o win_child_lock.o win_child_lock_list.o win_com.o win_com_list.o win_com_popup.o win_common_item.o win_displayset.o win_epg.o win_epg_detail.o win_factory_set.o win_factoryset.o win_freqset.o win_full_band_scan.o win_game_com.o win_game_othello.o win_games.o win_languageset.o win_light_channel_list.o win_mainmenu.o win_manual_search.o win_manual_update.o win_mute.o win_new_signal.o win_new_signal_test.o win_nimreg.o win_nvod.o win_nvod_detail.o win_nvod_event_bar.o win_nvod_warn.o win_password.o win_pause.o win_prog_input.o win_prog_name.o win_prog_search.o win_pwd_set.o win_reg.o win_reserve_manage.o win_search.o win_signal.o win_signal_test.o win_signalstatus.o win_stb_info.o win_sys_information.o win_sys_items.o win_system_management.o win_timer_set.o win_volumebar.o win_infomation.o xforms.o blocks.o others.o" >> $(BINNAME)Makefile.rel
+	echo "	@echo release done!" >> $(BINNAME)Makefile.rel
+	make -sf $(BINNAME)Makefile.rel release
+	-rm -f $(BINNAME)Makefile.rel
+	-rm -f prj_rel.sh
+	# Make File End
+

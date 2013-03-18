@@ -1,0 +1,12 @@
+// this MDF template file is created by MdfEditor.
+
+ScriptVersion = 1.0;
+
+module LIB_LOADER
+{
+    version = 1.0;
+    submodules = {};
+    codefiles = {"ld_osd_lib.c", "ld_osd_common.c", "ld_osd_common_draw.c"};
+    docfiles = {};
+    rules = {};
+};

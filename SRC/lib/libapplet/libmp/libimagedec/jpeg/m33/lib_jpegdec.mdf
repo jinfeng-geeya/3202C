@@ -1,0 +1,12 @@
+// this MDF template file is created by MdfEditor.
+
+ScriptVersion = 1.0;
+
+module LIB_JPEGDEC
+{
+    version = 1.0;
+    submodules = {};
+    codefiles = {"imagedec_acc.c", "imagedec_main.c", "imagedec_bmp_decoder.c", "imagedec_trans.c", "imagedec_idct.c", "imagedec_trans_dup.c", "imagedec_exif.c", "imagedec.c", "imagedec_covs.c", "imagedec_sub.c","imagedec_show.c","imagedec_osd.c"};
+    docfiles = {};
+    rules = {};
+};

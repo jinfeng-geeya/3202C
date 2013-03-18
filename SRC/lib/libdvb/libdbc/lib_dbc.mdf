@@ -1,0 +1,12 @@
+// this MDF template file is created by MdfEditor.
+
+ScriptVersion = 1.0;
+
+module LIB_DBC
+{
+    version = 1.0;
+    submodules = {};
+    codefiles = {"lib_dbc.c"};
+    docfiles = {};
+    rules = {};
+};

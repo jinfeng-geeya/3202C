@@ -1,0 +1,90 @@
+###########################################################
+#
+#    project file
+#         This file is for ALI sdk. Don't edit it.
+#
+###########################################################
+
+
+# Version
+Version = 10
+
+# Parameters for product
+Product = upgloader_jade_demo
+
+# Parameters for chip_module
+chip_module = m3329
+
+# Parameters for flash type
+flash_type = 1
+
+# Parameters for sdrom size
+sdrom_size = 8
+
+# Parameters for chip number
+chip_num = 1
+
+# Parameters for SDRAM Mode
+SDRAM_mode = 0
+
+# Parameters for Compiler Mode
+Compiler_mode =  0
+
+# Parameters for SDRAM Bit
+SDRAM_bit = 0
+
+# Parameters for extern sdram file
+SDRAM_file = 
+
+# Parameters for OSD color mode
+ColorMode = 
+
+# Parameters for gcc
+gcc_pos = C:\Ali_SDK\compilers\gcc3.0.4\bin\
+gcc_prefix = mips-t2-elf-
+VersionControl = 
+Optimization = -O1
+Platform = ALI_M3327
+PlatformParam = -mips2 -EL
+Macro = -D_DEBUG_VERSION_ -DALi_M6303_Module_1
+WarningLevel =  -W
+HeaderPath(App) = -I$(release_path)/include/
+HeaderPath(Lib) = -I$(release_path)/include/ -I$(REPOSITORY)/inc
+OtherCompileParams = -g -msoft-float -fno-delayed-branch
+CodeMode(App) = mips32
+SysSymbol = -defsym __BOOT_FROM_FLASH=0 -defsym __BOOT_LOADER=0
+LinkScript = ldscript.ld
+OtherLinkParams = -lall -lbootos -lcore -lall -llog -lmlzo -l7zip -lm -lgcc -lc
+LibPath = -Map ${BINNAME}.map -L$(REPOSITORY)/sdk -L$(REPOSITORY)/sdk/blsdk
+OtherLibs = -L$(GCCROOT)lib/gcc-lib/mips-t2-elf/3.0.4/soft-float/el -L$(GCCROOT)mips-t2-elf/lib/soft-float/el
+
+# Files in project
+files += ../copper_common/stb_data.c
+files += ../copper_common/stb_hwinfo.c
+files += ../copper_common/backup_loader.c
+files += boot_osd_rsc.c
+files += key.c
+files += boot_ota_input.c
+files += upgloader.c
+files += upg_common.c
+files += upg_ota.c
+files += upg_menu.c
+files += board_config.c
+MemCfg = 
+PreDefineLib = 
+PrepareLibrary = 
+PostLibraryCmds = 
+PreDefineApp = 
+PreLinkCmds = 
+PostBuildCmds = @echo compress :${OBJCOPY} -O binary ${BINNAME}.out ${BINNAME}_tmp; \${OBJDUMP} -D ${BINNAME}.out > ${BINNAME}.dis ;\rm -f ${BINNAME}.7z; \${REPOSITORY}/prj/tools/lzma e ${BINNAME}_tmp ${BINNAME}.7z -lc0 -lp2	@echo generate :# .flash address - 65552 = 221168rm -f app_${BINNAME}.binrm -f upg_common.o upgloader.o stb_data.o upg_usb.ocp ${BINNAME}.7z ../${BINNAME}.binrm -f ${BINNAME}.7z
+CustomCmds = 
+# Ali library
+AliLibCfgFile = mcf\upgloader_jade_demo.mcf
+# Resources
+ResTempDir = MCF\Resource
+ResBuildDir =MCF\Resource
+ResFileMode =
+ResBitmapFile =
+ResFontFile =
+ResCfgFile =
+# End of file

@@ -1,0 +1,12 @@
+// this MDF template file is created by MdfEditor.
+ 
+ScriptVersion = 1.0;
+ 
+module LLD_NIM_C
+{
+	version = 1.0;
+	submodules = {"nim_H256/lld_nim_H256.mdf","tun_tda18250/lld_tun_tda18250.mdf", "rt820c/lld_tun_rt820.mdf", "tun_mxl603/lld_tun_mxl603.mdf"};
+	codefiles = {"nim_s3202.c", "tun_dct7044.c","tun_alpstdqe.c","tun_dct70701.c", "tun_alpstdae.c","tun_tdccg1x1f.c", "tun_tdccg0x1f.c", "tun_dbcte702f1.c", "tun_cd1616lf.c", "tun_cd1616lf.h", "tun_alpstdac.c","tmbslNT220x.c", "tmbslNT220xInstance.c", "tmddNT220x.c", "tmddNT220x_Advanced.c", "tmddNT220xInstance.c", "tun_nt220x.c","MxL203RF.c","MxL203RF_API.c","MxL_User_Define.c","tun_mxl203rf.c"};
+	docfiles = {};
+	rules = {};
+};

@@ -1,0 +1,12 @@
+// this MDF template file is created by MdfEditor.
+
+ScriptVersion = 1.0;
+
+module LLD_STO
+{
+    version = 1.0;
+	submodules = {"at24c04/lld_sto_at24c04.mdf", "flash/lld_sto_flash.mdf", "flash_sqi/lld_sto_flash_sqi.mdf", "eeprom/sto_e2p.mdf", "flash_sqi/flash_sqi_s/lld_sto_flash_sqi_s.mdf","nand/lld_sto_nand.mdf","nand/nand_s/lld_sto_nand_s.mdf"};
+    codefiles = {};
+    docfiles = {};
+    rules = {};
+};

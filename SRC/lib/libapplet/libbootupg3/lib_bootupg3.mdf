@@ -1,0 +1,12 @@
+// this MDF template file is created by MdfEditor.
+ 
+ScriptVersion = 1.0;// version of generator of this file
+ 
+module LIB_BOOTUPG3
+{
+	version = 1.0;
+	submodules = {};
+	codefiles = {"lib_ash.c","lib_ashcmd.c","Packet.c"};
+	docfiles = {};
+	rules = {};
+};

@@ -1,0 +1,83 @@
+###########################################################
+#
+#    project file
+#         This file is for ALI sdk. Don't edit it.
+#
+###########################################################
+
+
+# Version
+Version = 10
+
+# Parameters for product
+Product = jade_demo_loader
+
+# Parameters for chip_module
+chip_module = m3327
+
+# Parameters for flash type
+flash_type = 1
+
+# Parameters for sdrom size
+sdrom_size = 32
+
+# Parameters for chip number
+chip_num = 1
+
+# Parameters for SDRAM Mode
+SDRAM_mode = 0
+
+# Parameters for Compiler Mode
+Compiler_mode =  0
+
+# Parameters for SDRAM Bit
+SDRAM_bit = 0
+
+# Parameters for extern sdram file
+SDRAM_file = 
+
+# Parameters for OSD color mode
+ColorMode = 
+
+# Parameters for gcc
+gcc_pos = C:\Ali_SDK\compilers\gcc3.0.4\bin\
+gcc_prefix = mips-t2-elf-
+VersionControl = 
+Optimization = -O1
+Platform = ALI_M3327
+PlatformParam = -mips2 -EL
+Macro = -D_EROM_D_ -D_MULTI_SECTION_D -D_OTA_D_ -D_ENABLE_4M_SDRAM_D_ -DDONT_SUPPORT_FIRMWARE_CONFIG
+WarningLevel =  
+HeaderPath(App) = -I$(release_path)/include/
+HeaderPath(Lib) = -I$(release_path)/include/ -I$(REPOSITORY)/inc
+OtherCompileParams = -g -msoft-float
+CodeMode(App) = mips16
+SysSymbol = -defsym __BOOT_FROM_FLASH=1 -defsym __BOOT_LOADER=0
+LinkScript = ldscript_a.ld
+OtherLinkParams = -lall -lc -lgcc -llog -lslot -lstandby -lboot -l7zip -lall
+LibPath = -Map ${BINNAME}.map -L$(REPOSITORY)/sdk -L$(REPOSITORY)/sdk/blsdk
+OtherLibs = -L$(GCCROOT)lib/gcc-lib/mips-t2-elf/3.0.4/soft-float/el -L$(GCCROOT)mips-t2-elf/lib/soft-float/el
+
+# Files in project
+files += ../copper_common/stb_data.c
+files += ../copper_common/backup_loader.c
+files += bootloader.c
+files += board_config.c
+MemCfg = 
+PreDefineLib = 
+PrepareLibrary = 
+PostLibraryCmds = 
+PreDefineApp = BOOT = boot33SLOT = libslot_fd620BOOTCONFIG = boot3202C
+PreLinkCmds = cp ${REPOSITORY}/sdk/blsdk/${BOOT}.o $(release_path)/lib/boot.ocp ${REPOSITORY}/sdk/blsdk/libstandby.a $(release_path)/lib/cp ${REPOSITORY}/sdk/blsdk/${SLOT}.a $(release_path)/lib/libslot.acp ${BOOTCONFIG}.cfg ./boot.cfg
+PostBuildCmds = ${REPOSITORY}/prj/tools/bmerger.exe ${BINNAME}.abs boot.cfg 128 384${REPOSITORY}/prj/tools/bmerger.exe ${BINNAME}.abs stb_hwinfo.bin 122880 44#${REPOSITORY}/prj/tools/bmerger.exe ${BINNAME}.abs stbinfohead.bin 130944 128cp ${BINNAME}.abs ../bloader4_3202c+ddr32m.abs
+CustomCmds = 
+# Ali library
+AliLibCfgFile = mcf\jade_demo_loader.mcf
+# Resources
+ResTempDir = Resource
+ResBuildDir =Resource
+ResFileMode =
+ResBitmapFile =
+ResFontFile =
+ResCfgFile =
+# End of file

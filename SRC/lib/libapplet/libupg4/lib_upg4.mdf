@@ -1,0 +1,12 @@
+// this MDF template file is created by MdfEditor.
+ 
+ScriptVersion = 1.0;// version of generator of this file
+ 
+module LIB_UPG4
+{
+	version = 1.0;
+	submodules = {"usb/lib_upg4_usb.mdf", "ota/lib_upg4_ota.mdf"};
+	codefiles = {"lib_upg4_com.c"};
+	docfiles = {};
+	rules = {};
+};

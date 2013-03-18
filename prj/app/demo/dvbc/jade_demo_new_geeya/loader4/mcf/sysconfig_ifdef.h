@@ -1,0 +1,118 @@
+/*******Memory Mapping*******/
+#if 0
+#if (64 == SYS_SDRAM_SIZE || 128 == SYS_SDRAM_SIZE)
+#define __MM_FB_TOP_ADDR		(0xa4000000)
+
+/*MPEG buffer length*/
+#define __MM_FB_LEN			    0xdd2200//0XCA8000//0X9B4000//0X26D000//(16*SD>3*HD)
+#define __MM_MAF_LEN			0X8C000//0X3000//((FLAG==4*4*3K) + VALUE ==120*72*32 *2(Y+C)>46*36*32 *2(Y+C) *4 )
+#define __MM_VBV_LEN			0x12C000//(HD = 8*SD > 4*SD)
+
+#define __MM_GMA1_LEN			(0x1FA400*4) // 1920*1080 osd layer1  		
+#define __MM_GMA2_LEN			(0x1FA400*4) //1920*1080  osd layer2
+#define __MM_TEMP_BUF_LEN		0x100 
+#define __MM_CMD_LEN			0x6DB0 // command buffer
+#define __MM_GE_LEN			    (__MM_GMA1_LEN+__MM_GMA2_LEN+__MM_TEMP_BUF_LEN+__MM_CMD_LEN) //0xBE45B0
+
+#define __MM_OSD1_LEN			0//(0x1FA400*4)//0x65400 // 720*576
+#define __MM_OSD2_LEN			0//(0x1FA400*4)//0x65400
+#define __MM_OSD3_LEN			0//0x8000// for no menu use
+
+#define __MM_DMX_SI_LEN			(32*188)//(16*188)
+#define __MM_DMX_SI_TOTAL_LEN	 (__MM_DMX_SI_LEN*41)//(__MM_DMX_SI_LEN*44)
+
+#define __MM_SI_VBV_OFFSET		__MM_DMX_SI_TOTAL_LEN
+#define __MM_DMX_DATA_LEN		(30*188)
+#define __MM_DMX_PCR_LEN		(10*188)
+#define __MM_DMX_AUDIO_LEN		(256*188)//(32*188)
+#define __MM_DMX_VIDEO_LEN		(12*512*188)//(8*512*188)
+#define __MM_DMX_AVP_LEN		(__MM_DMX_VIDEO_LEN+__MM_DMX_AUDIO_LEN+__MM_DMX_PCR_LEN)//(__MM_DMX_VIDEO_LEN+__MM_DMX_AUDIO_LEN+__MM_DMX_PCR_LEN)
+
+#define __MM_TTX_BS_LEN			0x5000//0X2800
+#define __MM_TTX_PB_LEN		        0//0xCA800 //+80*1040 //
+#define __MM_TTX_SUB_PAGE_LEN       0 //80*1040
+#define __MM_TTX_P26_NATION_LEN     0
+#define __MM_TTX_P26_DATA_LEN       0
+#define __MM_SUB_BS_LEN			0xA000 //0X2800
+#define __MM_SUB_PB_LEN			0//0X19000
+
+#define __MM_USB_DMA_LEN		0	// 0x10FFFF currently not use
+
+#define SCHEDULE_TABLE_ID_NUM 	2 /*(0x50, 0x51 or 0x60, 0x61)*/
+#define __MM_EPG_BUFFER_LEN     0//0x96000 //0x100000  (at least 585K, please reference lib_epg.c)
+
+/*MPEG buffer allocation*/
+#define __MM_FB_START_ADDR		((__MM_FB_TOP_ADDR - __MM_FB_LEN)&0XFFFFFF00)
+#define __MM_MAF_START_ADDR		((__MM_FB_START_ADDR - __MM_MAF_LEN)&0XFFFFFC00)
+#define __MM_VBV_START_ADDR		((__MM_MAF_START_ADDR - __MM_VBV_LEN)&0XFFFFFF00)
+
+#define __MM_TTX_BS_START_ADDR	((__MM_VBV_START_ADDR - __MM_TTX_BS_LEN)&0XFFFFFFFC)
+#define __MM_TTX_PB_START_ADDR	((__MM_TTX_BS_START_ADDR - __MM_TTX_PB_LEN)&0XFFFFFFFC)
+#define __MM_TTX_SUB_PAGE_BUF_ADDR  (__MM_TTX_PB_START_ADDR - __MM_TTX_SUB_PAGE_LEN)
+#define __MM_TTX_P26_NATION_BUF_ADDR (__MM_TTX_SUB_PAGE_BUF_ADDR - __MM_TTX_P26_NATION_LEN)
+#define __MM_TTX_P26_DATA_BUF_ADDR  (__MM_TTX_P26_NATION_BUF_ADDR -  __MM_TTX_P26_DATA_LEN)
+#define __MM_SUB_BS_START_ADDR	((__MM_TTX_P26_DATA_BUF_ADDR  - __MM_SUB_BS_LEN)&0XFFFFFFFC)
+#define __MM_SUB_PB_START_ADDR	((__MM_SUB_BS_START_ADDR - __MM_SUB_PB_LEN)&0XFFFFFFFC)
+#define __MM_USB_START_ADDR		((__MM_SUB_PB_START_ADDR - __MM_USB_DMA_LEN)&0XFFFFFFE0)
+#ifdef TTX_EPG_SHARE_MEM
+#define __MM_EPG_BUFFER_START   (__MM_TTX_P26_DATA_BUF_ADDR)
+#else
+#define __MM_EPG_BUFFER_START   (__MM_USB_START_ADDR-__MM_EPG_BUFFER_LEN)
+#endif
+
+#define __MM_DMX_AVP_START_ADDR		((__MM_EPG_BUFFER_START - __MM_SI_VBV_OFFSET - __MM_DMX_DATA_LEN - __MM_DMX_AVP_LEN)&0XFFFFFFFC)
+#define __MM_DMX_FFT_START_BUFFER    __MM_DMX_AVP_START_ADDR
+#define __MM_GE_START_ADDR			((__MM_DMX_FFT_START_BUFFER - __MM_GE_LEN)&0XFFFFFFE0)
+#define __MM_OSD_BK_ADDR1  			((__MM_GE_START_ADDR - __MM_OSD1_LEN)&0XFFFFFFF0)
+#define __MM_OSD_BK_ADDR2  			((__MM_OSD_BK_ADDR1 - __MM_OSD2_LEN)&0XFFFFFFF0)
+#define __MM_OSD_BK_ADDR3			((__MM_OSD_BK_ADDR2 - __MM_OSD3_LEN)&0XFFFFFFF0)
+
+#define __MM_HEAP_TOP_ADDR              __MM_OSD_BK_ADDR3//__MM_LWIP_MEMP_ADDR
+
+
+// for jpeg decoder memmap
+#define __MM_FB0_Y_LEN			(1920*1088+1024)//(736*576+512)	//for high definition jpg decode
+#define __MM_FB1_Y_LEN			__MM_FB0_Y_LEN
+#define __MM_FB2_Y_LEN			__MM_FB0_Y_LEN
+
+#define __MM_FB0_C_LEN			(__MM_FB0_Y_LEN/2)
+#define __MM_FB1_C_LEN			__MM_FB0_C_LEN
+#define __MM_FB2_C_LEN			__MM_FB0_C_LEN
+
+#define __MM_FB3_Y_LEN			(736*576+1024)
+#define __MM_FB3_C_LEN			(__MM_FB3_Y_LEN/2)
+
+#define __MM_FB0_Y_START_ADDR   (__MM_FB_START_ADDR)
+#define __MM_FB0_C_START_ADDR   (__MM_FB0_Y_START_ADDR+__MM_FB0_Y_LEN)
+
+#define __MM_FB1_Y_START_ADDR   ((__MM_FB0_C_START_ADDR+__MM_FB0_C_LEN)&0XFFFFFE00)
+#define __MM_FB1_C_START_ADDR   ((__MM_FB1_Y_START_ADDR+__MM_FB1_Y_LEN)&0XFFFFFE00)
+
+#define __MM_FB2_Y_START_ADDR   ((__MM_FB1_C_START_ADDR+__MM_FB1_C_LEN)&0XFFFFFE00)
+#define __MM_FB2_C_START_ADDR   ((__MM_FB2_Y_START_ADDR+__MM_FB2_Y_LEN)&0XFFFFFE00)
+
+#define __MM_FB3_Y_START_ADDR   ((__MM_FB2_C_START_ADDR+__MM_FB2_C_LEN)&0XFFFFFE00)
+#define __MM_FB3_C_START_ADDR   ((__MM_FB3_Y_START_ADDR+__MM_FB3_Y_LEN)&0XFFFFFE00)
+// for satcodx memmap
+#define __MM_DVW_START_ADDR			((__MM_FB2_C_START_ADDR - 0X25FA0)&0XFFFFFFF0)
+
+#endif
+
+/************** common data define ****************/
+#ifndef DISABLE_PRESET_CLOCK
+#if (SYS_CHIP_MODULE == ALI_M3327C && SYS_SDRAM_SIZE == 2)
+#define SYS_COMMON_DATA_BASE_ADDR               0xbfc0fe80
+#define SYS_COMMON_DATA_BASE_ADDR               0xbfc0fe80
+#define SYS_DEFAULT_CPU_CLOCK_OFFSET                    0x00
+#define SYS_DEFAULT_MEM_CLOCK_OFFSET                    0x01
+#define SYS_DEFAULT_MEM_READ_CLOCK_DELAY_CHAIN_OFFSET   0x02
+#define SYS_DEFAULT_MEM_CLOCK_TREE_DELAY_CHAIN_OFFSET   0x03
+
+#define SYS_CPU_CLOCK_OFFSET                    		0x60
+#define SYS_MEM_CLOCK_OFFSET                  			0x61
+#define SYS_MEM_READ_CLOCK_DELAY_CHAIN_OFFSET   		0x62
+#define SYS_MEM_CLOCK_TREE_DELAY_CHAIN_OFFSET   		0x63
+#endif
+#endif
+#endif
+

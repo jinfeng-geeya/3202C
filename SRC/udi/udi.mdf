@@ -1,0 +1,23 @@
+// this MDF template file is created by MdfEditor.
+
+ 
+
+ScriptVersion = 1.0;
+
+ 
+
+module UDI
+
+{
+
+	version = 1.0;
+	submodules = {"enreach/enreach_s/udi_enreach_s.mdf", "enreach/udi_enreach.mdf", "enreach_hd/udi_enreach_hd.mdf","ipanel/udi_ipanel.mdf", "ipanel28/udi_ipanel28.mdf","ipanel3_hd/udi_ipanel3_hd.mdf", "cpi/udi_cpi.mdf", "jiuzhou/udi_jz.mdf", "ipanel28_hd/udi_ipanel28_hd.mdf", "avit/udi_avit.mdf", "coship/udi_coship.mdf", "mis/udi_mis.mdf", "aliddk_debug/lib_aliddk_debug.mdf", "skyworth/sky.mdf","infodtv_nl/udi_infodtv.mdf","htrd/htrd.mdf"};
+
+	codefiles = {};
+
+	docfiles = {};
+
+	rules = {};
+
+};
+

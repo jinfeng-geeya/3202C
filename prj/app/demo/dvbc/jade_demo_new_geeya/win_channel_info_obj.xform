@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<Form Type="Form" Width="720" Height="576" OSDBits="2">
+    <g_win_channel_info Type="CONTAINER" ID="1" Attribute="C_ATTR_ACTIVE" Font="0" ID_Left="0" ID_Right="0" ID_Up="0" ID_Down="0" Left="0" Top="90" Width="720" Height="400" Style_Show="WSTL_SEARCH_BG_CON" Style_Highlight="WSTL_SEARCH_BG_CON" Style_Select="WSTL_SEARCH_BG_CON" Style_Gray="WSTL_SEARCH_BG_CON" Keymap="win_channel_info_keymap" Callback="win_channel_info_callback" Focus_Object="channel_info_menu" HiliteAsWhole="0">
+        <channel_info_menu Type="CONTAINER" ID="1" Attribute="C_ATTR_ACTIVE" Font="0" ID_Left="0" ID_Right="0" ID_Up="0" ID_Down="0" Left="66" Top="102" Width="604" Height="220" Style_Show="WSTL_WIN_1" Style_Highlight="WSTL_WIN_1" Style_Select="WSTL_WIN_1" Style_Gray="WSTL_WIN_1" Keymap="" Callback="" Focus_Object="txt_items_name" HiliteAsWhole="0">
+            <txt_items_name Type="TEXT_FIELD" ID="0" Attribute="C_ATTR_ACTIVE" Font="0" ID_Left="0" ID_Right="0" ID_Up="0" ID_Down="0" Left="76" Top="102" Width="220" Height="32" Style_Show="WSTL_TXT_4" Style_Highlight="WSTL_TXT_4" Style_Select="WSTL_YELLO_ITEM" Style_Gray="WSTL_BULE_ITEM" Keymap="" Callback="" Align="C_ALIGN_LEFT|C_ALIGN_VCENTER" bX="0" bY="0" StringID="" String="display_strs[40]" />
+        </channel_info_menu>
+    </g_win_channel_info>
+</Form>

@@ -1,0 +1,12 @@
+// this MDF template file is created by MdfEditor.
+
+ScriptVersion = 1.0;
+
+module HLD
+{
+    version = 1.0;
+    submodules = {"deca/hld_deca.mdf", "decv/hld_decv.mdf", "dis/hld_vp.mdf", "dmx/hld_dmx.mdf", "ge/hld_ge.mdf", "net/hld_net.mdf", "nim/hld_nim.mdf", "osd/hld_osd.mdf", "pan/hld_pan.mdf", "rfm/hld_rfm.mdf", "sdec/hld_sdec.mdf", "smc/hld_smc.mdf", "snd/hld_snd.mdf", "sto/hld_sto.mdf", "vbi/hld_vbi.mdf", "venc/hld_venc.mdf"};
+    codefiles = {"hld_dev.c"};
+    docfiles = {};
+    rules = {};
+};

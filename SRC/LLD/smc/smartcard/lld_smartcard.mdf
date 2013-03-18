@@ -1,0 +1,12 @@
+// this MDF template file is created by MdfEditor.
+
+ScriptVersion = 1.0;
+
+module LLD_SMARTCARD
+{
+    version = 1.0;
+    submodules = {};
+    codefiles = {"smartcard.c", "smc_t1_buffer.c"};
+    docfiles = {};
+    rules = {};
+};

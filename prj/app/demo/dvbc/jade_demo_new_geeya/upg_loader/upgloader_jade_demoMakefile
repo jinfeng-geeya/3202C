@@ -1,0 +1,192 @@
+
+##############################################
+#
+#    Makefile for your App
+#        Ali sdk auto generated. Don't edit it!
+#                            ALI corporation.
+#
+##############################################
+
+
+# Environment settings
+GCCROOT = /cygdrive/D/study/v2.1/ALi_IDE_2.1_compile_tools/compilers/gcc3.0.4/
+export PATH:=/bin:/cygdrive/C/Ali_SDK/bin/:$(PATH)
+
+# gcc prefix
+Prefix = mips-t2-elf-
+
+CC = $(GCCROOT)bin/$(Prefix)gcc.exe
+CXX = $(GCCROOT)bin/$(Prefix)g++.exe
+AR = $(GCCROOT)bin/$(Prefix)ar.exe
+LD = $(GCCROOT)bin/$(Prefix)ld.exe
+OBJCOPY = $(GCCROOT)bin/$(Prefix)objcopy.exe
+OBJDUMP = $(GCCROOT)bin/$(Prefix)objdump.exe
+
+CP = cp
+ECHO = echo
+MAKE = make
+
+# Parameters
+ccflag =  -O1 -mips2 -EL -D_DEBUG_VERSION_ -DALi_M6303_Module_1 -W -I$(release_path)/include/ -g -msoft-float -fno-delayed-branch -I$(release_path)/include/ -I$(REPOSITORY)/inc
+ldflag = -O1  -EL -defsym __BOOT_FROM_FLASH=0 -defsym __BOOT_LOADER=0 -T ldscript.ld -lall -lbootos -lcore -lall -llog -lmlzo -l7zip -lm -lgcc -lc -L$(release_path)/lib/ -Map ${BINNAME}.map -L$(REPOSITORY)/sdk -L$(REPOSITORY)/sdk/blsdk -L$(GCCROOT)lib/gcc-lib/mips-t2-elf/3.0.4/soft-float/el -L$(GCCROOT)mips-t2-elf/lib/soft-float/el
+# Repository path which contains the root module,
+# is root for all modules' source files.
+REPOSITORY = /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/
+
+# release_path is module library's root,
+# It has two subdirectories: include and lib.
+release_path = /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/mcf//release
+
+# RESOURCE_BUILD_PATH is resources build path,
+# stores .h files which built from resources.
+RESOURCE_BUILD_PATH = MCF/Resource
+
+# APP_ROOT_PATH is application root path,
+# all app files are under this root.
+APP_ROOT_PATH = /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/prj/app/demo/dvbc/jade_demo_new_16bit/upg_loader/
+
+# project release path.
+RELEASE_PROJECT_PATH = xxx
+
+# Custom Predefine:  
+
+# List of source files
+
+ASMS = \
+
+
+SRCS = \
+	../copper_common/stb_data.c \
+	../copper_common/stb_hwinfo.c \
+	../copper_common/backup_loader.c \
+	boot_osd_rsc.c \
+	key.c \
+	boot_ota_input.c \
+	upgloader.c \
+	upg_common.c \
+	upg_ota.c \
+	upg_menu.c \
+	board_config.c
+
+SRCPPS = \
+
+
+XFORMS = \
+
+
+XFORMHS = ${XFORMS:.xform=.h}
+
+
+OBJS = ${ASMS:.S=.o} ${SRCS:.c=.o} ${SRCPPS:.cpp=.o}
+
+# Set binary file name
+BINNAME = upgloader_jade_demo
+
+
+.PHONY : prelink
+prelink:
+
+.PHONY : all
+all : prelink labelMakefile.mk
+	$(MAKE) -f $(BINNAME)Makefile.mk $(OBJS)
+	$(LD) $(OBJS) $(ldflag) -o $(BINNAME).exe
+	-$(CP) -f $(BINNAME).exe $(BINNAME).out
+	$(OBJCOPY) -O binary $(BINNAME).exe $(BINNAME).abs
+	$(OBJDUMP) -d $(BINNAME).exe > $(BINNAME).dis
+	@echo compress :
+	${OBJCOPY} -O binary ${BINNAME}.out ${BINNAME}_tmp; \
+	${OBJDUMP} -D ${BINNAME}.out > ${BINNAME}.dis ;\
+	rm -f ${BINNAME}.7z; \
+	${REPOSITORY}/prj/tools/lzma e ${BINNAME}_tmp ${BINNAME}.7z -lc0 -lp2
+		
+	@echo generate :
+	# .flash address - 65552 = 221168
+	rm -f app_${BINNAME}.bin
+	rm -f upg_common.o upgloader.o stb_data.o upg_usb.o
+	cp ${BINNAME}.7z ../${BINNAME}.bin
+	rm -f ${BINNAME}.7z
+
+.PHONY : app_as_lib
+app_as_lib : prelink labelMakefile.mk
+	$(MAKE) -f $(BINNAME)Makefile.mk $(OBJS)
+	$(AR) rcs $(BINNAME).a $(OBJS)
+	@echo build complete.
+
+.PHONY : debug
+debug : prelink labelMakefile.mk
+	$(MAKE) -f $(BINNAME)Makefile.mk $(OBJS)
+	$(LD) $(OBJS) $(ldflag) -o $(BINNAME).exe
+	-$(CP) -f $(BINNAME).exe $(BINNAME).out
+	$(OBJCOPY) -O binary $(BINNAME).exe $(BINNAME).abs
+	@echo build complete.
+
+.PHONY : labelMakefile.mk
+labelMakefile.mk : $(SRCS) #$(ASMS)
+	$(CP) -f $(BINNAME)Makefile $(BINNAME)Makefile.mk
+	-$(CC) $(ccflag) -M $(SRCS) $(SRCPPS) $(ASMS) >> $@.tmp
+	-modify_dep.exe $@.tmp
+	-cat $@.tmp >> $(BINNAME)Makefile.mk
+	-rm $@.tmp
+
+.PHONY : check
+check : 
+	@-splint.exe -strict -gnuextensions -DLINT  -D_DEBUG_VERSION_ -DALi_M6303_Module_1 -I$(release_path)/include/ -I$(RESOURCE_BUILD_PATH) -I$(release_path)/include/ -I$(REPOSITORY)/inc/ $(SRCS)
+	@echo check complete.
+
+
+.PHONY : clean
+clean : 
+	@-rm -f $(OBJS)
+	@-rm -f $(BINNAME)Makefile.mk
+	@-rm -f $(BINNAME).exe
+	#@-rm -f $(BINNAME).abs
+	@-rm -f $(BINNAME).dis
+	@echo clean complete.
+
+
+.PHONY : dependency
+dependency : prelink labelMakefile.mk
+	@echo make dependency complete.
+
+
+.PHONY : custombat
+custombat :
+
+	@echo custom bat cmds complete.
+
+
+%.o : %.c
+	@echo $<
+	$(CC) $(ccflag) -c $< -g -o $@
+
+%.o : %.S
+	@echo $<
+	$(CC) $(ccflag) -c $< -g -o $@
+
+%.o : %.cpp
+	@echo $<
+	$(CXX) $(ccflag) -c $< -g -o $@
+
+%.h : %.xform
+	${REPOSITORY}/prj/tools/xform2c $< $@
+
+
+.PHONY : release
+release:
+	dos2unix prj_rel.sh
+	echo 'REPOSITORY=$(REPOSITORY)' > $(BINNAME)Makefile.rel
+	echo 'APP_ROOT_PATH=$(APP_ROOT_PATH)' >> $(BINNAME)Makefile.rel
+	echo 'RELEASE_PATH=$(RELEASE_PROJECT_PATH)' >> $(BINNAME)Makefile.rel
+	-$(CC) $(ccflag) -M $(SRCS) $(SRCPPS) $(ASMS) > $@.tmp
+	sed "/[^\\\\]$$/a\\	@echo \$$<;export REPOSITORY=\$$(REPOSITORY); export APP_ROOT_PATH=\$$(APP_ROOT_PATH);export RELEASE_PATH=\$$(RELEASE_PATH); ./prj_rel.sh $$+" $@.tmp >> $(BINNAME)Makefile.rel
+	-rm $@.tmp
+	echo "others.o:" upgloader_jade_demo.apr >>  $(BINNAME)Makefile.rel
+	echo "	export REPOSITORY=\$$(REPOSITORY); export APP_ROOT_PATH=\$$(APP_ROOT_PATH);export RELEASE_PATH=\$$(RELEASE_PATH); ./prj_rel.sh upgloader_jade_demo.apr ldscript.ld $(release_path)/lib//libbootos.a $(release_path)/lib//libcore.a $(release_path)/lib//liblog.a $(release_path)/lib//libmlzo.a $(release_path)/lib//lib7zip.a $(REPOSITORY)/sdk/libbootos.a $(REPOSITORY)/sdk/libcore.a $(REPOSITORY)/sdk/liblog.a $(REPOSITORY)/sdk/libmlzo.a $(REPOSITORY)/sdk/lib7zip.a $(REPOSITORY)/sdk/blsdk/libbootos.a $(REPOSITORY)/sdk/blsdk/libcore.a $(REPOSITORY)/sdk/blsdk/liblog.a $(REPOSITORY)/sdk/blsdk/libmlzo.a $(REPOSITORY)/sdk/blsdk/lib7zip.a /cygdrive/d/sdk4.0ad.1.3_jade_c_20121207_16bit_new_new/sdk/boot.o *.ini flash*.abs" >> $(BINNAME)Makefile.rel
+	echo "	mkdir -p \$$(RELEASE_PATH)/prj/tools; cp -f \$$(REPOSITORY)/prj/tools/*  \$$(RELEASE_PATH)/prj/tools/" >> $(BINNAME)Makefile.rel
+	echo "release: stb_data.o stb_hwinfo.o backup_loader.o boot_osd_rsc.o key.o boot_ota_input.o upgloader.o upg_common.o upg_ota.o upg_menu.o board_config.o others.o" >> $(BINNAME)Makefile.rel
+	echo "	@echo release done!" >> $(BINNAME)Makefile.rel
+	make -sf $(BINNAME)Makefile.rel release
+	-rm -f $(BINNAME)Makefile.rel
+	-rm -f prj_rel.sh
+	# Make File End
+

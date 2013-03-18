@@ -1,0 +1,12 @@
+// this MDF template file is created by MdfEditor.
+
+ScriptVersion = 1.0;
+
+module LLD_IRC
+{
+    version = 1.0;
+    submodules = {"m63/lld_irc_m63.mdf"};
+    codefiles = {"irc_std.c", "irc_lab_std.c", "irc_nec_std.c"};
+    docfiles = {};
+    rules = {};
+};

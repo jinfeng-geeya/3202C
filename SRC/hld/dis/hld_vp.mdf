@@ -1,0 +1,12 @@
+// this MDF template file is created by MdfEditor.
+
+ScriptVersion = 1.0;
+
+module HLD_VP
+{
+    version = 1.0;
+    submodules = {};
+    codefiles = {"vpo.c"};
+    docfiles = {};
+    rules = {};
+};

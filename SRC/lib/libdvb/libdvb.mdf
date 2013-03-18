@@ -1,0 +1,12 @@
+// this MDF template file is created by MdfEditor.
+
+ScriptVersion = 1.0;
+
+module LIB_DVB
+{
+	version = 1.0;
+	submodules = {"lib_nvod/libnvod.mdf", "libdbc/lib_dbc.mdf", "libdbc/libdbc_s/lib_dbc.mdf", "libepg/lib_epg.mdf", "libota_dvbc/libota.mdf", "libsubt/lib_subt.mdf", "libttx/lib_ttx.mdf", "libota_c/libota_c.mdf", "libsi/libsi.mdf"};
+	codefiles = {};
+	docfiles = {};
+	rules = {};
+};

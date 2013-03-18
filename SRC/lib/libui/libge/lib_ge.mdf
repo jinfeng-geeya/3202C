@@ -1,0 +1,12 @@
+// this MDF template file is created by MdfEditor.
+
+ScriptVersion = 1.0;
+
+module LIB_GE
+{
+    version = 1.0;
+    submodules = {};
+    codefiles = {"ge_primitive_init.c","gecmd_primitive.c","ge_draw_primitive.c","osd_window.c","obj_multisel.c", "obj_editfield.c", "obj_container.c", "obj_textfield.c", "osd_lib.c", "osd_common.c", "obj_multitext.c", "obj_list.c", "obj_objectlist.c", "obj_bitmap.c", "obj_progressbar.c", "obj_matrixbox.c", "osd_common_draw.c", "obj_scrollbar.c","osd_plugin.c","osd_popup.c","gelib_test.c","gelib_effects.c"};
+    docfiles = {};
+    rules = {};
+};

@@ -1,0 +1,12 @@
+// this MDF template file is created by MdfEditor.
+
+ScriptVersion = 1.0;
+
+module LIB_UI
+{
+	version = 1.0;
+	submodules = {"libosd/lib_osdo.mdf","libge/lib_ge.mdf","libge/libge_s/lib_ge.mdf"};
+	codefiles = {};
+	docfiles = {};
+	rules = {};
+};

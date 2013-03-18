@@ -1,0 +1,70 @@
+/****************************************************************************
+ *
+ *  ALi (Shanghai) Corporation, All Rights Reserved. 2002 Copyright (C)
+ *
+ *  File: ErrorCode.h
+ *
+ *  Description: define Error Code Define 
+ *		         
+ *  History:
+ *      Date		Author      Version		Comment
+ *      ====        ======      =======		=======
+ *  1   2007.5.23	Tony Wang	1.0			Create
+ ****************************************************************************/
+
+
+#ifndef __ERRORCODE_H__
+#define __ERRORCODE_H__
+
+#define NORM_STRLEN		256
+#define MAX_STRLEN		1024
+
+typedef enum
+{
+	GENERIC_ERROR = 1,			
+	SEIALPORT_CANTOPEN,
+	ERROR_SENDDATA,			
+	ERROR_RETURNNOTSAME,
+	ERROR_SENDCOMMAND,	
+	ERROR_USERABORT,		
+	ERROR_NOTCONNECT,		
+	ERROR_READDATA_TIMEOUT,
+	ERROR_DATACRC,	
+	ERROR_FUNCTION,
+	ERROR_NORECOGNIZEANSOW,
+	ERROR_OVERLOADRETRYTIME,	
+	ERROR_BURN,
+	ERROR_DUMPLEN,
+	ERROR_CODE_EROM_INI_LOAD,
+	ERROR_CODE_COM_OPEN,	
+	ERROR_CODE_USER_CANCEL,
+	ERROR_CODE_FILE_OPEN,		
+	ERROR_CODE_MALLOC,		
+	ERROR_CODE_FILE_RAED,
+	ERROR_DUMP,					
+	ERROR_COMTEST, 
+	ERROR_READDATA,
+	ERROR_SENDPACKETHEAD,
+	ERROR_SENDPACKETDATA,
+	ERROR_SENDPACKETCRC,
+	ERROR_NOPACKETRECEIVE,
+	ERROR_PACKET_RECEIVEHEAD,
+	ERROR_PACKET_HEADCRC,
+	ERROR_PACKET_RECEIVEDATA,
+	ERROR_PACKET_DATACRC,
+	ERROR_PACKET_NOTRECOGNIZE,
+	ERROR_NORECOGNIZECMD,
+	ERROR_COMPRESSTRANSFERDATA,
+	ERROR_TRANSFERALLDATA,
+	
+	ERROR_PARAMETER = 0x00010000,
+	ERROR_ADDRESS_OVERFLOW,
+	ERROR_ADDRESS_NOINIT,
+	ERROR_CHUNK_NOTFAND,
+	ERROR_BURN_NOTHING,
+	ERROR_NOBUFFER,
+}ERRORCODE;
+
+#define RETRY_CODE_MAX 0x00010000
+
+#endif	/* __COMDEV_H__ */

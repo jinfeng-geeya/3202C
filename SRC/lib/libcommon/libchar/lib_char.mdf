@@ -1,0 +1,12 @@
+// this MDF template file is created by MdfEditor.
+
+ScriptVersion = 1.0;
+
+module LIB_CHAR
+{
+    version = 1.0;
+    submodules = {};
+    codefiles = {"char_map.c", "gb_2312.c", "iso_5937.c", "lib_char.c", "arabic_convert.c", "Thai.c"};
+    docfiles = {};
+    rules = {};
+};

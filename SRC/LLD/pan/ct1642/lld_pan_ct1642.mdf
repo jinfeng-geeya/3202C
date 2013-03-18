@@ -1,0 +1,11 @@
+ScriptVersion = 1.0;// version of generator of this file
+ 
+module LLD_PAN_CT1642
+{
+	version = 1.0;
+	submodules = {};
+	codefiles = {"pan_ct1642.c"};
+	docfiles = {};
+	rules = {};
+};
+

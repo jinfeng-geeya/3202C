@@ -1,0 +1,12 @@
+// this MDF template file is created by MdfEditor.
+
+ScriptVersion = 1.0;
+
+module LIB_CHUNK
+{
+    version = 1.0;
+    submodules = {};
+    codefiles = {"chunk.c", "chunk_sto.c"};
+    docfiles = {};
+    rules = {};
+};

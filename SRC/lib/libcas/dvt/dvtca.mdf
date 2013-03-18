@@ -1,0 +1,13 @@
+// this MDF template file is created by MdfEditor.
+ 
+ScriptVersion = 1.0;// version of generator of this file
+ 
+module DVTCA
+{
+	version = 1.0;
+	submodules = {};
+	//codefiles = {"dvt_os.c", "dvt_dmx.c", "dvt_nvm.c", "dvt_catask.c", "dvt_sc.c"};
+	codefiles = {};
+	docfiles = {};
+	rules = {};
+};

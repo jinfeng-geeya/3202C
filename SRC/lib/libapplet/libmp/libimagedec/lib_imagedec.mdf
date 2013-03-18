@@ -1,0 +1,12 @@
+// this MDF template file is created by MdfEditor.
+
+ScriptVersion = 1.0;
+
+module LIB_IMAGEDEC
+{
+    version = 1.0;
+    submodules = {"jpeg/m33/lib_jpegdec.mdf", "jpeg/m36/lib_jpegdec.mdf", "jpeg/m36/m36_s/lib_jpegdec.mdf","gif/lib_gifdec.mdf", "png/lib_pngdec.mdf"};
+    codefiles = {};
+    docfiles = {};
+    rules = {};
+};

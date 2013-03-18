@@ -1,0 +1,12 @@
+// this MDF template file is created by MdfEditor.
+ 
+ScriptVersion = 1.0;
+ 
+module UDI_IPANEL
+{
+	version = 1.0;
+	submodules = {};
+	codefiles = {"ipanel_audio.c", "ipanel_av.c", "ipanel_base.c", "ipanel_demux.c", "ipanel_graphics.c", "ipanel_media.c", "ipanel_nvram.c", "ipanel_osfile.c", "ipanel_product.c", "ipanel_socket.c", "ipanel_sound.c", "ipanel_tuner.c", "ipanel_UrlNetCursor.c", "ipanel_video.c"};
+	docfiles = {};
+	rules = {};
+};

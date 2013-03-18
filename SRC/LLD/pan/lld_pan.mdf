@@ -1,0 +1,12 @@
+// this MDF template file is created by MdfEditor.
+
+ScriptVersion = 1.0;
+
+module LLD_PAN
+{
+    version = 1.0;
+	submodules = {"ct1628/lld_pan_ct1628.mdf","ct1642/lld_pan_ct1642.mdf","ch455/lld_pan_ch455.mdf", "common/lld_pan_common.mdf", "direct_gpio/lld_pan_direct_gpio.mdf", "dual_shift/lld_pan_dual_shift.mdf", "hwscan/lld_pan_hwscan.mdf", "irc/lld_irc.mdf", "nec16312/lld_pan_nec_16312.mdf", "pt6958/lld_pan_pt6958.mdf", "pt6958_27e4/lld_pan_pt6958_27e4.mdf", "pt6964_sky/lld_pan_pt6964_sky.mdf", "pt6964/lld_pan_pt6964.mdf", "pt6311/lld_pan_pt6311.mdf", "smt_m51/lld_pan_smt_m51.mdf", "irx/lld_irx_m36.mdf", "tp610/lld_pan_tp610.mdf", "at89/lld_pan_at89.mdf", "ld1207/lld_pan_ld1207.mdf","ik2102/lld_pan_ik2102.mdf","fd620k1/lld_pan_fd620k1.mdf", "fd650k/lld_pan_fd650k.mdf","hcs_13ss42/lld_pan_hcs13ss42.mdf","sm1668/lld_pan_sm1668.mdf","et6202/lld_pan_et6202.mdf","et6202_b00/lld_pan_et6202_b00.mdf", "pt6961/lld_pan_pt6961.mdf","et16315/lld_pan_et16315.mdf", "tp6x0/lld_pan_tp6x0.mdf", "pt6964_gp/lld_pan_pt6964_gp.mdf","pt6964_yl/lld_pan_pt6964_yl.mdf","pt6964_cs/lld_pan_pt6964_cs.mdf", "sino/lld_pan_sino.mdf"};
+    codefiles = {};
+    docfiles = {};
+    rules = {};
+};

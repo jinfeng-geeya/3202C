@@ -1,0 +1,12 @@
+// this MDF template file is created by MdfEditor.
+
+ScriptVersion = 1.0;
+
+module BUS_DOG_M33
+{
+    version = 1.0;
+    submodules = {};
+    codefiles = {"dog_m33.c"};
+    docfiles = {};
+    rules = {};
+};

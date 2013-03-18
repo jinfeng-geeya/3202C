@@ -1,0 +1,12 @@
+// this MDF template file is created by MdfEditor.
+
+ScriptVersion = 1.0;
+
+module LIB_GIFDEC
+{
+    version = 1.0;
+    submodules = {};
+    codefiles = {"gif.c","gif_main.c","gif_core.c","gif_info.c","gif_in.c","gif_list.c","gif_lzw.c","gif_sync.c","gif_out_ge.c","gif_out_osd.c","gif_out_ge36f.c"};
+    docfiles = {};
+    rules = {};
+};

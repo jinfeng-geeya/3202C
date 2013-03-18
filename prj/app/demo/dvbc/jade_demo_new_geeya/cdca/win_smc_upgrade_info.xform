@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<Form Type="Form" Width="720" Height="576" OSDBits="6">
+    <g_win_smc_upgrade_info Type="CONTAINER" ID="0" Attribute="C_ATTR_ACTIVE" Font="0" ID_Left="0" ID_Right="0" ID_Up="0" ID_Down="0" Left="0" Top="90" Width="720" Height="400" Style_Show="WSTL_TXT_12" Style_Highlight="WSTL_TXT_12" Style_Select="WSTL_NOSHOW_IDX" Style_Gray="WSTL_NOSHOW_IDX" Keymap="win_smc_up_info_keymap" Callback="win_smc_up_info_callback" Focus_Object="smc_upgrade_info_menu" HiliteAsWhole="0">
+        <smc_upgrade_info_menu Type="CONTAINER" ID="0" Attribute="C_ATTR_ACTIVE" Font="0" ID_Left="0" ID_Right="0" ID_Up="0" ID_Down="0" Left="66" Top="111" Width="593" Height="355" Style_Show="WSTL_WIN_2" Style_Highlight="WSTL_WIN_2" Style_Select="WSTL_NOSHOW_IDX" Style_Gray="WSTL_NOSHOW_IDX" Keymap="" Callback="" Focus_Object="smc_upgrade_item_str" HiliteAsWhole="0">
+            <smc_upgrade_item_str Type="TEXT_FIELD" ID="0" Attribute="C_ATTR_ACTIVE" Font="0" ID_Left="0" ID_Right="0" ID_Up="0" ID_Down="0" Left="132" Top="132" Width="460" Height="30" Style_Show="WSTL_TXT_3" Style_Highlight="WSTL_NOSHOW_IDX" Style_Select="WSTL_NOSHOW_IDX" Style_Gray="WSTL_NOSHOW_IDX" Keymap="" Callback="" Align="C_ALIGN_LEFT|C_ALIGN_VCENTER" bX="0" bY="0" StringID="" String="display_strs[42]" />
+        </smc_upgrade_info_menu>
+    </g_win_smc_upgrade_info>
+</Form>

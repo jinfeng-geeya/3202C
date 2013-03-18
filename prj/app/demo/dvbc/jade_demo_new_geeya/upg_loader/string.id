@@ -1,0 +1,29 @@
+#ifndef _STRING_ID_
+#define _STRING_ID_
+
+#define RS_LANGUAGE_CODE     1
+#define RS_COMMON_START      2
+#define RS_COMMON_CANCEL     3
+#define RS_FREQUENCY         4
+#define RS_SYMBOL            5
+#define RS_MODULATION        6
+#define RS_PID               7
+#define RS_COLLECT_INFO      8
+#define RS_BACKUP_DATA       9
+#define RS_DOWNLOADING       10
+#define RS_BURNING_FLASH     11
+#define RS_UPGRADE_SUCCESS   12
+#define RS_SET_MEMORY_FAIL   13
+#define RS_CHECK_SERVICE_FAIL 14
+#define RS_DOWNLOAD_INFO_FAIL 15
+#define RS_DOWNLOAD_FAIL     16
+#define RS_BURN_FAIL         17
+#define RS_START_UPDATE      18
+#define RS_UPDATE_PART       19
+#define RS_UPG_USB           20
+#define RS_UPG_OTA           21
+#define RS_UPG_INSERT_USB    22
+#define RS_UPG_UPGRADE_ERR   23
+#define RS_UPG_NO_BURN       24
+
+#endif//_STRING_ID_

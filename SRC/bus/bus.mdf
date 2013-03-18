@@ -1,0 +1,13 @@
+// this MDF template file is created by MdfEditor.
+
+ScriptVersion = 1.0;
+
+module BUS
+{
+    version = 1.0;
+    submodules = {"dma/bus_dma.mdf", "dog/bus_dog.mdf",  "erom/bus_erom.mdf", "hdmi/bus_hdmi.mdf", "i2c/bus_i2c.mdf",  "sci/bus_sci.mdf", "tsi/bus_tsi.mdf", "up/bus_up.mdf", "share/bus_share.mdf", "spe/bus_spe.mdf"};
+    codefiles = {};
+    docfiles = {};
+    rules = {};
+};
+

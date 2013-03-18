@@ -1,0 +1,12 @@
+// this MDF template file is created by MdfEditor.
+
+ScriptVersion = 1.0;// version of generator of this file
+
+module LIB_7ZIP
+{
+	version = 1.0;
+	submodules = {};
+	codefiles = {"un7zip.c"};
+	docfiles = {};
+	rules = {};
+};

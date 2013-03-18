@@ -1,0 +1,12 @@
+// this MDF template file is created by MdfEditor.
+
+ScriptVersion = 1.0;
+
+module LLD_VENC_M33
+{
+    version = 1.0;
+    submodules = {};
+    codefiles = {"putseq.c", "putmpg.c", "motion.c", "puthdr.c", "fdctref.c", "putbits.c", "quantize.c", "transfrm.c", "mpeg2enc.c", "putvlc.c", "venc_m3327.c", "putpic.c", "venc_m3327_i_frm.c"};
+    docfiles = {};
+    rules = {};
+};

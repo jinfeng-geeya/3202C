@@ -1,0 +1,12 @@
+// this MDF template file is created by MdfEditor.
+
+ScriptVersion = 1.0;
+
+module BUS_I2C
+{
+    version = 1.0;
+    submodules = {"gpio/bus_i2c_gpio.mdf","scb/bus_i2c_scb.mdf","scb_remote/bus_i2c_scb_remote.mdf"};
+    codefiles = {};
+    docfiles = {};
+    rules = {};
+};

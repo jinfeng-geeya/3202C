@@ -1,0 +1,12 @@
+// this MDF template file is created by MdfEditor.
+ 
+ScriptVersion = 1.0;// version of generator of this file
+ 
+module GYCA
+{
+	version = 1.0;
+	submodules = {};
+	codefiles = {"gy_catask.c", "gyca_dmx.c", "gyca_nvm.c", "gyca_os.c", "gyca_sc.c", "cas_gy.c"};
+	docfiles = {};
+	rules = {};
+};

@@ -1,0 +1,13 @@
+// this MDF template file is created by MdfEditor.
+
+ScriptVersion = 1.0;
+
+module LLD
+{
+    version = 1.0;
+    submodules = {"deca/lld_deca.mdf", "decv/lld_decv.mdf", "dis/lld_dis.mdf", "dmx/lld_dmx.mdf", "ge/lld_ge.mdf", "net/lld_net.mdf", "nim/lld_nim.mdf", "osd/lld_osd.mdf", "pan/lld_pan.mdf", "rfm/lld_rfm.mdf", "smc/lld_smc.mdf", "snd/lld_snd.mdf", "sto/lld_sto.mdf","sdec/lld_sdec.mdf", "sdec_hw/lld_sdec_hw.mdf", "vbi/lld_vbi.mdf","venc/lld_venc.mdf"};
+    codefiles = {};
+    docfiles = {};
+    rules = {};
+};
+

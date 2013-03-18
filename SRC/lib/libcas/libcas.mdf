@@ -1,0 +1,12 @@
+// this MDF template file is created by MdfEditor.
+
+ScriptVersion = 1.0;
+
+module LIB_CAS
+{
+	version = 1.0;
+	submodules = {"CTI/ctica.mdf", "CTI3/cti3ca.mdf", "tf/tfca.mdf",  "conax7/conax7.mdf", "dvt/dvtca.mdf", "gy/gyca.mdf", "cdca/cdca.mdf", "cdca30a/cdca30a.mdf","abv/abvca.mdf","dvn/dvnca.mdf","irdeto/irca.mdf", "testcore/irdtestcore.mdf", "stcas7/stcas7.mdf","mg/mgca.mdf","hcn/hcn.mdf", "gos/gosca.mdf"};
+	codefiles = {};
+	docfiles = {};
+	rules = {};
+};

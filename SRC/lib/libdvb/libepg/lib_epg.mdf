@@ -1,0 +1,12 @@
+// this MDF template file is created by MdfEditor.
+
+ScriptVersion = 1.0;
+
+module LIB_EPG
+{
+    version = 1.0;
+    submodules = {};
+    codefiles = {"lib_epg.c", "epg_db.c", "epg_api.c", "eit_parser.c", "epg_cache.c", "x_alloc.c"};
+    docfiles = {};
+    rules = {};
+};

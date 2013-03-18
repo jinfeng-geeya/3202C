@@ -1,0 +1,12 @@
+// this MDF template file is created by MdfEditor.
+
+ScriptVersion = 1.0;
+
+module LIB_C
+{
+    version = 1.0;
+    submodules = {};
+    codefiles = {"fastCRC.c", "printf.c", "alloc.c", "string.c", "time.c", "scanf.c", "__alloc.c", "log.c"};
+    docfiles = {};
+    rules = {};
+};

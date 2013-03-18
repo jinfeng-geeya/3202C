@@ -1,0 +1,12 @@
+// this MDF template file is created by MdfEditor.
+
+ScriptVersion = 1.0;
+
+module LIB_MP
+{
+    version = 1.0;
+    submodules = {"libimagedec/lib_imagedec.mdf","libmp4dec/lib_mp4dec.mdf", "pe/lib_pe.mdf", "playlist/lib_playlist.mdf", "libmpegdec/lib_mpegdec.mdf", "lists/lib_lists.mdf"};
+    codefiles = {};
+    docfiles = {};
+    rules = {};
+};

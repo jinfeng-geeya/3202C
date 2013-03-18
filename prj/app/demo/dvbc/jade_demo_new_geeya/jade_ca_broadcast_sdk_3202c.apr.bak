@@ -1,0 +1,261 @@
+###########################################################
+#
+#    project file
+#         This file is for ALI sdk. Don't edit it.
+#
+###########################################################
+
+
+# Version
+Version = 10
+
+# Parameters for product
+Product = data_broadcast_sdk
+
+# Parameters for chip_module
+chip_module = m3329
+
+# Parameters for flash type
+flash_type = 1
+
+# Parameters for sdrom size
+sdrom_size = 8
+
+# Parameters for chip number
+chip_num = 1
+
+# Parameters for SDRAM Mode
+SDRAM_mode = 0
+
+# Parameters for Compiler Mode
+Compiler_mode =  0
+
+# Parameters for SDRAM Bit
+SDRAM_bit = 0
+
+# Parameters for extern sdram file
+SDRAM_file = 
+
+# Parameters for OSD color mode
+ColorMode = 
+
+# Parameters for gcc
+gcc_pos = D:\Ali_SDK\compilers\gcc3.0.4\bin\
+gcc_prefix = mips-t2-elf-
+VersionControl = 
+Optimization = -O1
+Platform = ALI_M3327
+PlatformParam = -mips2 -EL
+Macro = -D_DEBUG_VERSION_ -DALi_M6303_Module_1
+WarningLevel =  -W
+HeaderPath(App) = -I$(release_path)/include/
+HeaderPath(Lib) = -I$(release_path)/include/ -I$(REPOSITORY)/inc
+OtherCompileParams = -g -msoft-float -fno-delayed-branch
+CodeMode(App) = mips32
+SysSymbol = -defsym __BOOT_FROM_FLASH=0 -defsym __BOOT_LOADER=0
+LinkScript = ldscript_data_broadcast.ld
+OtherLinkParams = --start-group -lcdca -ldvn -ldvt -lipanel  -lmlzo  -lall -lcore -lall -llog -lyamadhw -l7zip -lm -lgcc -lc --end-group
+LibPath = -Map ${BINNAME}.map -L$(REPOSITORY)/sdk
+OtherLibs = -L$(GCCROOT)lib/gcc-lib/mips-t2-elf/3.0.4/soft-float/el -L$(GCCROOT)mips-t2-elf/lib/soft-float/el
+
+# Files in project
+files += win_pause.h
+files += control.h
+files += key.c
+files += key.h
+files += menus_root.c
+files += menus_root.h
+files += osd_config.h
+files += osd_rsc.c
+files += osd_rsc.h
+files += osdobjs_def.h
+files += root.c
+files += sys_config.h
+files += win_signal.h
+files += win_signal.c
+files += win_com.h
+files += win_com_list.c
+files += win_com_list.h
+files += win_com_popup.c
+files += win_com_popup.h
+files += win_mute.c
+files += win_mute.h
+files += win_pause.c
+files += win_light_channel_list.c
+files += win_search.c
+files += win_system_management.c
+files += control.c
+files += copper_common/system_data.h
+files += copper_common/com_api.h
+files += copper_common/com_epg.c
+files += copper_common/com_epg.h
+files += copper_common/dev_handle.h
+files += copper_common/menu_api.c
+files += copper_common/menu_api.h
+files += copper_common/system_data.c
+files += copper_common/com_api.c
+files += copper_common/ota_special.c
+files += win_signalstatus.c
+files += win_mainmenu.c
+files += win_chan_edit.c
+files += win_reserve_manage.c
+files += win_prog_name.c
+files += win_volume.c
+files += win_audio.c
+files += win_password.c
+files += win_com.c
+files += win_chan_management.c
+files += win_sys_items.c
+files += win_sys_information.c
+files += win_prog_search.c
+files += win_games.c
+files += game_box.c
+files += game_box_maps.c
+files += win_common_item.c
+files += win_epg.c
+files += win_epg_detail.c
+files += win_timer_set.c
+files += win_chan_list.c
+files += win_pwd_set.c
+files += win_signal_test.c
+files += win_full_band_scan.c
+files += win_factory_set.c
+files += power.c
+files += win_game_com.c
+files += win_game_othello.c
+files += game_othello.c
+files += win_main_freq.c
+files += win_manual_search.c
+files += win_channel_info.c
+files += win_stb_info.c
+files += win_prog_input.c
+files += board_config.c
+files += win_nvod.c
+files += win_nvod_warn.c
+files += win_nvod_event_bar.c
+files += win_nvod_detail.c
+files += win_reg.c
+files += win_nimreg.c
+files += win_timer_set.h
+files += data_bdcast_com.c
+files += copper_common/bat_private.c
+files += copper_common/bat_private.h
+files += single_pic_ad/ad_pic.c
+files += single_pic_ad/ad_pic.h
+files += single_pic_ad/ad_pic_gfx.c
+files += single_pic_ad/ad_pic_gfx.h
+files += single_pic_ad/ad_pic_gif.c
+files += single_pic_ad/ad_pic_gif.h
+files += single_pic_ad/ad_pic_img.c
+files += single_pic_ad/ad_pic_img.h
+files += single_pic_ad/ad_pic_png.c
+files += single_pic_ad/ad_pic_png.h
+files += single_pic_ad/win_show_pic_ad.c
+files += win_system_management_obj.xform
+files += win_audio_obj.xform
+files += win_chan_edit_obj.xform
+files += win_chan_list_vega.xform
+files += win_chan_management_obj.xform
+files += win_channel_info_obj.xform
+files += win_common_item_obj.xform
+files += win_epg_vega.xform
+files += win_factory_set_obj.xform
+files += win_full_band_scan_vega.xform
+files += win_games_vega.xform
+files += win_light_channel_list_obj.xform
+files += win_main_freq_obj.xform
+files += win_mainmenu_vega.xform
+files += win_manual_search_vega.xform
+files += win_nvod_obj.xform
+files += win_password_obj.xform
+files += win_prog_search_vega.xform
+files += win_pwd_set_obj.xform
+files += win_reserve_manage_obj.xform
+files += win_search_vega.xform
+files += win_signal_obj.xform
+files += win_signal_test_obj.xform
+files += win_sys_information_obj.xform
+files += copper_common/backup_loader.c
+files += copper_common/stb_data.c
+files += copper_common/stb_hwinfo.c
+files += ipanel/ali_ipanel.c
+files += ipanel/ipanel_input.c
+files += ipanel/ipanel_test.c
+files += ipanel/ipaneldtv_task.c
+files += ipanel/win_ipanel_list.c
+files += win_prog_name_obj.xform
+files += win_prog_input_obj.xform
+files += cdca/win_ca_aera_code.c
+files += cdca/win_ca_aera_code.xform
+files += cdca/win_ca_detitle.c
+files += cdca/win_ca_detitle.xform
+files += cdca/win_ca_feedcard.c
+files += cdca/win_ca_feedcard.xform
+files += cdca/win_ca_IPPVinfo.c
+files += cdca/win_ca_IPPVinfo.xform
+files += cdca/win_ca_operator_info.c
+files += cdca/win_ca_operator_info.xform
+files += cdca/win_ca_operator_info_detail.c
+files += cdca/win_ca_operator_info_detail.xform
+files += cdca/win_ca_password.c
+files += cdca/win_ca_password.xform
+files += cdca/win_ca_pinpwd.c
+files += cdca/win_ca_pinpwd.xform
+files += cdca/win_ca_servicentitle.c
+files += cdca/win_ca_servicentitle.xform
+files += cdca/win_ca_smc_upg.c
+files += cdca/win_ca_stbid_list.c
+files += cdca/win_ca_stbid_list.xform
+files += cdca/win_ca_walletinfo.c
+files += cdca/win_ca_walletinfo.xform
+files += cdca/win_ca_watchlevel.c
+files += cdca/win_ca_watchlevel.xform
+files += cdca/win_ca_worktime.c
+files += cdca/win_ca_worktime.xform
+files += cdca/win_cas_com.c
+files += cdca/win_cas_proc.c
+files += cdca/win_condition_access.c
+files += cdca/win_curtain.c
+files += cdca/win_fingerprint.c
+files += cdca/win_func_testing.c
+files += cdca/win_IPPV_popup.c
+files += cdca/win_IPPV_popup.xform
+files += cdca/win_mail.c
+files += cdca/win_mail.xform
+files += cdca/win_mail_content.c
+files += cdca/win_mail_content.xform
+files += cdca/win_mail_icon.c
+files += cdca/win_osdmsg.c
+files += cdca/win_smc_info.c
+files += cdca/win_smc_info.xform
+files += cdca/win_smc_upgrade.c
+files += cdca/win_smc_upgrade_info.xform
+files += ali_ad/ad_decoder.c
+files += ali_ad/ad_display.c
+files += ali_ad/ad_pic_gfx.c
+files += ali_ad/ad_sto.c
+files += ali_ad/ad_temp.c
+files += ali_ad/ad_text.c
+files += ali_ad/gif_decoder.c
+files += ad_interface/ad_interface.c
+files += ad_interface/enreach.c
+files += ad_interface/mis.c
+files += ts_search/ts_search.c
+MemCfg = 
+PreDefineLib = 
+PrepareLibrary = 
+PostLibraryCmds = 
+PreDefineApp = 
+PreLinkCmds = 
+PostBuildCmds = @echo compress :${OBJCOPY} -R .flash -O binary ${BINNAME}.out ${BINNAME}_tmp; \${OBJCOPY} -j .flash -O binary ${BINNAME}.out flash.sec; \${OBJDUMP} -D ${BINNAME}.out > ${BINNAME}.dis ;\rm -f ${BINNAME}.7z; \${REPOSITORY}/prj/tools/lzma e ${BINNAME}_tmp ${BINNAME}.7z -lc0 -lp2	@echo generate :# .flash address - 65552 = 221168rm -f app_${BINNAME}.bincp ${BINNAME}_tmp app_${BINNAME}.binrm -f product_${BINNAME}.abs${REPOSITORY}/prj/tools/fidmerger.exe ./blocks_script_data_broadcast_sdk_3202C.txt	@echo build complete.
+CustomCmds = 
+# Ali library
+AliLibCfgFile = mcf_data_broadcast_3202C\data_broadcast_sdk_3202C.mcf
+# Resources
+ResTempDir = mcf_data_broadcast_3202C\Resource
+ResBuildDir =mcf_data_broadcast_3202C\Resource
+ResFileMode =1
+ResBitmapFile =
+ResFontFile =
+ResCfgFile =
+# End of file

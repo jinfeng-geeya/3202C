@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<Form Type="Form" Width="720" Height="576" OSDBits="2">
+    <g_win_proginput Type="CONTAINER" ID="0" Attribute="C_ATTR_ACTIVE" Font="0" ID_Left="0" ID_Right="0" ID_Up="0" ID_Down="0" Left="562" Top="45" Width="96" Height="44" Style_Show="WSTL_TRANS_IX" Style_Highlight="" Style_Select="" Style_Gray="" Keymap="win_proginput_keymap" Callback="win_proginput_callback" Focus_Object="pro_input_bmap1" HiliteAsWhole="0">
+        <pro_input_bmap1 Type="BITMAP" ID="1" Attribute="C_ATTR_ACTIVE" Font="0" ID_Left="3" ID_Right="2" ID_Up="0" ID_Down="0" Left="562" Top="45" Width="32" Height="44" Style_Show="WSTL_TRANS_IX" Style_Highlight="WSTL_TRANS_IX" Style_Select="WSTL_TRANS_IX" Style_Gray="WSTL_TRANS_IX" Keymap="" Callback="" Align="C_ALIGN_CENTER|C_ALIGN_VCENTER" bX="0" bY="0" BitmapID="" />
+        <pro_input_bmap2 Type="BITMAP" ID="2" Attribute="C_ATTR_ACTIVE" Font="0" ID_Left="1" ID_Right="3" ID_Up="0" ID_Down="0" Left="593" Top="45" Width="32" Height="44" Style_Show="WSTL_TRANS_IX" Style_Highlight="WSTL_TRANS_IX" Style_Select="WSTL_TRANS_IX" Style_Gray="WSTL_TRANS_IX" Keymap="" Callback="" Align="C_ALIGN_CENTER|C_ALIGN_VCENTER" bX="0" bY="0" BitmapID="" />
+        <pro_input_bmap3 Type="BITMAP" ID="3" Attribute="C_ATTR_ACTIVE" Font="0" ID_Left="2" ID_Right="1" ID_Up="0" ID_Down="0" Left="624" Top="45" Width="33" Height="44" Style_Show="WSTL_TRANS_IX" Style_Highlight="WSTL_TRANS_IX" Style_Select="WSTL_TRANS_IX" Style_Gray="WSTL_TRANS_IX" Keymap="" Callback="" Align="C_ALIGN_CENTER|C_ALIGN_VCENTER" bX="0" bY="0" BitmapID="" />
+    </g_win_proginput>
+</Form>

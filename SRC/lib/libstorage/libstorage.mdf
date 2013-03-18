@@ -1,0 +1,12 @@
+// this MDF template file is created by MdfEditor.
+
+ScriptVersion = 1.0;
+
+module LIB_STORAGE
+{
+	version = 1.0;
+	submodules = {"libchunk/lib_chunk.mdf", "libdb/libdb.mdf", "libfs2/lib_fs2.mdf", "libstbinfo/lib_stbinfo.mdf"};
+	codefiles = {};
+	docfiles = {};
+	rules = {};
+};

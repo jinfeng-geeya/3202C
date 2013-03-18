@@ -1,0 +1,12 @@
+// this MDF template file is created by MdfEditor.
+
+ScriptVersion = 1.0;
+
+module LLD_STO_FLASH
+{
+    version = 1.0;
+    submodules = {};
+    codefiles = {"flash_info_s.c", "flash_sr.c", "flash_data.c", "flash_info.c", "flash_pr.c", "flash_raw_sr.c", "flash_raw_sl_c.c", "flash_r.c", "sto_flash.c", "flash_data_p.c", "flash_sl.c", "flash_data_s.c", "flash_info_p.c", "flash_raw_pl_c.c", "flash_raw_pr.c", "flash_pl.c"};
+    docfiles = {};
+    rules = {};
+};

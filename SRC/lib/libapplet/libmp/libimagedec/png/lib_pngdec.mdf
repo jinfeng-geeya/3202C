@@ -1,0 +1,12 @@
+// this MDF template file is created by MdfEditor.
+
+ScriptVersion = 1.0;
+
+module LIB_PNGDEC
+{
+    version = 1.0;
+    submodules = {};
+    codefiles = {"png.c", "png_core.c", "png_crc32.c", "png_filter.c","png_huf_table.c","png_in.c","png_inflate.c","png_info.c","png_out.c"};
+    docfiles = {};
+    rules = {};
+};

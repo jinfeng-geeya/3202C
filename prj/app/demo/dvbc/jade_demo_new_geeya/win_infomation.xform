@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<Form Type="Form" Width="720" Height="576" OSDBits="3">
+    <g_win_information Type="CONTAINER" ID="100" Attribute="C_ATTR_ACTIVE" Font="0" ID_Left="0" ID_Right="0" ID_Up="0" ID_Down="0" Left="155" Top="147" Width="398" Height="154" Style_Show="WSTL_WIN_1" Style_Highlight="WSTL_WIN_1" Style_Select="" Style_Gray="" Keymap="g_win_infomation_keymap" Callback="g_win_infomation_callback" Focus_Object="gwf_nit_value" HiliteAsWhole="0">
+        <gwf_nit_value Type="TEXT_FIELD" ID="1" Attribute="C_ATTR_ACTIVE" Font="0" ID_Left="0" ID_Right="0" ID_Up="0" ID_Down="0" Left="202" Top="213" Width="337" Height="38" Style_Show="WSTL_TXT_4" Style_Highlight="WSTL_TXT_6" Style_Select="" Style_Gray="" Keymap="" Callback="" Align="C_ALIGN_CENTER|C_ALIGN_VCENTER" bX="0" bY="0" StringID="RS_INFO_SEARCH" String="" />
+    </g_win_information>
+</Form>

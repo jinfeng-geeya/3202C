@@ -1,0 +1,6 @@
+#define UTS_VERSION " Sat Dec 8 16:19:56 2012"
+#define COMPILE_TIME "16:19:57"
+#define COMPILE_BY "jason.wang"
+#define COMPILER "gcc version 3.0.4"
+#define LIBCORE_VER "2.0.2.a"
+#define LIBCORE_LABEL "DVB-C_SDK_Libcore_20121207"

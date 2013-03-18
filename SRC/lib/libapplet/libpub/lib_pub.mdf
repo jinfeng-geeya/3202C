@@ -1,0 +1,12 @@
+// this MDF template file is created by MdfEditor.
+
+ScriptVersion = 1.0;
+
+module LIB_PUB
+{
+    version = 1.0;
+    codefiles = {};
+    docfiles = {};
+    rules = {};
+	submodules = {"pub/lib_pub_all.mdf", "as_engine/lib_pub_as_engine.mdf", "as_dvbc/lib_pub_as_c.mdf"};
+};

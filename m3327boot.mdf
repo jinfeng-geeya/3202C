@@ -1,0 +1,31 @@
+// this MDF template file is created by MdfEditor.
+
+ScriptVersion = 1.0;
+
+module m3327boot
+{
+	version = 1.0;
+	submodules = {"SRC/lib/lib.mdf", "SRC/arch/arch.mdf", "SRC/bus/bus.mdf", "SRC/hld/hld.mdf", "SRC/LLD/lld.mdf", "SRC/os/os.mdf", "SRC/osal/osal.mdf", "SRC/udi/udi.mdf", "SRC/version/version_info.mdf", "src/boot/boot.mdf"};
+	codefiles = {};
+	docfiles = {};
+	rules = {};
+	macro SYS_PROJECT_FE  = "PROJECT_FE_DVBS" {"PROJECT_FE_DVBS", "PROJECT_FE_DVBC", "PROJECT_FE_DVBT", "PROJECT_FE_DVBH"};
+	macro SYS_MAIN_BOARD;
+	macro SYS_CHIP_MODULE  = "ALI_M3327" {"ALI_M3327", "ALI_M3327C","ALI_M3329E","ALI_3202","ALI_3601","ALI_S3602"};
+	macro SYS_OS_MODULE = "NO_OS" {"NO_OS","ALI_TDS2"};
+	macro SYS_SDRAM_SIZE  = "8" {"4", "8", "16", "32", "64"};
+	macro SYS_CPU_MODULE  = "CPU_M6303" {"CPU_M6303", "CPU_M6307", "CPU_M6311", "CPU_MIPS24KE"};
+	macro ENABLE_SERIAL_FLASH;
+	macro ENABLE_EROM;
+	macro GUNZIP_SUPPORT;
+	macro SUPPORT_MULTI_SECTION;
+	macro _ENABLE_4M_SDRAM_E_;
+	macro PAN_DIRECT_GPIO;
+	macro PANEL_DISPLAY;
+	macro PANEL_TYPE;
+	macro LOGO_ID  = "0x02FD0100";
+	macro TRANSFER_FORMAT2_SUPPORT;
+	macro UPGRADE_ONCE;
+	macro TRANSFER_FORMAT3_ONLY;
+	macro NOT_CHECK_TEMPINFO;
+};

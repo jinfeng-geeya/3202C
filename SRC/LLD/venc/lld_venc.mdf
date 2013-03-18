@@ -1,0 +1,12 @@
+// this MDF template file is created by MdfEditor.
+
+ScriptVersion = 1.0;
+
+module LLD_VENC
+{
+    version = 1.0;
+    submodules = {"m33/lld_venc_m33.mdf", "img/lld_venc_img.mdf"};
+    codefiles = {};
+    docfiles = {};
+    rules = {};
+};

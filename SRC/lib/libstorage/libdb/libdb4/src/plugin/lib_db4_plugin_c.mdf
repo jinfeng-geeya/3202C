@@ -1,0 +1,12 @@
+// this MDF template file is created by MdfEditor.
+
+ScriptVersion = 1.0;
+
+module LIB_DB4_PLUGIN_C
+{
+    version = 1.0;
+    submodules = {};
+    codefiles = {"db_plugin_C.c"};
+    docfiles = {};
+    rules = {};
+};

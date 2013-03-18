@@ -1,0 +1,12 @@
+// this MDF template file is created by MdfEditor.
+
+ScriptVersion = 1.0;
+
+module LIB_TSI3_CON_PSI
+{
+    version = 1.0;
+    submodules = {};
+    codefiles = {"psi_db.c"};
+    docfiles = {};
+    rules = {};
+};

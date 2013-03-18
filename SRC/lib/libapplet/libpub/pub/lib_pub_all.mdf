@@ -1,0 +1,12 @@
+// this MDF template file is created by MdfEditor.
+
+ScriptVersion = 1.0;
+
+module LIB_PUB_ALL
+{
+    version = 1.0;
+    submodules = {};
+	codefiles = {"lib_cc.c", "lib_hde.c", "lib_monitor.c", "lib_multiview.c", "lib_pub.c", "lib_device_manage.c", "lib_frontend.c"};
+    docfiles = {};
+    rules = {};
+};
