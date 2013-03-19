@@ -615,6 +615,7 @@ static void system_hw_init()
 
 }
 
+/**
 void vp_vdac_init(SYSTEM_DATA *sys_data, struct VP_DacInfo *dac_config, UINT32 max_cnt)
 {
 	UINT8 soc_vdac_num, vdac_index = 0;
@@ -687,6 +688,24 @@ void vp_vdac_init(SYSTEM_DATA *sys_data, struct VP_DacInfo *dac_config, UINT32 m
 	}
 	while (vdac_index < soc_vdac_num);
 }
+*/
+
+
+void vp_vdac_init(SYSTEM_DATA *sys_data, struct VP_DacInfo *dac_config, UINT32 max_cnt)
+{
+	dac_config[CVBS_1].bEnable = TRUE;
+	dac_config[CVBS_1].tDacIndex.uDacFirst = CVBS_DAC;
+	dac_config[CVBS_1].eVGAMode = VGA_NOT_USE;
+	dac_config[CVBS_1].bProgressive = FALSE;
+	
+	dac_config[YUV_1].bEnable = TRUE;
+	dac_config[YUV_1].tDacIndex.uDacFirst = YUV_DAC_Y;
+	dac_config[YUV_1].tDacIndex.uDacSecond = YUV_DAC_U;
+	dac_config[YUV_1].tDacIndex.uDacThird = YUV_DAC_V;
+	dac_config[YUV_1].eVGAMode = VGA_NOT_USE;
+	dac_config[YUV_1].bProgressive = FALSE;
+}
+
 
 /********************Tmp Example for Application Begin********************/
 
