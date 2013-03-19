@@ -690,6 +690,94 @@ void vp_vdac_init(SYSTEM_DATA *sys_data, struct VP_DacInfo *dac_config, UINT32 m
 }
 */
 
+/**
+	Name: vp_vdac_init
+	Author: jinfeng
+	Desc:
+		VDAC, which is an ouput device and Can be configured with some format: CVBS, YCbCr, YC, YPbPr, RGB, SVIDEO ...
+		How to configure is an important problem before reading this function. Below I Show it for you simply:
+			DacInfo.bEnable = TRUE;	// Enabel this configuration
+			// if you choose CVBS, the second and third is NULL
+			DacInfo.tDacIndex.uDacFirst = YUV_Y;	// Y
+			DacInfo.tDacIndex.uDacSecond = YUV_U;	// U
+			DacInfo.tDacIndex.uDacThird = YUV_V;	// V
+			DacInfo.eVGAMode = VGA_NOT_USE;
+			DacInfo.bProgressive = FALSE;
+		This function reads configuration data which stored in system data. How does it stored ? For Example:
+			#define VDAC_TYPE_YUV		2
+			#define VDAC_YUV_Y			(VDAC_TYPE_YUV<<2|0)
+			#define VDAC_YUV_U			(VDAC_TYPE_YUV<<2|1)
+			#define VDAC_YUV_V			(VDAC_TYPE_YUV<<2|2)
+		So, we find the main type in the first loop, if it is CVBS, the second loop can't do anything; if it is YUV, then YUV_U & YUV_V would be found in the next loop.
+			
+*/
+/**
+void vp_vdac_init(SYSTEM_DATA *sys_data, struct VP_DacInfo *dac_config, UINT32 max_cnt)
+{
+	UINT8 vdac_num;
+	
+	UINT8 ReadFlag[VDAC_TYPE_MAX] = {0,};
+	
+	// type = Main Type, subTypeCnt count the really elements in subType[]
+	UINT8 type, subType[3], subTypeCnt;
+	
+	UINT8 i, j;
+	
+	// Param Error Check
+	if(NULL == dac_config) return;
+	
+	// On-board VDAC number
+	if(TRUE == sys_ic_is_M3202())
+		vdac_num = 4;
+	else 
+		vdac_num = 4;
+	
+	for(i=0; i<vdac_num; i++)
+	{
+		// Init temp variables
+		type = 0;
+		subType[0] = 0;
+		subType[1] = 0;
+		subType[2] = 0;
+		subTypeCnt = 0;
+		
+		// Skip
+		if(TRUE == ReadFlag[i]) continue;
+		
+		ReadFlag[i] = TRUE;
+		
+		// Get Main Type
+		type = (sys_data->avset.vdac_out[i]>>2) & 0x3F;
+		
+		// Get Sub Types
+		subType[sys_data->avset.vdac_out[i] & 0x3] = 1<<i;
+		subTypeCnt++;
+		
+		// This loop finds the sub types which has the same Main Type!
+		for(j=0; j<vdac_num; j++)
+		{
+			if(TRUE == ReadFlag[j]) continue;
+			// If not same, continue...
+			if(type != ((sys_data->avset.vdac_out[j]>>2) & 0x3F)) continue;
+			// If sub type has already existed, Note: it means an error stored in system data! Just Continue!
+			if(0 != (sys_data->avset.vdac_out[j] & 0x3)) continue;
+			
+			// Set Flag, the main loop will skip this.
+			ReadFlag[j] = TRUE;
+			subType[sys_data->avset.vdac_out[j] & 0x3] = 1<<j;
+			subTypeCnt++;
+			ASSERT(subTypeCnt <= 3);
+		}
+		
+		// Configure, Note: VGA NOT USE !!!
+		dac_config[i].bEnable = TRUE;
+		for(j=0; j<subTypeCnt; j++)
+			((UINT8 *) &dac_config[i].tDacIndex)[j] = subType[j];
+		dac_config[i].eVGAMode = VGA_NOT_USE;
+		dac_config[i].bProgressive = FALSE;
+	}
+}
+*/
 
 void vp_vdac_init(SYSTEM_DATA *sys_data, struct VP_DacInfo *dac_config, UINT32 max_cnt)
 {
@@ -705,6 +793,7 @@ void vp_vdac_init(SYSTEM_DATA *sys_data, struct VP_DacInfo *dac_config, UINT32 m
 	dac_config[YUV_1].eVGAMode = VGA_NOT_USE;
 	dac_config[YUV_1].bProgressive = FALSE;
 }
+
 
 
 /********************Tmp Example for Application Begin********************/
